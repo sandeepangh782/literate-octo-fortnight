@@ -2,6 +2,39 @@
 logs
 *.log
 npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build directories
+build/
+dist/
+
+# Local environment variables
+.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Mac system files
+.DS_Store
+
+# Coverage directory used by testing tools
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Logs
+logs
+*.log
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
