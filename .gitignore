@@ -39,7 +39,7 @@ bower_components
 build/Release
 
 # Dependency directories
-frontend/node_modules/
+ss-frontend/node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
