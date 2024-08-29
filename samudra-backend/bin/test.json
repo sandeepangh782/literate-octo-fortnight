@@ -1,0 +1,644 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "CHIMBAI BEACH",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"postcode": "400050",
+				"district": "Mumbai",
+				"suburb": "Bandra West",
+				"lon": 72.8237183,
+				"lat": 19.0562212,
+				"state_code": "MH",
+				"formatted": "CHIMBAI BEACH, Bandra West, Mumbai - 400050, Maharashtra, India",
+				"address_line1": "CHIMBAI BEACH",
+				"address_line2": "Bandra West, Mumbai - 400050, Maharashtra, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details",
+					"details.wiki_and_media"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "CHIMBAI BEACH",
+						"image": "https://images.app.goo.gl/VPT6gHBRbdZub6Po9",
+						"osm_id": 8344285126,
+						"natural": "beach",
+						"surface": "pebblestone",
+						"osm_type": "n",
+						"description": "It was once a quaint fishing village. Today, the rocky Chimbai beach in Bandra  city.“The village was dotted with just 20 houses that belonged to the fishing community.Members of one of the largest fishing communities said fishing activities had dropped.T"
+					}
+				},
+				"description": "It was once a quaint fishing village. Today, the rocky Chimbai beach in Bandra  city.“The village was dotted with just 20 houses that belonged to the fishing community.Members of one of the largest fishing communities said fishing activities had dropped.T",
+				"wiki_and_media": {
+					"image": "https://images.app.goo.gl/VPT6gHBRbdZub6Po9"
+				},
+				"place_id": "5178e7f5ccb73452405988b53883640e3340f00103f901c6af5bf10100000092030d4348494d424149204245414348"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.8237183,
+					19.056221200318333
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Mahim Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"neighbourhood": "G/N Ward",
+				"suburb": "Zone 2",
+				"lon": 72.83876760027069,
+				"lat": 19.044072550000003,
+				"state_code": "MH",
+				"formatted": "Mahim Beach, Zone 2, Mumbai, India",
+				"address_line1": "Mahim Beach",
+				"address_line2": "Zone 2, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Mahim Beach",
+						"osm_id": 53366367,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51d8064d5eae35524059d643b256480b3340f00102f9015f4e2e030000000092030b4d6168696d204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.83876760027067,
+					19.0440725503175
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Juhu Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"suburb": "Zone 3",
+				"lon": 72.82467917543212,
+				"lat": 19.1026521,
+				"state_code": "MH",
+				"formatted": "Juhu Beach, Zone 3, Mumbai, India",
+				"address_line1": "Juhu Beach",
+				"address_line2": "Zone 3, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Juhu Beach",
+						"osm_id": 151253238,
+						"name:en": "Juhu Beach",
+						"name:hi": "जुहू चौपाटी",
+						"name:mr": "जुहू चौपाटी",
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w",
+						"addr:city": "Mumbai",
+						"addr:street": "Juhu Tara Road"
+					}
+				},
+				"name_international": {
+					"en": "Juhu Beach",
+					"hi": "जुहू चौपाटी",
+					"mr": "जुहू चौपाटी"
+				},
+				"place_id": "51160b2a8bc73452405920bf7568471a3340f00102f901f6f003090000000092030a4a756875204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.82467917543212,
+					19.102652100321507
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Aksa Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"suburb": "Zone 4",
+				"lon": 72.79634888359624,
+				"lat": 19.1853321,
+				"state_code": "MH",
+				"formatted": "Aksa Beach, Zone 4, Mumbai, India",
+				"address_line1": "Aksa Beach",
+				"address_line2": "Zone 4, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Aksa Beach",
+						"osm_id": 202661508,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5120d04e61f732524059b3cdadec712f3340f00102f901845e140c0000000092030a416b7361204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.79634888359624,
+					19.185332100327013
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Versova beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"neighbourhood": "K/W Ward",
+				"suburb": "Zone 3",
+				"lon": 72.81332507580646,
+				"lat": 19.1300123,
+				"state_code": "MH",
+				"formatted": "Rocks Beach, Zone 3, Mumbai, India",
+				"address_line1": "Rocks Beach",
+				"address_line2": "Zone 3, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Versova beach",
+						"osm_id": 203054460,
+						"name:en": "Rocks Beach",
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"name_international": {
+					"en": "Rocks Beach"
+				},
+				"place_id": "51be669e840d345240596ef7717c48213340f00102f9017c5d1a0c0000000092030d566572736f7661206265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.81332507580643,
+					19.13001230032335
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Madh Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"neighbourhood": "P/N Ward",
+				"suburb": "Zone 4",
+				"lon": 72.78827809695105,
+				"lat": 19.151249149999998,
+				"state_code": "MH",
+				"formatted": "Madh Beach, Zone 4, Mumbai, India",
+				"address_line1": "Madh Beach",
+				"address_line2": "Zone 4, Mumbai, India",
+				"categories": [
+					"beach",
+					"tourism",
+					"tourism.attraction"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Madh Beach",
+						"osm_id": 204704714,
+						"natural": "beach",
+						"tourism": "attraction",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51b4a3f92573325240595031aa43b8263340f00102f901ca8b330c0000000092030a4d616468204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.78827809695105,
+					19.15124915032476
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Carter Road Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"neighbourhood": "H/W Ward",
+				"suburb": "Zone 3",
+				"lon": 72.82257265334934,
+				"lat": 19.0690945,
+				"state_code": "MH",
+				"formatted": "Carter Road Beach, Zone 3, Mumbai, India",
+				"address_line1": "Carter Road Beach",
+				"address_line2": "Zone 3, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Carter Road Beach",
+						"osm_id": 554805309,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "510a2ec507a5345240595c345b2db0113340f00102f9013da811210000000092031143617274657220526f6164204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.82257265334934,
+					19.069094500319224
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Juhu Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"neighbourhood": "K/W Ward",
+				"suburb": "Zone 3",
+				"lon": 72.81876151188848,
+				"lat": 19.122146450000002,
+				"state_code": "MH",
+				"formatted": "Juhu Beach, Zone 3, Mumbai, India",
+				"address_line1": "Juhu Beach",
+				"address_line2": "Zone 3, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Juhu Beach",
+						"osm_id": 608429347,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "513632af966634524059807561fd441f3340f00102f90123e543240000000092030a4a756875204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.81876151188848,
+					19.122146450322816
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Danda Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"neighbourhood": "H/W Ward",
+				"suburb": "Bandra West",
+				"lon": 72.82472171392396,
+				"lat": 19.0812692,
+				"state_code": "MH",
+				"formatted": "Danda Beach, Bandra West, Mumbai, India",
+				"address_line1": "Danda Beach",
+				"address_line2": "Bandra West, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Danda Beach",
+						"osm_id": 910346415,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51b066953dc834524059f48bed0ece143340f00102f901afc842360000000092030b44616e6461204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.82472171392396,
+					19.08126920032005
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Prabhadevi Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"neighbourhood": "G/S Ward",
+				"suburb": "Zone 2",
+				"lon": 72.82578203373075,
+				"lat": 19.018572550000002,
+				"state_code": "MH",
+				"formatted": "Prabhadevi Beach, Zone 2, Mumbai, India",
+				"address_line1": "Prabhadevi Beach",
+				"address_line2": "Zone 2, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Prabhadevi Beach",
+						"osm_id": 1019454081,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51dc1fe39cd9345240599c35b02bc1043340f00102f90181a2c33c0000000092031050726162686164657669204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.82578203373072,
+					19.01857255031574
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Dadar Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"district": "Mumbai",
+				"neighbourhood": "G/N Ward",
+				"suburb": "Zone 2",
+				"lon": 72.83053194680576,
+				"lat": 19.0217653,
+				"state_code": "MH",
+				"formatted": "Dadar Beach, Zone 2, Mumbai, India",
+				"address_line1": "Dadar Beach",
+				"address_line2": "Zone 2, Mumbai, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Dadar Beach",
+						"osm_id": 1030994894,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "511874776f2735524059700b256992053340f00102f901cebb733d0000000092030b4461646172204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.83053194680576,
+					19.021765300315963
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Rocks Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Maharashtra",
+				"city": "Mumbai",
+				"postcode": "400061",
+				"district": "Mumbai",
+				"suburb": "Zone 3",
+				"lon": 72.8131105,
+				"lat": 19.1302869,
+				"state_code": "MH",
+				"formatted": "Rocks Beach, Zone 3, Mumbai - 400061, Maharashtra, India",
+				"address_line1": "Rocks Beach",
+				"address_line2": "Zone 3, Mumbai - 400061, Maharashtra, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Rocks Beach",
+						"osm_id": 10245608035,
+						"natural": "beach",
+						"osm_type": "n"
+					}
+				},
+				"place_id": "5130629f000a345240596dfc777b5a213340f00103f9016392af620200000092030b526f636b73204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.8131105,
+					19.13028690032336
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 72.80350111046317,
+				"lat": 19.140017700324016,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 204886720,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "514cefeb8f6c33524059b6c03333d8233340f00102f901c052360c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.80350111046317,
+					19.140017700324016
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 72.78409222012549,
+				"lat": 19.161462600325436,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 278538737,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "512b9f22912e32524059c4eceb9c55293340f00102f901f1299a1000000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.78409222012549,
+					19.161462600325436
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 72.83810777376763,
+				"lat": 19.03836965031711,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 1186979525,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51beb6c98ea3355240595d45e997d2093340f00102f901c5debf4600000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.83810777376763,
+					19.03836965031711
+				]
+			}
+		}
+	]
+}
