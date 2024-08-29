@@ -3,7 +3,7 @@ from logging.handlers import RotatingFileHandler
 
 
 def setup_logging():
-    logger = logging.getLogger("beach_safety_app")
+    logger = logging.getLogger("samudra_suraksha")
     logger.setLevel(logging.INFO)
 
     formatter = logging.Formatter(
