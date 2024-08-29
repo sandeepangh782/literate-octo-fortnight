@@ -9,6 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
+      "jsEngine": "hermes",
       "backgroundColor": "#ffffff"
     },
     "ios": {
