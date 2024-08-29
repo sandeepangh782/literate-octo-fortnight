@@ -1,0 +1,3754 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vistara Beach Resort",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Kapu taluku",
+                "city": "Kote",
+                "postcode": "576101",
+                "street": "Aisiri Road",
+                "housenumber": "13 - 55",
+                "lon": 74.7198522,
+                "lat": 13.2970053,
+                "state_code": "KA",
+                "formatted": "Vistara Beach Resort, 13 - 55, Aisiri Road, Kote - 576101, Karnataka, India",
+                "address_line1": "Vistara Beach Resort",
+                "address_line2": "13 - 55, Aisiri Road, Kote - 576101, Karnataka, India",
+                "categories": [
+                    "beach",
+                    "beach.beach_resort",
+                    "fee"
+                ],
+                "details": [
+                    "details",
+                    "details.contact",
+                    "details.facilities",
+                    "details.payment",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "fee": "yes",
+                        "name": "Vistara Beach Resort",
+                        "email": "vistarabeach@gmail.com",
+                        "image": "https://www.facebook.com/vistararesorts/photos/a.102166161819544/331401568896001/",
+                        "phone": "08050556631",
+                        "charge": 4500,
+                        "osm_id": 9467756907,
+                        "leisure": "beach_resort",
+                        "smoking": "separated",
+                        "osm_type": "n",
+                        "addr:city": "Udupi",
+                        "start_date": "2021-12-24",
+                        "addr:street": "Malpe Padukere - Pangala Road",
+                        "description": "Enter the hideaway water world of Vistara Beach Resort in between the emerald Arabian Sea and pristine backwater, filled with lush tropical greenery.\nLaze in your over water rustic cottage fringed by turquoise lagoon & mesmerizing views. \nAt Vistara Beach",
+                        "payment:cash": "yes",
+                        "payment:visa": "yes",
+                        "addr:postcode": 576101,
+                        "opening_hours": "24/7",
+                        "addr:housenumber": "13 - 55",
+                        "payment:mastercard": "yes",
+                        "payment:visa_debit": "yes",
+                        "payment:contactless": "yes",
+                        "payment:debit_cards": "yes",
+                        "payment:credit_cards": "yes",
+                        "payment:american_express": "yes"
+                    }
+                },
+                "opening_hours": "24/7",
+                "description": "Enter the hideaway water world of Vistara Beach Resort in between the emerald Arabian Sea and pristine backwater, filled with lush tropical greenery.\nLaze in your over water rustic cottage fringed by turquoise lagoon & mesmerizing views. \nAt Vistara Beach",
+                "contact": {
+                    "phone": "08050556631",
+                    "email": "vistarabeach@gmail.com"
+                },
+                "facilities": {
+                    "smoking": true
+                },
+                "wiki_and_media": {
+                    "image": "https://www.facebook.com/vistararesorts/photos/a.102166161819544/331401568896001/"
+                },
+                "payment_options": {
+                    "cash": true,
+                    "visa": true,
+                    "mastercard": true,
+                    "visa_debit": true,
+                    "contactless": true,
+                    "debit_cards": true,
+                    "credit_cards": true,
+                    "american_express": true
+                },
+                "place_id": "51083df60e12ae52405903ff211411982a40f00103f9016b8152340200000092031456697374617261204265616368205265736f7274"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.71985219999999,
+                    13.29700529971115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Trasi Beach Park",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Kundapura",
+                "city": "\u0ca8\u0cbe\u0c97\u0cc2\u0cb0\u0cc1",
+                "postcode": "576224",
+                "street": "NH66",
+                "lon": 74.6445581,
+                "lat": 13.6919988,
+                "state_code": "KA",
+                "formatted": "Trasi Beach Park, NH66, \u0ca8\u0cbe\u0c97\u0cc2\u0cb0\u0cc1 - 576224, Karnataka, India",
+                "address_line1": "Trasi Beach Park",
+                "address_line2": "NH66, \u0ca8\u0cbe\u0c97\u0cc2\u0cb0\u0cc1 - 576224, Karnataka, India",
+                "categories": [
+                    "beach",
+                    "beach.beach_resort"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Trasi Beach Park",
+                        "osm_id": 9470873455,
+                        "leisure": "beach_resort",
+                        "osm_type": "n",
+                        "addr:city": "Kundapura",
+                        "addr:street": "Trasi",
+                        "opening_hours": "Mo-Su 09:00-21:00"
+                    }
+                },
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "place_id": "51cdf79d7040a95240595ba3abaa4d622b40f00103f9016f0f8234020000009203105472617369204265616368205061726b"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.6445581,
+                    13.691998799755018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Surathkal Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Dakshina Kannada",
+                "county": "Mangaluru taluk",
+                "city": "Surathkal",
+                "postcode": "575014",
+                "lon": 74.7912848766186,
+                "lat": 12.9994746,
+                "state_code": "KA",
+                "formatted": "Surathkal Beach, Surathkal - 575014, Karnataka, India",
+                "address_line1": "Surathkal Beach",
+                "address_line2": "Surathkal - 575014, Karnataka, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Surathkal Beach",
+                        "access": "yes",
+                        "osm_id": 192093169,
+                        "name:kn": "\u0cb8\u0cc1\u0cb0\u0ca4\u0ccd\u0c95\u0cb2\u0ccd \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "rocky",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cb8\u0cc1\u0cb0\u0ca4\u0ccd\u0c95\u0cb2\u0ccd \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "515cb95269a4b2524059069c7d22bbff2940f00102f901f11b730b0000000092030f5375726174686b616c204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.79128487661859,
+                    12.999474599679171
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kapu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Kapu taluku",
+                "city": "Kaup",
+                "lon": 74.73885076197386,
+                "lat": 13.218690200000001,
+                "state_code": "KA",
+                "formatted": "Kapu Beach, Kaup, Kapu taluku, India",
+                "address_line1": "Kapu Beach",
+                "address_line2": "Kaup, Kapu taluku, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kapu Beach",
+                        "osm_id": 195721792,
+                        "name:kn": "\u0c95\u0cbe\u0caa\u0cc1 \u0cb8\u0cae\u0cc1\u0ca6\u0ccd\u0cb0 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c95\u0cbe\u0caa\u0cc1 \u0cb8\u0cae\u0cc1\u0ca6\u0ccd\u0cb0 \u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "515bd3b45449af5240596c5b6f29f86f2a40f00102f901407aaa0b0000000092030a4b617075204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.73885076197386,
+                    13.218690199702642
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ullal Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Dakshina Kannada",
+                "county": "Ullala taluk",
+                "city": "Ullal",
+                "postcode": "574159",
+                "lon": 74.84072816913987,
+                "lat": 12.81144575,
+                "state_code": "KA",
+                "formatted": "Ullal Beach, Ullal - 574159, Karnataka, India",
+                "address_line1": "Ullal Beach",
+                "address_line2": "Ullal - 574159, Karnataka, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Ullal Beach",
+                        "access": "yes",
+                        "osm_id": 198771661,
+                        "name:kn": "\u0c89\u0cb3\u0ccd\u0cb3\u0cbe\u0cb2 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c89\u0cb3\u0ccd\u0cb3\u0cbe\u0cb2 \u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "5107d2857dceb552405910883ad1759f2940f00102f901cd03d90b0000000092030b556c6c616c204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.84072816913987,
+                    12.811445749659498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Panambur Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Dakshina Kannada",
+                "county": "Mangaluru taluk",
+                "city": "Panambur",
+                "lon": 74.80397842691207,
+                "lat": 12.938495549999999,
+                "state_code": "KA",
+                "formatted": "Panambur Beach, Panambur, Mangaluru taluk, India",
+                "address_line1": "Panambur Beach",
+                "address_line2": "Panambur, Mangaluru taluk, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Panambur Beach",
+                        "access": "yes",
+                        "osm_id": 253205804,
+                        "name:kn": "\u0caa\u0ca3\u0c82\u0cac\u0cc2\u0cb0\u0cc1 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0caa\u0ca3\u0c82\u0cac\u0cc2\u0cb0\u0cc1 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51b891ee6174b35240596a921a7d82e02940f00102f9012c9d170f0000000092030e50616e616d627572204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.80397842691207,
+                    12.93849554967274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chithrapura Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Dakshina Kannada",
+                "county": "Mangaluru taluk",
+                "city": "Panambur",
+                "lon": 74.80128584351819,
+                "lat": 12.95109455,
+                "state_code": "KA",
+                "formatted": "Chithrapura Beach, Panambur, Mangaluru taluk, India",
+                "address_line1": "Chithrapura Beach",
+                "address_line2": "Panambur, Mangaluru taluk, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Chithrapura Beach",
+                        "access": "yes",
+                        "osm_id": 253205808,
+                        "name:kn": "\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0\u0cbe\u0caa\u0cc1\u0cb0 \u0c95\u0ca1\u0cb2\u0c95\u0cbf\u0ca8\u0cbe\u0cb0\u0cc6",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0\u0cbe\u0caa\u0cc1\u0cb0 \u0c95\u0ca1\u0cb2\u0c95\u0cbf\u0ca8\u0cbe\u0cb0\u0cc6"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51232a6b4448b3524059088264ddf5e62940f00102f901309d170f000000009203114368697468726170757261204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.80128584351819,
+                    12.951094549674067
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Delta Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Brahmavara taluku",
+                "city": "Balekudru Grama",
+                "hamlet": "Kodibengre",
+                "lon": 74.69389327746964,
+                "lat": 13.44582115,
+                "state_code": "KA",
+                "formatted": "Delta Beach, Balekudru Grama, Brahmavara taluku, India",
+                "address_line1": "Delta Beach",
+                "address_line2": "Balekudru Grama, Brahmavara taluku, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Delta Beach",
+                        "osm_id": 286469970,
+                        "name:kn": "\u0cb9\u0cc2\u0ca1\u0cc6 \u0cb8\u0cae\u0cc1\u0ca6\u0ccd\u0cb0\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cb9\u0cc2\u0ca1\u0cc6 \u0cb8\u0cae\u0cc1\u0ca6\u0ccd\u0cb0\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "515e6959bf68ac524059bae373ab42e42a40f00102f901522f13110000000092030b44656c7461204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.69389327746964,
+                    13.44582114972751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tannirbhavi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Dakshina Kannada",
+                "county": "Mangaluru taluk",
+                "city": "Tanniru Bavi",
+                "lon": 74.8128021548158,
+                "lat": 12.89626555,
+                "state_code": "KA",
+                "formatted": "Tannirbhavi Beach, Tanniru Bavi, Mangaluru taluk, India",
+                "address_line1": "Tannirbhavi Beach",
+                "address_line2": "Tanniru Bavi, Mangaluru taluk, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Tannirbhavi Beach",
+                        "access": "yes",
+                        "osm_id": 380543963,
+                        "name:kn": "\u0ca4\u0ca8\u0ccd\u0ca8\u0cc0\u0cb0\u0cc1 \u0cac\u0cbe\u0cb5\u0cbf \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0ca4\u0ca8\u0ccd\u0ca8\u0cc0\u0cb0\u0cc1 \u0cac\u0cbe\u0cb5\u0cbf \u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51564354f304b4524059bcb67051e3ca2940f00102f901dba3ae160000000092031154616e6e69726268617669204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.81280215481578,
+                    12.896265549668321
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hosabettu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Dakshina Kannada",
+                "county": "Mangaluru taluk",
+                "city": "Surathkal",
+                "postcode": "575014",
+                "lon": 74.79705487482663,
+                "lat": 12.97209715,
+                "state_code": "KA",
+                "formatted": "Hosabettu Beach, Surathkal - 575014, Karnataka, India",
+                "address_line1": "Hosabettu Beach",
+                "address_line2": "Surathkal - 575014, Karnataka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hosabettu Beach",
+                        "osm_id": 458212670,
+                        "name:kn": "\u0cb9\u0cca\u0cb8\u0cac\u0cc6\u0c9f\u0ccd\u0c9f\u0cc1 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cb9\u0cca\u0cb8\u0cac\u0cc6\u0c9f\u0ccd\u0c9f\u0cc1 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51db1f73f202b3524059f6c9b4b7b6f12940f00102f9013ec54f1b0000000092030f486f73616265747475204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.79705487482663,
+                    12.972097149676284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New Thannirbhavi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Dakshina Kannada",
+                "county": "Mangaluru taluk",
+                "city": "Tanniru Bavi",
+                "lon": 74.81528870330135,
+                "lat": 12.88523195,
+                "state_code": "KA",
+                "formatted": "New Thannirbhavi Beach, Tanniru Bavi, Mangaluru taluk, India",
+                "address_line1": "New Thannirbhavi Beach",
+                "address_line2": "Tanniru Bavi, Mangaluru taluk, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "New Thannirbhavi Beach",
+                        "access": "yes",
+                        "osm_id": 466692307,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "alt_name": "Sultan Battery Beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_other": {
+                    "alt_name": "Sultan Battery Beach"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51905eabb02db4524059bc63421f3dc52940f00102f901d328d11b000000009203164e6577205468616e6e69726268617669204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.81528870330135,
+                    12.885231949667165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sasihitlu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Dakshina Kannada",
+                "county": "Mulki taluk",
+                "city": "Chitrapu",
+                "lon": 74.77717723532933,
+                "lat": 13.0685873,
+                "state_code": "KA",
+                "formatted": "Sasihitlu Beach, Chitrapu, Mulki taluk, India",
+                "address_line1": "Sasihitlu Beach",
+                "address_line2": "Chitrapu, Mulki taluk, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Sasihitlu Beach",
+                        "access": "yes",
+                        "osm_id": 479055788,
+                        "name:kn": "\u0cb8\u0cb8\u0cbf\u0cb9\u0cbf\u0ca4\u0ccd\u0cb2\u0cc1 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cb8\u0cb8\u0cbf\u0cb9\u0cbf\u0ca4\u0ccd\u0cb2\u0cc1 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51da3b9645bdb15240592426e2df1d232a40f00102f901accf8d1c0000000092030f536173696869746c75204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.77717723532933,
+                    13.068587299686506
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Malpe Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Udupi taluku",
+                "city": "Thottam",
+                "suburb": "Malpe",
+                "lon": 74.6978758613794,
+                "lat": 13.3618485,
+                "state_code": "KA",
+                "formatted": "Malpe Beach, Malpe, Thottam, Udupi taluku, India",
+                "address_line1": "Malpe Beach",
+                "address_line2": "Malpe, Thottam, Udupi taluku, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Malpe Beach",
+                        "osm_id": 627844513,
+                        "name:kn": "\u0cae\u0cb2\u0ccd\u0caa\u0cc6 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cae\u0cb2\u0ccd\u0caa\u0cc6 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51b65284ffa9ac52405908cbe03444b92a40f00102f901a1256c250000000092030b4d616c7065204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.6978758613794,
+                    13.36184849971825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hoode Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Udupi taluku",
+                "city": "Hoode",
+                "lon": 74.69707555304612,
+                "lat": 13.407902400000001,
+                "state_code": "KA",
+                "formatted": "Hoode Beach, Hoode, Udupi taluku, India",
+                "address_line1": "Hoode Beach",
+                "address_line2": "Hoode, Udupi taluku, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hoode Beach",
+                        "osm_id": 650059697,
+                        "name:kn": "\u0cb9\u0cc2\u0ca1\u0cc6 \u0cb8\u0cae\u0cc1\u0ca6\u0ccd\u0cb0\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cb9\u0cc2\u0ca1\u0cc6 \u0cb8\u0cae\u0cc1\u0ca6\u0ccd\u0cb0\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "5126cbc7e29cac5240590c8b5595d8d02a40f00102f901b11fbf260000000092030b486f6f6465204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.69707555304612,
+                    13.40790239972332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Padubidri",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Kapu taluku",
+                "city": "Padubidri",
+                "lon": 74.76585873149688,
+                "lat": 13.11616265,
+                "state_code": "KA",
+                "formatted": "Padubidri, Kapu taluku, India",
+                "address_line1": "Padubidri",
+                "address_line2": "Kapu taluku, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Padubidri",
+                        "osm_id": 1095292194,
+                        "name:kn": "\u0caa\u0cbe\u0ca6\u0cc6\u0cac\u0cc6\u0c9f\u0ccd\u0c9f\u0cc1",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0caa\u0cbe\u0ca6\u0cc6\u0cac\u0cc6\u0c9f\u0ccd\u0c9f\u0cc1"
+                },
+                "place_id": "51a64857d403b15240595be2baab793b2a40f00102f90122d5484100000000920309506164756269647269"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.76585873149688,
+                    13.116162649691594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shiroor Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Bainduru taluku",
+                "city": "Kesarakodi",
+                "hamlet": "Kalihitlu",
+                "lon": 74.5911689363937,
+                "lat": 13.90636955,
+                "state_code": "KA",
+                "formatted": "Shiroor Beach, Kesarakodi, Bainduru taluku, India",
+                "address_line1": "Shiroor Beach",
+                "address_line2": "Kesarakodi, Bainduru taluku, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Shiroor Beach",
+                        "osm_id": 1154320464,
+                        "natural": "beach",
+                        "alt_name": "Shiruru Beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_other": {
+                    "alt_name": "Shiruru Beach"
+                },
+                "place_id": "51360e3cb6d5a55240590cc96cab0fd02b40f00102f9015088cd440000000092030d536869726f6f72204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.5911689363937,
+                    13.906369549779377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Kundapura",
+                "city": "Bijadi",
+                "postcode": "576257",
+                "lon": 74.6777791,
+                "lat": 13.5768759,
+                "state_code": "KA",
+                "formatted": "Bijadi - 576257, Karnataka, India",
+                "address_line1": "Bijadi - 576257",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.6777791,
+                    "lat": 13.5768759
+                },
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "access": "yes",
+                        "osm_id": 157043023,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51b2064ae352ab524059786c680597282b40f00102f9014f495c0900000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.67693407277218,
+                    13.57927719974235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Bhatkal taluk",
+                "city": "Bengre",
+                "lon": 74.49702398889751,
+                "lat": 14.059982191058733,
+                "state_code": "KA",
+                "formatted": "Bengre, Bhatkal taluk, India",
+                "address_line1": "Bengre",
+                "address_line2": "Bhatkal taluk, India",
+                "mappedTo": {
+                    "lon": 74.49702398889751,
+                    "lat": 14.059982191058733
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 251509973,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51a070e635cc9f524059386de200b01e2c40f00102f901d5bcfd0e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.49683902267361,
+                    14.05993654979703
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Udupi taluku",
+                "city": "Thottam",
+                "postcode": "576108",
+                "village": "Thottam",
+                "lon": 74.7017473,
+                "lat": 13.3664844,
+                "state_code": "KA",
+                "formatted": "Thottam - 576108, Karnataka, India",
+                "address_line1": "Thottam - 576108",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.7017473,
+                    "lat": 13.3664844
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 454487113,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51ac587a9005ab524059dc1bfe73f3c22a40f00102f90149ec161b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.67221462200058,
+                    13.380763649720329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Udupi taluku",
+                "city": "Thottam",
+                "postcode": "576108",
+                "village": "Thottam",
+                "lon": 74.7017473,
+                "lat": 13.3664844,
+                "state_code": "KA",
+                "formatted": "Thottam - 576108, Karnataka, India",
+                "address_line1": "Thottam - 576108",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.7017473,
+                    "lat": 13.3664844
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 454487125,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "514e70fe7325ab524059a4f15fafc1c22a40f00102f90155ec161b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.67416095588234,
+                    13.38038394972029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Udupi District",
+                "county": "Udupi taluku",
+                "city": "Thottam",
+                "postcode": "576108",
+                "village": "Thottam",
+                "lon": 74.7017473,
+                "lat": 13.3664844,
+                "state_code": "KA",
+                "formatted": "Thottam - 576108, Karnataka, India",
+                "address_line1": "Thottam - 576108",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.7017473,
+                    "lat": 13.3664844
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 454487128,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51012181a80cab52405910a71ef829c22a40f00102f90158ec161b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.67264759645697,
+                    13.379226449720164
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Bhatkal taluk",
+                "city": "Karikallu",
+                "postcode": "581320",
+                "lon": 74.5212557,
+                "lat": 13.9853038,
+                "state_code": "KA",
+                "formatted": "Karikallu - 581320, Karnataka, India",
+                "address_line1": "Karikallu - 581320",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.5212557,
+                    "lat": 13.9853038
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 462336497,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "515ecb3cd44fa15240595d8706bcddf62b40f00102f901f1b18e1b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.52049737870172,
+                    13.982160449788063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Bhatkal taluk",
+                "city": "\u0c85\u0cb3\u0ccd\u0cb5\u0cc6\u0c95\u0ccb\u0ca1\u0cbf",
+                "postcode": "581354",
+                "lon": 74.50255632336099,
+                "lat": 14.025745785548608,
+                "state_code": "KA",
+                "formatted": "\u0c85\u0cb3\u0ccd\u0cb5\u0cc6\u0c95\u0ccb\u0ca1\u0cbf - 581354, Karnataka, India",
+                "address_line1": "\u0c85\u0cb3\u0ccd\u0cb5\u0cc6\u0c95\u0ccb\u0ca1\u0cbf - 581354",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.50255632336099,
+                    "lat": 14.025745785548608
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1026747992,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51d808556326a05240599f129d0f850d2c40f00102f90158ee323d00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.50234301857142,
+                    14.026405799793165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Bhatkal taluk",
+                "city": "Mavinakurve",
+                "postcode": "581320",
+                "lon": 74.53965534347651,
+                "lat": 13.964599124896612,
+                "state_code": "KA",
+                "formatted": "Mavinakurve - 581320, Karnataka, India",
+                "address_line1": "Mavinakurve - 581320",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.53965534347651,
+                    "lat": 13.964599124896612
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1026750257,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51facc456b83a252405982e2176ec0ed2b40f00102f90131f7323d00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.53927118126367,
+                    13.964358749786019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 74.6654897905214,
+                "lat": 13.641518649749328,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1026754064,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5120877d6297aa52405917e5e82175482b40f00102f9011006333d00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.6654897905214,
+                    13.641518649749328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 74.62430044899104,
+                "lat": 13.79836769976706,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1026834697,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51dbd2de89f4a7524059525db1a6c3982b40f00102f9010941343d00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.62430044899104,
+                    13.79836769976706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 74.62670604016779,
+                "lat": 13.789697499766078,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1026834698,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "517caea6f31ba8524059e0740e3b53942b40f00102f9010a41343d00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.62670604016779,
+                    13.789697499766078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 74.58411421657786,
+                "lat": 13.923732849781366,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1154320463,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "512855982062a55240598c1a1883f3d82b40f00102f9014f88cd4400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.58411421657786,
+                    13.923732849781366
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 74.82040133301004,
+                "lat": 12.861637849664705,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1232288696,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51deb7977481b4524059819ca29828b92940f00102f901b83b734900000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.82040133301004,
+                    12.861637849664705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 74.8467101,
+                "lat": 12.796020199657914,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 7415545598,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51582c8f7f30b6524059e6f8a8f58f972940f00103f901fe3e00ba01000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.8467101,
+                    12.796020199657914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 74.9369096,
+                "lat": 12.593757999637308,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 7540910411,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51bed3ae53f6bb5240597a5c6c0c01302940f00103f9014b2979c101000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.9369096,
+                    12.593757999637308
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 74.9300743,
+                "lat": 12.608625699638814,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 7540997206,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "5168565b5686bb5240595ce8a6c99d372940f00103f901567c7ac101000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.9300743,
+                    12.608625699638814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Majali Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Karwar taluk",
+                "city": "Devabhaga",
+                "lon": 74.10233584861354,
+                "lat": 14.8783536,
+                "state_code": "KA",
+                "formatted": "Majali Beach, Devabhaga, Karwar taluk, India",
+                "address_line1": "Majali Beach",
+                "address_line2": "Devabhaga, Karwar taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Majali Beach",
+                        "osm_id": -8087560,
+                        "name:kn": "\u0ca6\u0cc7\u0cb5\u0cad\u0cbe\u0c97 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0ca6\u0cc7\u0cb5\u0cad\u0cbe\u0c97 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "5138c0a8ab8c865240594fba2390b7c12d40f00101f90108687b000000000092030c4d616a616c69204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.1023358486135,
+                    14.878353599892902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gangavali beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Ankola taluk",
+                "city": "Manjuguni",
+                "lon": 74.28952577795252,
+                "lat": 14.6029576,
+                "state_code": "KA",
+                "formatted": "Gangavali beach, Manjuguni, Ankola taluk, India",
+                "address_line1": "Gangavali beach",
+                "address_line2": "Manjuguni, Ankola taluk, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Gangavali beach",
+                        "access": "yes",
+                        "osm_id": -5944620,
+                        "name:kn": "\u0c97\u0c82\u0c97\u0cbe\u0cb5\u0cb2\u0ccd\u0cb2\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c97\u0c82\u0c97\u0cbe\u0cb5\u0cb2\u0ccd\u0cb2\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51eae920978792524059d68cc8dbb6342d40f00101f9012cb55a000000000092030f47616e676176616c69206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.28952577795249,
+                    14.6029575998604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kudle Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Gokarna",
+                "postcode": "581326",
+                "lon": 74.31583759526241,
+                "lat": 14.528448449999999,
+                "state_code": "KA",
+                "formatted": "Kudle Beach, Gokarna - 581326, Karnataka, India",
+                "address_line1": "Kudle Beach",
+                "address_line2": "Gokarna - 581326, Karnataka, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kudle Beach",
+                        "access": "yes",
+                        "osm_id": -5934584,
+                        "name:kn": "\u0c95\u0cc1\u0ca1\u0ccd\u0cb2\u0cc6 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "alt_name": "Kudley Beach",
+                        "osm_type": "r"
+                    }
+                },
+                "name_other": {
+                    "alt_name": "Kudley Beach"
+                },
+                "name_international": {
+                    "kn": "\u0c95\u0cc1\u0ca1\u0ccd\u0cb2\u0cc6 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51f49fe3ae36945240592c7893cb900e2d40f00101f901f88d5a000000000092030b4b75646c65204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.3158375952624,
+                    14.528448449851645
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Paradise Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Gokarna",
+                "postcode": "581326",
+                "lon": 74.33760541621507,
+                "lat": 14.5181176,
+                "state_code": "KA",
+                "formatted": "Paradise Beach, Gokarna - 581326, Karnataka, India",
+                "address_line1": "Paradise Beach",
+                "address_line2": "Gokarna - 581326, Karnataka, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Paradise Beach",
+                        "access": "yes",
+                        "osm_id": -5932313,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "512866bf539b95524059e0adc5b546092d40f00101f90119855a000000000092030e5061726164697365204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.33760541621507,
+                    14.518117599850427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Half Moon Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "lon": 74.33091114710915,
+                "lat": 14.51796505,
+                "state_code": "KA",
+                "formatted": "Half Moon Beach, Kumata taluk, India",
+                "address_line1": "Half Moon Beach",
+                "address_line2": "Kumata taluk, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Half Moon Beach",
+                        "access": "yes",
+                        "osm_id": -5932304,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51ceadf2a52d9552405931280bb732092d40f00101f90110855a000000000092030f48616c66204d6f6f6e204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.33091114710916,
+                    14.517965049850405
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Om Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Gokarna",
+                "postcode": "581326",
+                "lon": 74.32542380148237,
+                "lat": 14.5190647,
+                "state_code": "KA",
+                "formatted": "Om Beach, Gokarna - 581326, Karnataka, India",
+                "address_line1": "Om Beach",
+                "address_line2": "Gokarna - 581326, Karnataka, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Om Beach",
+                        "access": "yes",
+                        "osm_id": -5926076,
+                        "name:kn": "\u0c93\u0c82 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c93\u0c82 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "513b2d5abed39452405974bb2cd9c2092d40f00101f901bc6c5a00000000009203084f6d204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.32542380148236,
+                    14.519064699850539
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gokarna Kamala Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Harumaskeri",
+                "lon": 74.29447150126464,
+                "lat": 14.5893418,
+                "state_code": "KA",
+                "formatted": "Gokarna Kamala Beach, Harumaskeri, Kumata taluk, India",
+                "address_line1": "Gokarna Kamala Beach",
+                "address_line2": "Harumaskeri, Kumata taluk, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Gokarna Kamala Beach",
+                        "access": "yes",
+                        "osm_id": -5914835,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "5148e2fe9ed892524059611e5935be2d2d40f00101f901d3405a0000000000920314476f6b61726e61204b616d616c61204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.29447150126464,
+                    14.589341799858802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gokarna Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Gokarna",
+                "postcode": "581326",
+                "lon": 74.31091673241711,
+                "lat": 14.551833349999999,
+                "state_code": "KA",
+                "formatted": "Gokarna Beach, Gokarna - 581326, Karnataka, India",
+                "address_line1": "Gokarna Beach",
+                "address_line2": "Gokarna - 581326, Karnataka, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Gokarna Beach",
+                        "access": "yes",
+                        "osm_id": -5887806,
+                        "name:kn": "\u0c97\u0ccb\u0c95\u0cb0\u0ccd\u0ca3 \u0ca6\u0cc7\u0cb5\u0cb8\u0ccd\u0ca5\u0cbe\u0ca8\u0ca6 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c97\u0ccb\u0c95\u0cb0\u0ccd\u0ca3 \u0ca6\u0cc7\u0cb5\u0cb8\u0ccd\u0ca5\u0cbe\u0ca8\u0ca6 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51ae604b0fe693524059f6ee9ce6891a2d40f00101f9013ed759000000000092030d476f6b61726e61204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.3109167324171,
+                    14.551833349854387
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Murudeshwara Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Bhatkal taluk",
+                "city": "Murdeshwar",
+                "postcode": "581350",
+                "lon": 74.48665040801478,
+                "lat": 14.097179350000001,
+                "state_code": "KA",
+                "formatted": "Murudeshwara Beach, Murdeshwar - 581350, Karnataka, India",
+                "address_line1": "Murudeshwara Beach",
+                "address_line2": "Murdeshwar - 581350, Karnataka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Murudeshwara Beach",
+                        "osm_id": 178486254,
+                        "name:kn": "\u0cae\u0cc1\u0cb0\u0cc1\u0ca1\u0cc7\u0cb6\u0ccd\u0cb5\u0cb0 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cae\u0cc1\u0cb0\u0cc1\u0ca1\u0cc7\u0cb6\u0ccd\u0cb5\u0cb0 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "518cc0c047259f524059867ce27dc1312c40f00102f901ee7ba30a000000009203124d7572756465736877617261204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.48665040801478,
+                    14.09717934980132
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rabindranath Tagore Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Karwar taluk",
+                "city": "Karwar",
+                "postcode": "581300",
+                "suburb": "Kodibag",
+                "lon": 74.1262407968414,
+                "lat": 14.816351300000001,
+                "state_code": "KA",
+                "formatted": "Rabindranath Tagore Beach, Kodibag, Karwar - 581300, Karnataka, India",
+                "address_line1": "Rabindranath Tagore Beach",
+                "address_line2": "Kodibag, Karwar - 581300, Karnataka, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Rabindranath Tagore Beach",
+                        "access": "yes",
+                        "osm_id": 179802734,
+                        "name:kn": "\u0c9f\u0cbe\u0c95\u0cc2\u0cb0\u0ccd \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w",
+                        "name:etymology:wikidata": "Q7241"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c9f\u0cbe\u0c95\u0cc2\u0cb0\u0ccd \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51b576475414885240597c1c2eccf8a12d40f00102f9016e92b70a00000000920319526162696e6472616e617468205461676f7265204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.1262407968414,
+                    14.816351299885575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dhareshwar beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Dhareshvara",
+                "hamlet": "Kadekodi",
+                "lon": 74.40217325054827,
+                "lat": 14.384373199999999,
+                "state_code": "KA",
+                "formatted": "Dhareshwar beach, Dhareshvara, Kumata taluk, India",
+                "address_line1": "Dhareshwar beach",
+                "address_line2": "Dhareshvara, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Dhareshwar beach",
+                        "osm_id": 250162048,
+                        "name:kn": "\u0ca7\u0cbe\u0cb0\u0cc7\u0cb6\u0ccd\u0cb5\u0cb0 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0ca7\u0cbe\u0cb0\u0cc7\u0cb6\u0ccd\u0cb5\u0cb0 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51939bdf34bd99524059867f6590ccc42c40f00102f901802be90e0000000092031044686172657368776172206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.40217325054827,
+                    14.384373199834737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Belekan Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Tadadi",
+                "hamlet": "Belekan",
+                "lon": 74.34440452410267,
+                "lat": 14.52063565,
+                "state_code": "KA",
+                "formatted": "Belekan Beach, Tadadi, Kumata taluk, India",
+                "address_line1": "Belekan Beach",
+                "address_line2": "Tadadi, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Belekan Beach",
+                        "osm_id": 266140083,
+                        "name:kn": "\u0cac\u0cc6\u0cb3\u0cc6\u0c95\u0ca8\u0ccd \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cac\u0cc6\u0cb3\u0cc6\u0c95\u0ca8\u0ccd \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "5163e745b90a965240592a7b82c1900a2d40f00102f901b3f9dc0f0000000092030d42656c656b616e204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.34440452410267,
+                    14.520635649850721
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kasarkod Eco Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Honnavar taluku",
+                "city": "Tonka",
+                "lon": 74.43220668486902,
+                "lat": 14.261313000000001,
+                "state_code": "KA",
+                "formatted": "Kasarkod Eco Beach, Tonka, Honnavar taluku, India",
+                "address_line1": "Kasarkod Eco Beach",
+                "address_line2": "Tonka, Honnavar taluku, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kasarkod Eco Beach",
+                        "osm_id": 348606376,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5100283a46a99b5240590e7f48d1ca852c40f00102f901a84fc714000000009203124b617361726b6f642045636f204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.43220668486902,
+                    14.261312999820372
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Honey Beach Honnebail",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Ankola taluk",
+                "lon": 74.27915534138506,
+                "lat": 14.61631655,
+                "state_code": "KA",
+                "formatted": "Honey Beach Honnebail, Ankola taluk, India",
+                "address_line1": "Honey Beach Honnebail",
+                "address_line2": "Ankola taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Honey Beach Honnebail",
+                        "osm_id": 388995354,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "512a705daedd915240591448c3d78d3b2d40f00102f9011a992f1700000000920315486f6e657920426561636820486f6e6e656261696c"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.27915534138506,
+                    14.616316549861985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ramanagindi beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Bettageri",
+                "lon": 74.40547773358753,
+                "lat": 14.363027299999999,
+                "state_code": "KA",
+                "formatted": "Ramanagindi beach, Bettageri, Kumata taluk, India",
+                "address_line1": "Ramanagindi beach",
+                "address_line2": "Bettageri, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Ramanagindi beach",
+                        "osm_id": 397396912,
+                        "name:kn": "\u0cb0\u0cbe\u0cae\u0ca8\u0c97\u0cbf\u0c82\u0ca1\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "alt_name": "Ramangindi beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_other": {
+                    "alt_name": "Ramangindi beach"
+                },
+                "name_international": {
+                    "kn": "\u0cb0\u0cbe\u0cae\u0ca8\u0c97\u0cbf\u0c82\u0ca1\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51f040e158f3995240595cabd8b6deb92c40f00102f901b0cbaf170000000092031152616d616e6167696e6469206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.40547773358753,
+                    14.363027299832247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Heaven Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Kirubele",
+                "lon": 74.35896112661314,
+                "lat": 14.511574849999999,
+                "state_code": "KA",
+                "formatted": "Heaven Beach, Kirubele, Kumata taluk, India",
+                "address_line1": "Heaven Beach",
+                "address_line2": "Kirubele, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Heaven Beach",
+                        "osm_id": 397769385,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51aed51638f996524059e81e8323ed052d40f00102f901a97ab5170000000092030c48656176656e204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.35896112661314,
+                    14.511574849849652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hussain Bele",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Kirubele",
+                "lon": 74.35521388145742,
+                "lat": 14.508088149999999,
+                "state_code": "KA",
+                "formatted": "Hussain Bele, Kirubele, Kumata taluk, India",
+                "address_line1": "Hussain Bele",
+                "address_line2": "Kirubele, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hussain Bele",
+                        "osm_id": 398146189,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5178fc00d3bb96524059e02c462124042d40f00102f9018d3abb170000000092030c4875737361696e2042656c65"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.35521388145742,
+                    14.508088149849243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alvekodi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Kalabhaga",
+                "lon": 74.3959480139048,
+                "lat": 14.407887599999999,
+                "state_code": "KA",
+                "formatted": "Alvekodi Beach, Kalabhaga, Kumata taluk, India",
+                "address_line1": "Alvekodi Beach",
+                "address_line2": "Kalabhaga, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Alvekodi Beach",
+                        "osm_id": 398293579,
+                        "name:kn": "\u0c85\u0cb3\u0ccd\u0cb5\u0cc6\u0c95\u0ccb\u0ca1\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c85\u0cb3\u0ccd\u0cb5\u0cc6\u0c95\u0ccb\u0ca1\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51c8a856365799524059f27dbba4d6d02c40f00102f9014b7abd170000000092030e416c76656b6f6469204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.39594801390479,
+                    14.407887599837498
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vannalli beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Vannalli",
+                "lon": 74.384813749311,
+                "lat": 14.42703685,
+                "state_code": "KA",
+                "formatted": "Vannalli beach, Vannalli, Kumata taluk, India",
+                "address_line1": "Vannalli beach",
+                "address_line2": "Vannalli, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Vannalli beach",
+                        "osm_id": 398293648,
+                        "name:kn": "\u0cb5\u0ca8\u0ccd\u0ca8\u0cb3\u0ccd\u0cb3\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "alt_name": "Vanalli beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_other": {
+                    "alt_name": "Vanalli beach"
+                },
+                "name_international": {
+                    "kn": "\u0cb5\u0ca8\u0ccd\u0ca8\u0cb3\u0ccd\u0cb3\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51e115d9c9a098524059427ff092a4da2c40f00102f901907abd170000000092030e56616e6e616c6c69206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.384813749311,
+                    14.427036849839741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kagala Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Birkodi",
+                "lon": 74.36366865618004,
+                "lat": 14.49095655,
+                "state_code": "KA",
+                "formatted": "Kagala Beach, Birkodi, Kumata taluk, India",
+                "address_line1": "Kagala Beach",
+                "address_line2": "Birkodi, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kagala Beach",
+                        "osm_id": 398293961,
+                        "name:kn": "\u0c95\u0cbe\u0c97\u0cb2 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "name:alt": "Nirvana beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c95\u0cbe\u0c97\u0cb2 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51e837e6584697524059a6b32aa85efb2c40f00102f901c97bbd170000000092030c4b6167616c61204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.36366865618004,
+                    14.490956549847237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gudeangadi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Holanagadde",
+                "lon": 74.37328884270951,
+                "lat": 14.46740935,
+                "state_code": "KA",
+                "formatted": "Gudeangadi Beach, Holanagadde, Kumata taluk, India",
+                "address_line1": "Gudeangadi Beach",
+                "address_line2": "Holanagadde, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Gudeangadi Beach",
+                        "osm_id": 398293962,
+                        "name:kn": "\u0c97\u0cc1\u0ca1\u0cc6\u0c85\u0c82\u0c97\u0ca1\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c97\u0cc1\u0ca1\u0cc6\u0c85\u0c82\u0c97\u0ca1\u0cbf \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "518ad9e2f6e3975240596eda3e4750ef2c40f00102f901ca7bbd170000000092031047756465616e67616469204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.37328884270951,
+                    14.46740934984447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mangodlu beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Vannalli",
+                "lon": 74.38367243702092,
+                "lat": 14.432623,
+                "state_code": "KA",
+                "formatted": "Mangodlu beach, Vannalli, Kumata taluk, India",
+                "address_line1": "Mangodlu beach",
+                "address_line2": "Vannalli, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Mangodlu beach",
+                        "osm_id": 398293963,
+                        "name:kn": "\u0cae\u0c82\u0c97\u0ccb\u0ca1\u0ccd\u0cb2\u0cc1 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cae\u0c82\u0c97\u0ccb\u0ca1\u0ccd\u0cb2\u0cc1 \u0c95\u0ca1\u0cb2 \u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "516a58d6168e98524059b69f07c380dd2c40f00102f901cb7bbd170000000092030e4d616e676f646c75206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.38367243702092,
+                    14.432622999840401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Belambar beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Ankola taluk",
+                "city": "Kharviwada",
+                "lon": 74.2851227611431,
+                "lat": 14.637961149999999,
+                "state_code": "KA",
+                "formatted": "Belambar beach, Kharviwada, Ankola taluk, India",
+                "address_line1": "Belambar beach",
+                "address_line2": "Kharviwada, Ankola taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Belambar beach",
+                        "osm_id": 401521429,
+                        "name:kn": "\u0cac\u0cc6\u0cb3\u0c82\u0cac\u0cbe\u0cb0 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cac\u0cc6\u0cb3\u0c82\u0cac\u0cbe\u0cb0 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "511c9d89733f92524059ca9205d8a2462d40f00102f90115bbee170000000092030e42656c616d626172206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.2851227611431,
+                    14.637961149864527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Secret Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Birkodi",
+                "lon": 74.35450628920626,
+                "lat": 14.5057005,
+                "state_code": "KA",
+                "formatted": "Secret Beach, Birkodi, Kumata taluk, India",
+                "address_line1": "Secret Beach",
+                "address_line2": "Birkodi, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Secret Beach",
+                        "osm_id": 404888157,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518097253bb09652405926d8082deb022d40f00102f9015d1a22180000000092030c536563726574204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.35450628920626,
+                    14.505700499848967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cave Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Kirubele",
+                "lon": 74.35865833333332,
+                "lat": 14.5141922,
+                "state_code": "KA",
+                "formatted": "Cave Beach, Kirubele, Kumata taluk, India",
+                "address_line1": "Cave Beach",
+                "address_line2": "Kirubele, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Cave Beach",
+                        "osm_id": 414367889,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51b1061542f496524059826d343344072d40f00102f90191c0b2180000000092030a43617665204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.35865833333334,
+                    14.514192199849962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Apsara Konda Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Honnavar taluku",
+                "city": "Apsarakonda",
+                "lon": 74.4418768394226,
+                "lat": 14.23171525,
+                "state_code": "KA",
+                "formatted": "Apsara Konda Beach, Apsarakonda, Honnavar taluku, India",
+                "address_line1": "Apsara Konda Beach",
+                "address_line2": "Apsarakonda, Honnavar taluku, India",
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Apsara Konda Beach",
+                        "access": "yes",
+                        "osm_id": 444348522,
+                        "name:kn": "\u0c85\u0caa\u0ccd\u0cb8\u0cb0\u0c95\u0cca\u0c82\u0ca1 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c85\u0caa\u0ccd\u0cb8\u0cb0\u0c95\u0cca\u0c82\u0ca1 \u0ca4\u0cc0\u0cb0"
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51848bcbb5479c52405977e59761a3762c40f00102f9016a387c1a00000000920312417073617261204b6f6e6461204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.4418768394226,
+                    14.231715249816927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kumta Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Vannalli",
+                "lon": 74.39170466622555,
+                "lat": 14.4186418,
+                "state_code": "KA",
+                "formatted": "Kumta Beach, Vannalli, Kumata taluk, India",
+                "address_line1": "Kumta Beach",
+                "address_line2": "Vannalli, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kumta Beach",
+                        "osm_id": 448479720,
+                        "name:kn": "\u0c95\u0cc1\u0cae\u0c9f \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "alt_name": "Kumata Beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_other": {
+                    "alt_name": "Kumata Beach"
+                },
+                "name_international": {
+                    "kn": "\u0c95\u0cc1\u0cae\u0c9f \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "5147c872b011995240599217ce3758d62c40f00102f901e841bb1a0000000092030b4b756d7461204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.39170466622555,
+                    14.418641799838756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kadle beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Kadle",
+                "lon": 74.38141859374136,
+                "lat": 14.443379199999999,
+                "state_code": "KA",
+                "formatted": "Kadle beach, Kadle, Kumata taluk, India",
+                "address_line1": "Kadle beach",
+                "address_line2": "Kadle, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kadle beach",
+                        "osm_id": 496624802,
+                        "name:kn": "\u0c95\u0ca1\u0ccd\u0cb2\u0cc6 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0c95\u0ca1\u0ccd\u0cb2\u0cc6 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51268d88296998524059d717369902e32c40f00102f901a2e4991d0000000092030b4b61646c65206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.38141859374136,
+                    14.443379199841656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Holanagadde beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Holanagadde",
+                "lon": 74.37855453187848,
+                "lat": 14.4524986,
+                "state_code": "KA",
+                "formatted": "Holanagadde beach, Holanagadde, Kumata taluk, India",
+                "address_line1": "Holanagadde beach",
+                "address_line2": "Holanagadde, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Holanagadde beach",
+                        "osm_id": 496625210,
+                        "name:kn": "\u0cb9\u0cca\u0cb2\u0ca8\u0c97\u0ca6\u0ccd\u0ca6\u0cc6 \u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cb9\u0cca\u0cb2\u0ca8\u0c97\u0ca6\u0ccd\u0ca6\u0cc6 \u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "51ec8ac93c3a98524059de9e7fe5ade72c40f00102f9013ae6991d00000000920311486f6c616e616761646465206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.37855453187848,
+                    14.452498599842723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Belambar beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Ankola taluk",
+                "city": "Kharviwada",
+                "lon": 74.28223214397994,
+                "lat": 14.62848475,
+                "state_code": "KA",
+                "formatted": "Belambar beach, Kharviwada, Ankola taluk, India",
+                "address_line1": "Belambar beach",
+                "address_line2": "Kharviwada, Ankola taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Belambar beach",
+                        "osm_id": 623248768,
+                        "name:kn": "\u0cac\u0cc6\u0cb3\u0c82\u0cac\u0cbe\u0cb0 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "kn": "\u0cac\u0cc6\u0cb3\u0c82\u0cac\u0cbe\u0cb0 \u0c95\u0ca1\u0cb2\u0ca4\u0cc0\u0cb0"
+                },
+                "place_id": "518511691710925240596b65cdc0c8412d40f00102f901800526250000000092030e42656c616d626172206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.28223214397993,
+                    14.628484749863409
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cove Kagala",
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Kirubele",
+                "lon": 74.3585747,
+                "lat": 14.5099467,
+                "state_code": "KA",
+                "formatted": "Cove Kagala, Kirubele, Kumata taluk, India",
+                "address_line1": "Cove Kagala",
+                "address_line2": "Kirubele, Kumata taluk, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Cove Kagala",
+                        "osm_id": 5891899116,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51136b4ce3f296524059fc1cddbb17052d40f00103f901ec3e2f5f0100000092030b436f7665204b6167616c61"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.3585747,
+                    14.509946699849472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Tadadi",
+                "hamlet": "Belekan",
+                "postcode": "581326",
+                "lon": 74.3451973,
+                "lat": 14.5218696,
+                "state_code": "KA",
+                "formatted": "Tadadi - 581326, Karnataka, India",
+                "address_line1": "Tadadi - 581326",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.3451973,
+                    "lat": 14.5218696
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -8653830,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "518539c8a3de9452405984ba5e973c092d40f00101f901060c840000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.32608885338966,
+                    14.518040399850413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Bavikodla",
+                "postcode": "581319",
+                "lon": 74.3040843,
+                "lat": 14.5689247,
+                "state_code": "KA",
+                "formatted": "Bavikodla - 581319, Karnataka, India",
+                "address_line1": "Bavikodla - 581319",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.3040843,
+                    "lat": 14.5689247
+                },
+                "categories": [
+                    "access",
+                    "access.yes",
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "access": "yes",
+                        "osm_id": -5977601,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "restrictions": {
+                    "access": "permissive"
+                },
+                "place_id": "51c56216265c935240597613b7b29f242d40f00101f90101365b0000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.30249931512942,
+                    14.571530899856707
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Karwar taluk",
+                "city": "Kanasagiri",
+                "postcode": "581352",
+                "village": "Kanasagiri",
+                "lon": 74.1411683,
+                "lat": 14.863323,
+                "state_code": "KA",
+                "formatted": "Kanasagiri - 581352, Karnataka, India",
+                "address_line1": "Kanasagiri - 581352",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.1411683,
+                    "lat": 14.863323
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 201591640,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5113a9a34fb9895240591d480c5185b72d40f00102f901580b040c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.15193549139467,
+                    14.858438999890547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Karwar taluk",
+                "city": "Chendiya",
+                "postcode": "581301",
+                "village": "Chendiya",
+                "lon": 74.1881426,
+                "lat": 14.7725173,
+                "state_code": "KA",
+                "formatted": "Chendiya - 581301, Karnataka, India",
+                "address_line1": "Chendiya - 581301",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.1881426,
+                    "lat": 14.7725173
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 248070429,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5117b2c2e3fc8b52405944d4cd3b047c2d40f00102f9011d41c90e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.18731016171692,
+                    14.742219799876814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Karwar taluk",
+                "city": "Amadalli",
+                "postcode": "581324",
+                "village": "Amadalli",
+                "lon": 74.2226913,
+                "lat": 14.7617882,
+                "state_code": "KA",
+                "formatted": "Amadalli - 581324, Karnataka, India",
+                "address_line1": "Amadalli - 581324",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.2226913,
+                    "lat": 14.7617882
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 248070432,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519500e54d038d524059776fdd0a17782d40f00102f9012041c90e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.20332667697433,
+                    14.734550799875917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Karwar taluk",
+                "city": "Amadalli",
+                "postcode": "581324",
+                "village": "Amadalli",
+                "lon": 74.2226913,
+                "lat": 14.7617882,
+                "state_code": "KA",
+                "formatted": "Amadalli - 581324, Karnataka, India",
+                "address_line1": "Amadalli - 581324",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.2226913,
+                    "lat": 14.7617882
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 248070437,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5162459136208d5240595e2f5b284f792d40f00102f9012541c90e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.20509113489746,
+                    14.736932049876199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Ankola taluk",
+                "city": "Bela",
+                "postcode": "581314",
+                "lon": 74.2830771,
+                "lat": 14.6485223,
+                "state_code": "KA",
+                "formatted": "Bela - 581314, Karnataka, India",
+                "address_line1": "Bela - 581314",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.2830771,
+                    "lat": 14.6485223
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 388997649,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "515ab2e4ea17925240592ef148dc194c2d40f00102f90111a22f1700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.28270981153165,
+                    14.648634799865786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Tadadi",
+                "hamlet": "Belekan",
+                "postcode": "581326",
+                "lon": 74.35085370617603,
+                "lat": 14.522495509271794,
+                "state_code": "KA",
+                "formatted": "Tadadi - 581326, Karnataka, India",
+                "address_line1": "Tadadi - 581326",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.35085370617603,
+                    "lat": 14.522495509271794
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 393809585,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518ad17c7f7596524059dc76c30e190b2d40f00102f901b10e791700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.3509215086871,
+                    14.521675549850833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Birkodi",
+                "street": "Niravana Beach Road",
+                "lon": 74.36215455541685,
+                "lat": 14.495917819479033,
+                "state_code": "KA",
+                "formatted": "Niravana Beach Road, Birkodi -, Karnataka, India",
+                "address_line1": "Niravana Beach Road",
+                "address_line2": "Birkodi -, Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.36215455541685,
+                    "lat": 14.495917819479033
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 398450365,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51ad1604b53297524059e1de52a3fcfd2c40f00102f901bddebf1700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.3624699153831,
+                    14.496068099847834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Tadadi",
+                "hamlet": "Belekan",
+                "postcode": "581326",
+                "lon": 74.3451973,
+                "lat": 14.5218696,
+                "state_code": "KA",
+                "formatted": "Tadadi - 581326, Karnataka, India",
+                "address_line1": "Tadadi - 581326",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.3451973,
+                    "lat": 14.5218696
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 402079990,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "513293a8178495524059ce82d32478092d40f00102f901f640f71700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.33618728125,
+                    14.518494749850472
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Ankola taluk",
+                "city": "Haravada",
+                "postcode": "581316",
+                "village": "Haravada",
+                "lon": 74.2553305,
+                "lat": 14.735535,
+                "state_code": "KA",
+                "formatted": "Haravada - 581316, Karnataka, India",
+                "address_line1": "Haravada - 581316",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.2553305,
+                    "lat": 14.735535
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 409119911,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c664018d728f52405933cd493d0b6c2d40f00102f901a7ac621800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.24136662613009,
+                    14.711023249873142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Honnavar taluku",
+                "city": "Neelikeri",
+                "postcode": "581342",
+                "lon": 74.4537769,
+                "lat": 14.214935,
+                "state_code": "KA",
+                "formatted": "Neelikeri - 581342, Karnataka, India",
+                "address_line1": "Neelikeri - 581342",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.4537769,
+                    "lat": 14.214935
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 445271168,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51624594f9c29c524059fcdf4b486b6e2c40f00102f901804c8a1a00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.44940032462685,
+                    14.215662249815061
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Karnataka",
+                "state_district": "Uttara Kannada",
+                "county": "Kumata taluk",
+                "city": "Horabhaga",
+                "postcode": "581327",
+                "lon": 74.4097196,
+                "lat": 14.3432592,
+                "state_code": "KA",
+                "formatted": "Horabhaga - 581327, Karnataka, India",
+                "address_line1": "Horabhaga - 581327",
+                "address_line2": "Karnataka, India",
+                "mappedTo": {
+                    "lon": 74.4097196,
+                    "lat": 14.3432592
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 496655942,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5154042b92299a5240597c89a456a9b02c40f00102f901465e9a1d00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.40878729058142,
+                    14.34504194983014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Agaissam Beach",
+                "country": "India",
+                "country_code": "in",
+                "city": "Aga\u00e7aim",
+                "suburb": "Goa Velha",
+                "lon": 73.88997808487558,
+                "lat": 15.42581485,
+                "formatted": "Agaissam Beach, Goa Velha, Aga\u00e7aim, India",
+                "address_line1": "Agaissam Beach",
+                "address_line2": "Goa Velha, Aga\u00e7aim, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Agaissam Beach",
+                        "osm_id": 851198311,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51a02ca466f57852405910706d6704da2e40f00102f9016741bc320000000092030e416761697373616d204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.88997808487557,
+                    15.425814849957561
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cansaulim Beach",
+                "country": "India",
+                "country_code": "in",
+                "city": "Arossim",
+                "postcode": "403712",
+                "lon": 73.8960344,
+                "lat": 15.3267818,
+                "formatted": "Cansaulim Beach, Arossim - 403712, India",
+                "address_line1": "Cansaulim Beach",
+                "address_line2": "Arossim - 403712, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Cansaulim Beach",
+                        "osm_id": 2634447577,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51d205aba058795240592364aff14fa72e40f00103f901d97a069d0000000092030f43616e7361756c696d204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.89603439999999,
+                    15.326781799945882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 73.7665081278571,
+                "lat": 15.633245749981901,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1280086670,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w",
+                        "lifeguard": "no",
+                        "supervised": "no"
+                    }
+                },
+                "place_id": "51ec501b780e71524059ab0175c938442f40f00102f9018e924c4c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.7665081278571,
+                    15.633245749981901
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 73.8082254,
+                "lat": 15.476054999963464,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 8461143112,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51fa3207f7b97352405977e11f7bbdf32e40f00103f90148cc52f801000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.8082254,
+                    15.476054999963464
+                ]
+            }
+        }
+    ]
+}
