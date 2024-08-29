@@ -1,7 +1,7 @@
-import React from 'react';
-import { createStackNavigator } from '@react-navigation/stack';
-import { NavigationContainer } from '@react-navigation/native';
-import LoginScreen from '../screens/LoginScreen';
+import React from "react";
+import { createStackNavigator } from "@react-navigation/stack";
+import { NavigationContainer } from "@react-navigation/native";
+import LoginScreen from "../screens/LoginScreen";
 // Import other screens as needed
 // import HomeScreen from '../screens/HomeScreen';
 
