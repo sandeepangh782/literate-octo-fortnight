@@ -1,0 +1,2452 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kondvil Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "lon": 72.99484204676753,
+                "lat": 18.08706625,
+                "state_code": "MH",
+                "formatted": "Kondvil Beach, Shrivardhan Taluka, India",
+                "address_line1": "Kondvil Beach",
+                "address_line2": "Shrivardhan Taluka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kondvil Beach",
+                        "osm_id": -5485499,
+                        "natural": "beach",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "5158e3f97dab3f5240599c5f49f949163240f00101f901bbb353000000000092030d4b6f6e6476696c204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.99484204676753,
+                    18.087066250241705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nandivade Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Nandivade",
+                "hamlet": "Bhandarwadi",
+                "lon": 73.20290822150102,
+                "lat": 17.286313550000003,
+                "state_code": "MH",
+                "formatted": "Nandivade Beach, Nandivade, Ratnagiri Taluka, India",
+                "address_line1": "Nandivade Beach",
+                "address_line2": "Nandivade, Ratnagiri Taluka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Nandivade Beach",
+                        "osm_id": 197359978,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51eedbc372fc4c524059645c46d84b493140f00102f9016a79c30b0000000092030f4e616e646976616465204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.20290822150102,
+                    17.286313550165133
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Malgund Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Malgund",
+                "lon": 73.25575981694539,
+                "lat": 17.17920175,
+                "state_code": "MH",
+                "formatted": "Malgund Beach, Malgund, Ratnagiri Taluka, India",
+                "address_line1": "Malgund Beach",
+                "address_line2": "Malgund, Ratnagiri Taluka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Malgund Beach",
+                        "osm_id": 198898817,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51545a6c5e5e50524059484c782ae02d3140f00102f90181f4da0b0000000092030d4d616c67756e64204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.25575981694539,
+                    17.179201750154135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Akshi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Alibag Taluka",
+                "city": "Alibag",
+                "postcode": "402200",
+                "lon": 72.88565837335678,
+                "lat": 18.624601050000003,
+                "state_code": "MH",
+                "formatted": "Akshi Beach, Alibag - 402200, Maharashtra, India",
+                "address_line1": "Akshi Beach",
+                "address_line2": "Alibag - 402200, Maharashtra, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Akshi Beach",
+                        "osm_id": 221611976,
+                        "name:mr": "\u0906\u0915\u094d\u0937\u0940 \u0938\u092e\u0941\u0926\u094d\u0930\u0915\u093f\u0928\u093e\u0930\u093e",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "mr": "\u0906\u0915\u094d\u0937\u0940 \u0938\u092e\u0941\u0926\u094d\u0930\u0915\u093f\u0928\u093e\u0930\u093e"
+                },
+                "place_id": "51bd3f75a0ae385240594207bcdae59f3240f00102f901c887350d0000000092030b416b736869204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.88565837335678,
+                    18.624601050286635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nagaon Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Alibag Taluka",
+                "city": "Nagaon",
+                "postcode": "402204",
+                "lon": 72.90294226922258,
+                "lat": 18.59382785,
+                "state_code": "MH",
+                "formatted": "Nagaon Beach, Nagaon - 402204, Maharashtra, India",
+                "address_line1": "Nagaon Beach",
+                "address_line2": "Nagaon - 402204, Maharashtra, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Nagaon Beach",
+                        "osm_id": 221611977,
+                        "name:mr": "\u0928\u093e\u0917\u093e\u0935 \u0938\u092e\u0941\u0926\u094d\u0930\u0915\u093f\u0928\u093e\u0930\u093e",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "mr": "\u0928\u093e\u0917\u093e\u0935 \u0938\u092e\u0941\u0926\u094d\u0930\u0915\u093f\u0928\u093e\u0930\u093e"
+                },
+                "place_id": "512a1f5fcec939524059b86c1c1a05983240f00102f901c987350d0000000092030c4e6167616f6e204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.90294226922256,
+                    18.593827850284214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Revadanda Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Alibag Taluka",
+                "city": "Revadanda",
+                "postcode": "402202",
+                "lon": 72.91811003846243,
+                "lat": 18.5625508,
+                "state_code": "MH",
+                "formatted": "Revadanda Beach, Revadanda - 402202, Maharashtra, India",
+                "address_line1": "Revadanda Beach",
+                "address_line2": "Revadanda - 402202, Maharashtra, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Revadanda Beach",
+                        "osm_id": 221611978,
+                        "name:mr": "\u0930\u0947\u0935\u0926\u0902\u0921\u093e \u0938\u092e\u0941\u0926\u094d\u0930\u0915\u093f\u0928\u093e\u0930\u093e",
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "mr": "\u0930\u0947\u0935\u0926\u0902\u0921\u093e \u0938\u092e\u0941\u0926\u094d\u0930\u0915\u093f\u0928\u093e\u0930\u093e"
+                },
+                "place_id": "51d3549b50c23a5240597a8c495403903240f00102f901ca87350d0000000092030f5265766164616e6461204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.91811003846242,
+                    18.56255080028175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Murud Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Murud",
+                "postcode": "402400",
+                "lon": 72.95494641837061,
+                "lat": 18.326954100000002,
+                "state_code": "MH",
+                "formatted": "Murud Beach, Murud - 402400, Maharashtra, India",
+                "address_line1": "Murud Beach",
+                "address_line2": "Murud - 402400, Maharashtra, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Murud Beach",
+                        "osm_id": 244675467,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51621595d71d3d5240599eeb8f43b3533240f00102f9018b73950e0000000092030b4d75727564204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.95494641837061,
+                    18.326954100262462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kashid Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Kashid",
+                "lon": 72.90400616538011,
+                "lat": 18.4445675,
+                "state_code": "MH",
+                "formatted": "Kashid Beach, Kashid, Murud Taluka, India",
+                "address_line1": "Kashid Beach",
+                "address_line2": "Kashid, Murud Taluka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kashid Beach",
+                        "osm_id": 250178410,
+                        "name:mr": "\u0915\u093e\u0936\u093f\u0926 \u0938\u092e\u0941\u0926\u094d\u0930\u0915\u093f\u0928\u093e\u0930\u093e",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "mr": "\u0915\u093e\u0936\u093f\u0926 \u0938\u092e\u0941\u0926\u094d\u0930\u0915\u093f\u0928\u093e\u0930\u093e"
+                },
+                "place_id": "5128ecac3cdb39524059a088fa2ccf713240f00102f9016a6be90e0000000092030c4b6173686964204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.90400616538011,
+                    18.44456750027223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Guhagar Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Guhagar Taluka",
+                "city": "Guhagar",
+                "postcode": "415703",
+                "lon": 73.18444190548671,
+                "lat": 17.49173845,
+                "state_code": "MH",
+                "formatted": "Guhagar Beach, Guhagar - 415703, Maharashtra, India",
+                "address_line1": "Guhagar Beach",
+                "address_line2": "Guhagar - 415703, Maharashtra, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Guhagar Beach",
+                        "osm_id": 257603898,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51f3046ce5cd4b524059c8bb3192e27d3140f00102f9013ab95a0f0000000092030d47756861676172204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.18444190548671,
+                    17.49173845018575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ganpatipule Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Ganpatipule",
+                "lon": 73.26530406592957,
+                "lat": 17.1469308,
+                "state_code": "MH",
+                "formatted": "Ganpatipule Beach, Ganpatipule, Ratnagiri Taluka, India",
+                "address_line1": "Ganpatipule Beach",
+                "address_line2": "Ganpatipule, Ratnagiri Taluka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Ganpatipule Beach",
+                        "osm_id": 553163616,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5174aae7bdfa505240593c6cc5419d253140f00102f901609bf8200000000092031147616e7061746970756c65204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.26530406592957,
+                    17.1469308001508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Abhishek Beach Resort",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Ganpatipule",
+                "postcode": "415615",
+                "street": "MSH4",
+                "lon": 73.26993707163115,
+                "lat": 17.1379537,
+                "state_code": "MH",
+                "formatted": "Abhishek Beach Resort, MSH4, Ganpatipule - 415615, Maharashtra, India",
+                "address_line1": "Abhishek Beach Resort",
+                "address_line2": "MSH4, Ganpatipule - 415615, Maharashtra, India",
+                "categories": [
+                    "beach",
+                    "beach.beach_resort"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Abhishek Beach Resort",
+                        "osm_id": 657579507,
+                        "leisure": "beach_resort",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518fa823a646515240597e8106ef50233140f00102f901f3dd312700000000920315416268697368656b204265616368205265736f7274"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.26993707163113,
+                    17.137953700149858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kihim Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Alibag Taluka",
+                "postcode": "402201",
+                "lon": 72.8646857,
+                "lat": 18.7242274,
+                "state_code": "MH",
+                "formatted": "Kihim Beach, 402201, Maharashtra, India",
+                "address_line1": "Kihim Beach",
+                "address_line2": "402201, Maharashtra, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kihim Beach",
+                        "osm_id": 11438437871,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "5168b4b0025737524059942187f766b93240f00103f901efb5c8a90200000092030b4b6968696d204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.8646857,
+                    18.72422740029431
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alibag Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Alibag Taluka",
+                "city": "Alibag",
+                "postcode": "402200",
+                "lon": 72.8717996,
+                "lat": 18.6391092,
+                "state_code": "MH",
+                "formatted": "Alibag Beach, Alibag - 402200, Maharashtra, India",
+                "address_line1": "Alibag Beach",
+                "address_line2": "Alibag - 402200, Maharashtra, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Alibag Beach",
+                        "osm_id": 11443368014,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "519eaa8c90cb3752405903cf19a99ca33240f00103f9014ef013aa0200000092030c416c69626167204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.8717996,
+                    18.63910920028776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "postcode": "402110",
+                "lon": 73.0141765,
+                "lat": 18.0436578,
+                "state_code": "MH",
+                "formatted": "402110, Maharashtra, India",
+                "address_line1": "402110",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.0141765,
+                    "lat": 18.0436578
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -5485498,
+                        "natural": "beach",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "5134087b5cae4052405996597cc7df0a3240f00101f901bab3530000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.0106421662793,
+                    18.042477100237726
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Chapheri",
+                "hamlet": "Varavade",
+                "postcode": "415613",
+                "street": "MSH4",
+                "lon": 73.23742342888698,
+                "lat": 17.237038950714922,
+                "state_code": "MH",
+                "formatted": "MSH4, Chapheri - 415613, Maharashtra, India",
+                "address_line1": "MSH4",
+                "address_line2": "Chapheri - 415613, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.23742342888698,
+                    "lat": 17.237038950714922
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 197363456,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e0df3d92ed4e52405948890859163d3140f00102f9010087c30b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.23325019876893,
+                    17.23862225016026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Malgund",
+                "postcode": "415615",
+                "street": "Bhandarwada",
+                "lon": 73.2658159,
+                "lat": 17.1615501,
+                "state_code": "MH",
+                "formatted": "Bhandarwada, Malgund - 415615, Maharashtra, India",
+                "address_line1": "Bhandarwada",
+                "address_line2": "Malgund - 415615, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.2658159,
+                    "lat": 17.1615501
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 197363466,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5104d624b3b1505240592a90a4e771293140f00102f9010a87c30b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.2608459338881,
+                    17.161894300152348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Kahare",
+                "postcode": "415614",
+                "village": "Kahare",
+                "lon": 73.2280064,
+                "lat": 17.2652645,
+                "state_code": "MH",
+                "formatted": "Kahare - 415614, Maharashtra, India",
+                "address_line1": "Kahare - 415614",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.2280064,
+                    "lat": 17.2652645
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 197625885,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5116e86de82c4e524059ce062c0252443140f00102f9011d88c70b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.22149096234384,
+                    17.26687635016315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Chapheri",
+                "postcode": "415614",
+                "lon": 73.2268443391151,
+                "lat": 17.25609112427885,
+                "state_code": "MH",
+                "formatted": "Chapheri - 415614, Maharashtra, India",
+                "address_line1": "Chapheri - 415614",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.2268443391151,
+                    "lat": 17.25609112427885
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 198897468,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "514e35e9c2934e524059a685ad7d4b403140f00102f9013cefda0b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.22776863836518,
+                    17.25115190016154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Chapheri",
+                "hamlet": "Varavade",
+                "postcode": "415613",
+                "street": "MSH4",
+                "lon": 73.24769729733677,
+                "lat": 17.21620866830399,
+                "state_code": "MH",
+                "formatted": "MSH4, Chapheri - 415613, Maharashtra, India",
+                "address_line1": "MSH4",
+                "address_line2": "Chapheri - 415613, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.24769729733677,
+                    "lat": 17.21620866830399
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 198898560,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519cf18e8eb54f524059c148ace639373140f00102f90180f3da0b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.24545635184626,
+                    17.2157272501579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Nandivade",
+                "postcode": "415614",
+                "lon": 73.2138776,
+                "lat": 17.275759,
+                "state_code": "MH",
+                "formatted": "Nandivade - 415614, Maharashtra, India",
+                "address_line1": "Nandivade - 415614",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.2138776,
+                    "lat": 17.275759
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 215422372,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5177d9b405b74d524059f23c7e0228463140f00102f901a415d70c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.21429579411584,
+                    17.27404800016388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Alibag Taluka",
+                "city": "Alibag",
+                "postcode": "402200",
+                "lon": 72.86471858788582,
+                "lat": 18.665536939998255,
+                "state_code": "MH",
+                "formatted": "Alibag - 402200, Maharashtra, India",
+                "address_line1": "Alibag - 402200",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.86471858788582,
+                    "lat": 18.665536939998255
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 222122877,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51cc99736b5837524059406ff64e60aa3240f00102f9017d533d0d00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.86477171219957,
+                    18.665532050289812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Diveagar",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Diveagar",
+                "lon": 72.98425032335967,
+                "lat": 18.175263100000002,
+                "state_code": "MH",
+                "formatted": "Diveagar, Shrivardhan Taluka, India",
+                "address_line1": "Diveagar",
+                "address_line2": "Shrivardhan Taluka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 244126267,
+                        "name:en": "Diveagar",
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "name_international": {
+                    "en": "Diveagar"
+                },
+                "place_id": "51107a11f5fd3e5240595ac4e30ade2c3240f00102f9013b128d0e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.98425032335967,
+                    18.17526310024946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Velas",
+                "lon": 72.9776246,
+                "lat": 18.2021518,
+                "state_code": "MH",
+                "formatted": "Velas, Shrivardhan Taluka, India",
+                "address_line1": "Velas",
+                "address_line2": "Shrivardhan Taluka, India",
+                "mappedTo": {
+                    "lon": 72.9776246,
+                    "lat": 18.2021518
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 244131628,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5182a9b36b8c3e5240594f58b91336333240f00102f9012c278d0e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.97732059998637,
+                    18.20004390025161
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "postcode": "402113",
+                "lon": 73.0031286,
+                "lat": 18.0705457,
+                "state_code": "MH",
+                "formatted": "402113, Maharashtra, India",
+                "address_line1": "402113",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.0031286,
+                    "lat": 18.0705457
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 247166356,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51daf719e9f73f52405932117f65ef113240f00102f9019475bb0e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.99950625930742,
+                    18.07005915024019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Velas",
+                "lon": 72.94898346501594,
+                "lat": 18.222466917258895,
+                "state_code": "MH",
+                "formatted": "Velas, Shrivardhan Taluka, India",
+                "address_line1": "Velas",
+                "address_line2": "Shrivardhan Taluka, India",
+                "mappedTo": {
+                    "lon": 72.94898346501594,
+                    "lat": 18.222466917258895
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 247278392,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51b9ee6bfbb83c5240592c8aae07dd383240f00102f901382bbd0e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.94879041233334,
+                    18.222122650253525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Nandgaon",
+                "street": "MSH4",
+                "lon": 72.90953298418168,
+                "lat": 18.412260870516604,
+                "state_code": "MH",
+                "formatted": "MSH4, Nandgaon -, Maharashtra, India",
+                "address_line1": "MSH4",
+                "address_line2": "Nandgaon -, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.90953298418168,
+                    "lat": 18.412260870516604
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 250178415,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c4a95b9f173a524059669672e888693240f00102f9016f6be90e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.90769180251579,
+                    18.412245300269568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Nandgaon",
+                "street": "MSH4",
+                "lon": 72.91006184282352,
+                "lat": 18.414464476858242,
+                "state_code": "MH",
+                "formatted": "MSH4, Nandgaon -, Maharashtra, India",
+                "address_line1": "MSH4",
+                "address_line2": "Nandgaon -, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.91006184282352,
+                    "lat": 18.414464476858242
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 250178423,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "513649c3551d3a5240598d0d5852386a3240f00102f901776be90e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.90804046698472,
+                    18.414921900269793
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Nandgaon",
+                "street": "MSH4",
+                "lon": 72.909701,
+                "lat": 18.420686,
+                "state_code": "MH",
+                "formatted": "MSH4, Nandgaon -, Maharashtra, India",
+                "address_line1": "MSH4",
+                "address_line2": "Nandgaon -, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.909701,
+                    "lat": 18.420686
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 250178425,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519ca7b76f2c3a524059eb37d0b7aa6b3240f00102f901796be90e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.90896218237907,
+                    18.42057370027025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Guhagar Taluka",
+                "city": "Velneshwar",
+                "postcode": "415729",
+                "lon": 73.21009785554885,
+                "lat": 17.381387834104594,
+                "state_code": "MH",
+                "formatted": "Velneshwar - 415729, Maharashtra, India",
+                "address_line1": "Velneshwar - 415729",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.21009785554885,
+                    "lat": 17.381387834104594
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 261076171,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51182a0a8f5b4d5240590a6d7de074613140f00102f901cbb48f0f00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.20871330254192,
+                    17.38068965017468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Guhagar Taluka",
+                "city": "Velneshwar",
+                "postcode": "415729",
+                "lon": 73.2165987,
+                "lat": 17.3708479,
+                "state_code": "MH",
+                "formatted": "Velneshwar - 415729, Maharashtra, India",
+                "address_line1": "Velneshwar - 415729",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.2165987,
+                    "lat": 17.3708479
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 261078224,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51d6cf587ede4d52405994e3e593ba5e3140f00102f901d0bc8f0f00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.21670492814096,
+                    17.370034450173605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Chapheri",
+                "postcode": "415614",
+                "lon": 73.2266342,
+                "lat": 17.2560518,
+                "state_code": "MH",
+                "formatted": "Chapheri - 415614, Maharashtra, India",
+                "address_line1": "Chapheri - 415614",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.2266342,
+                    "lat": 17.2560518
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 279450977,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51eaaf52757d4e524059b65b00636c413140f00102f9016115a81000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.22640736651343,
+                    17.255560100161993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Alibag Taluka",
+                "city": "Alibag",
+                "postcode": "402200",
+                "district": "Koliwada",
+                "lon": 72.87708039891393,
+                "lat": 18.639325652356607,
+                "state_code": "MH",
+                "formatted": "Koliwada, Alibag - 402200, Maharashtra, India",
+                "address_line1": "Koliwada",
+                "address_line2": "Alibag - 402200, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.87708039891393,
+                    "lat": 18.639325652356607
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 336101781,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51ed3c3aa02038524059ac6736d659a33240f00102f9019581081400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.87699132621101,
+                    18.638089550287688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Alibag Taluka",
+                "city": "Alibag",
+                "postcode": "402200",
+                "district": "Koliwada",
+                "lon": 72.8675321,
+                "lat": 18.6476329,
+                "state_code": "MH",
+                "formatted": "Koliwada, Alibag - 402200, Maharashtra, India",
+                "address_line1": "Koliwada",
+                "address_line2": "Alibag - 402200, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.8675321,
+                    "lat": 18.6476329
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 336101784,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51a7f97a817a375240597a274407b8a53240f00102f9019881081400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.86685215958879,
+                    18.6473393002884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Guhagar Taluka",
+                "postcode": "415728",
+                "lon": 73.18949689484998,
+                "lat": 17.387934931225715,
+                "state_code": "MH",
+                "formatted": "415728, Maharashtra, India",
+                "address_line1": "415728",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.18949689484998,
+                    "lat": 17.387934931225715
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 336947478,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "517e2e00eb304c524059f62790615f633140f00102f9011669151400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.19048571603523,
+                    17.388174150175438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Guhagar Taluka",
+                "postcode": "415728",
+                "lon": 73.1952719,
+                "lat": 17.3882024,
+                "state_code": "MH",
+                "formatted": "415728, Maharashtra, India",
+                "address_line1": "415728",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.1952719,
+                    "lat": 17.3882024
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 336947489,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51408bb92ea54c5240591ca858ce39633140f00102f9012169151400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.19758194083715,
+                    17.387600800175377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Guhagar Taluka",
+                "postcode": "415728",
+                "lon": 73.1737445,
+                "lat": 17.4059142,
+                "state_code": "MH",
+                "formatted": "415728, Maharashtra, India",
+                "address_line1": "415728",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.1737445,
+                    "lat": 17.4059142
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 336947502,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "514ce4cbae664b524059605ff96a47683140f00102f9012e69151400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.17814226065929,
+                    17.407339750177357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "postcode": "402113",
+                "lon": 73.0030986,
+                "lat": 18.0681467,
+                "state_code": "MH",
+                "formatted": "402113, Maharashtra, India",
+                "address_line1": "402113",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.0030986,
+                    "lat": 18.0681467
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 369207610,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "511327891cd53f52405970d814854c113240f00102f9013aa9011600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.99738229173481,
+                    18.067573850239967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Bharadkhol",
+                "street": "Borlai Panchatan - Shrivardhan Road",
+                "lon": 72.9799247,
+                "lat": 18.1188223,
+                "state_code": "MH",
+                "formatted": "Borlai Panchatan - Shrivardhan Road, Bharadkhol -, Maharashtra, India",
+                "address_line1": "Borlai Panchatan - Shrivardhan Road",
+                "address_line2": "Bharadkhol -, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.9799247,
+                    "lat": 18.1188223
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 395743152,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e0d4f03c8c3e5240595ed70a24721e3240f00102f901b08f961700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.9773094512816,
+                    18.11892915024452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Bharadkhol",
+                "street": "Borlai Panchatan - Shrivardhan Road",
+                "lon": 72.9802227,
+                "lat": 18.1114348,
+                "state_code": "MH",
+                "formatted": "Borlai Panchatan - Shrivardhan Road, Bharadkhol -, Maharashtra, India",
+                "address_line1": "Borlai Panchatan - Shrivardhan Road",
+                "address_line2": "Bharadkhol -, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.9802227,
+                    "lat": 18.1114348
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 395745305,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e8b48279b13e524059149fd894751c3240f00102f9011998961700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.97958219303439,
+                    18.11116915024384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Bharadkhol",
+                "street": "Borlai Panchatan - Shrivardhan Road",
+                "lon": 72.9777575,
+                "lat": 18.1304259,
+                "state_code": "MH",
+                "formatted": "Borlai Panchatan - Shrivardhan Road, Bharadkhol -, Maharashtra, India",
+                "address_line1": "Borlai Panchatan - Shrivardhan Road",
+                "address_line2": "Bharadkhol -, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.9777575,
+                    "lat": 18.1304259
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 395745522,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51de9e6bcb4b3e524059462b034702223240f00102f901f298961700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.97337613591978,
+                    18.132847250245753
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Nandgaon",
+                "street": "MSH4",
+                "lon": 72.92814034965602,
+                "lat": 18.387975461513502,
+                "state_code": "MH",
+                "formatted": "MSH4, Nandgaon -, Maharashtra, India",
+                "address_line1": "MSH4",
+                "address_line2": "Nandgaon -, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.92814034965602,
+                    "lat": 18.387975461513502
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 396514179,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "514b17a308463b524059c99814b534633240f00102f9018353a21700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.92614952017645,
+                    18.387523000267525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Dapoli Taluka",
+                "city": "Anjarle",
+                "hamlet": "Ade",
+                "postcode": "415714",
+                "street": "MSH4",
+                "lon": 73.0809143,
+                "lat": 17.8684519,
+                "state_code": "MH",
+                "formatted": "MSH4, Anjarle - 415714, Maharashtra, India",
+                "address_line1": "MSH4",
+                "address_line2": "Anjarle - 415714, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.0809143,
+                    "lat": 17.8684519
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 404254294,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e948ac4525455240594090afdd2cde3140f00102f901566e181800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.08039991211594,
+                    17.867872100221803
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Dapoli Taluka",
+                "city": "Anjarle",
+                "postcode": "415714",
+                "lon": 73.0869327,
+                "lat": 17.8496084,
+                "state_code": "MH",
+                "formatted": "Anjarle - 415714, Maharashtra, India",
+                "address_line1": "Anjarle - 415714",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.0869327,
+                    "lat": 17.8496084
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 404254297,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51618b9dca7f45524059a206c650f3d93140f00102f901596e181800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.08592477212143,
+                    17.85136895022027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Malgund",
+                "postcode": "415615",
+                "street": "Bhandarwada",
+                "lon": 73.2658159,
+                "lat": 17.1615501,
+                "state_code": "MH",
+                "formatted": "Bhandarwada, Malgund - 415615, Maharashtra, India",
+                "address_line1": "Bhandarwada",
+                "address_line2": "Malgund - 415615, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.2658159,
+                    "lat": 17.1615501
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 553197574,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51245a0a7fdf50524059ce9b7ad67f283140f00102f9010620f92000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.26364112864445,
+                    17.15820065015196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Dapoli Taluka",
+                "city": "Aade",
+                "hamlet": "Ade",
+                "postcode": "415714",
+                "lon": 73.0741346,
+                "lat": 17.8843273,
+                "state_code": "MH",
+                "formatted": "Aade - 415714, Maharashtra, India",
+                "address_line1": "Aade - 415714",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.0741346,
+                    "lat": 17.8843273
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 622166404,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51f6cc6cacb244524059edd6ec6b5de23140f00102f9018481152500000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.07340536713659,
+                    17.88423800022331
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Nevare",
+                "postcode": "415627",
+                "street": "Arrey Warrey Road",
+                "lon": 73.2879772619676,
+                "lat": 17.092446633672044,
+                "state_code": "MH",
+                "formatted": "Arrey Warrey Road, Nevare - 415627, Maharashtra, India",
+                "address_line1": "Arrey Warrey Road",
+                "address_line2": "Nevare - 415627, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.2879772619676,
+                    "lat": 17.092446633672044
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 662884059,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c7375d9e3b52524059f2dcd7529b173140f00102f901dbce822700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.28488883117016,
+                    17.092213800145096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "MSH4",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Ratnagiri Taluka",
+                "city": "Nevare",
+                "postcode": "415627",
+                "street": "Arrey Warrey Road",
+                "lon": 73.28660063210319,
+                "lat": 17.105758176959046,
+                "state_code": "MH",
+                "formatted": "Arrey Warrey Road, Nevare - 415627, Maharashtra, India",
+                "address_line1": "Arrey Warrey Road",
+                "address_line2": "Nevare - 415627, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.28660063210319,
+                    "lat": 17.105758176959046
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1017589842,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "517646a9a7fd5152405938c2c43afa1a3140f00102f9015230a73c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.28110686808381,
+                    17.10538070014647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Murud",
+                "postcode": "402400",
+                "lon": 72.96372531778547,
+                "lat": 18.314205278752492,
+                "state_code": "MH",
+                "formatted": "Murud - 402400, Maharashtra, India",
+                "address_line1": "Murud - 402400",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.96372531778547,
+                    "lat": 18.314205278752492
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1164631125,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "510c5d7613b33d524059bccc413e32503240f00102f90155dc6a4500000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.96405493315632,
+                    18.313266650261298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Rajapuri",
+                "postcode": "402401",
+                "lon": 72.9701694,
+                "lat": 18.3017466,
+                "state_code": "MH",
+                "formatted": "Rajapuri - 402401, Maharashtra, India",
+                "address_line1": "Rajapuri - 402401",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.9701694,
+                    "lat": 18.3017466
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1164631127,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "517abdc3bbfc3d5240591850104f654d3240f00102f90157dc6a4500000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.9685506259465,
+                    18.302327100260385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Nanavali",
+                "lon": 72.9412525,
+                "lat": 18.2714351,
+                "state_code": "MH",
+                "formatted": "Nanavali, Shrivardhan Taluka, India",
+                "address_line1": "Nanavali",
+                "address_line2": "Shrivardhan Taluka, India",
+                "mappedTo": {
+                    "lon": 72.9412525,
+                    "lat": 18.2714351
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1173619096,
+                        "natural": "beach",
+                        "surface": "gravel",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5174184ce0073c524059453bdc8d99463240f00102f9019801f44500000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.93798072272494,
+                    18.275780550258123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Sarve",
+                "lon": 72.94129671565187,
+                "lat": 18.257276425367678,
+                "state_code": "MH",
+                "formatted": "Sarve, Shrivardhan Taluka, India",
+                "address_line1": "Sarve",
+                "address_line2": "Shrivardhan Taluka, India",
+                "mappedTo": {
+                    "lon": 72.94129671565187,
+                    "lat": 18.257276425367678
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1173619097,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5164e9aed9363c524059c0e67ecdcd413240f00102f9019901f44500000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.94084779816836,
+                    18.25704655025652
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Shrivardhan Taluka",
+                "city": "Adagaon",
+                "village": "Adagaon",
+                "lon": 72.9476737,
+                "lat": 18.2238893,
+                "state_code": "MH",
+                "formatted": "Adagaon, Shrivardhan Taluka, India",
+                "address_line1": "Adagaon",
+                "address_line2": "Shrivardhan Taluka, India",
+                "mappedTo": {
+                    "lon": 72.9476737,
+                    "lat": 18.2238893
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1175825267,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "512ec882f3233c52405991e3e2ff33383240f00102f90173ab154600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.93969428798366,
+                    18.2195434502533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Raigad District",
+                "county": "Murud Taluka",
+                "city": "Korlai",
+                "postcode": "402203",
+                "lon": 72.91104653273774,
+                "lat": 18.52409132836494,
+                "state_code": "MH",
+                "formatted": "Korlai - 402203, Maharashtra, India",
+                "address_line1": "Korlai - 402203",
+                "address_line2": "Maharashtra, India",
+                "mappedTo": {
+                    "lon": 72.91104653273774,
+                    "lat": 18.52409132836494
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1229858528,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51dedfadca493a524059bc2c66202a863240f00102f901e0264e4900000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.91075388889246,
+                    18.52408030027867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "ref": "NH166E",
+                "country": "India",
+                "country_code": "in",
+                "state": "Maharashtra",
+                "state_district": "Ratnagiri District",
+                "county": "Chiplun Taluka",
+                "city": "Chiplun",
+                "postcode": "415600",
+                "street": "NH166E",
+                "lon": 73.50592685771014,
+                "lat": 17.544939877017896,
+                "state_code": "MH",
+                "formatted": "NH166E, Chiplun - 415600, Maharashtra, India",
+                "address_line1": "NH166E",
+                "address_line2": "Chiplun - 415600, Maharashtra, India",
+                "mappedTo": {
+                    "lon": 73.50592685771014,
+                    "lat": 17.544939877017896
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 3697310234,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51fa580bfd5d60524059491412418b8b3140f00103f9011a7a60dc00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.5057366,
+                    17.545093600191
+                ]
+            }
+        }
+    ]
+}
