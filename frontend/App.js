@@ -1,12 +1,15 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import AppNavigator from "./src/navigation/AppNavigator";
+import { registerRootComponent } from 'expo'; // Import registerRootComponent
+import AppNavigator from "./src/navigation/AppNavigator"; // Adjusted import path
+import { SafeAreaView} from 'react-native-safe-area-context';
 
-export default function App() {
+function App() {
   return (
-    <View style={styles.container}>
+    
+    <SafeAreaView style={styles.container}>
       <AppNavigator />
-    </View>
+    </SafeAreaView>
   );
 }
 
@@ -17,3 +20,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+registerRootComponent(App); // Register the root component
+export default App;
