@@ -17,7 +17,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 @router.post("/register", response_model=UserInDB)
 async def register_user(user: UserCreate, db: Session = Depends(get_db)):
-    '''Registering a new user'''
+    """Registering a new user"""
     logger.info(f"Attempting to register user: {user.email}")
     db_user = db.query(User).filter(User.email == user.email).first()
     if db_user:
@@ -43,7 +43,7 @@ async def register_user(user: UserCreate, db: Session = Depends(get_db)):
 async def login(
     form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)
 ):
-    '''Login for registered user'''
+    """Login for registered user"""
     logger.info(f"Login attempt for user: {form_data.username}")
     user = db.query(User).filter(User.email == form_data.username).first()
     if not user or not verify_password(form_data.password, user.hashed_password):

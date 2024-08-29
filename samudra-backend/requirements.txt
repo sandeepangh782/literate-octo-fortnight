@@ -1,5 +1,5 @@
 fastapi
-uvicor
+uvicorn
 sqlalchemy
 psycopg2-binary
 geoalchemy2
@@ -11,3 +11,4 @@ passlib
 bcrypt
 python-multipart
 email-validator
+alembic

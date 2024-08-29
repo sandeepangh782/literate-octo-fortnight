@@ -9,3 +9,17 @@ engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
+
+
+def get_db():
+    '''Get the database session'''
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+
+def create_tables():
+    '''Create tables in the database'''
+    Base.metadata.create_all(bind=engine)
