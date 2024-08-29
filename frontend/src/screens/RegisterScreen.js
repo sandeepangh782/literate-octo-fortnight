@@ -1,27 +1,29 @@
 import React, { useState } from "react";
-import {
-    View,
-    Text,
-    TextInput,
-    Button,
-    StyleSheet,
-    TouchableOpacity,
-} from "react-native";
+import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity } from "react-native";
 
-export default function LoginScreen({ navigation }) {
+export default function RegisterScreen({ navigation }) {
+    const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    const handleLogin = () => {
-        // Handle login logic here
-        console.log("Login pressed");
-        // Navigate to HomeScreen after successful login
+    const handleRegister = () => {
+        // Handle registration logic here
+        console.log("Register pressed");
+        // Navigate to HomeScreen after successful registration
         navigation.navigate("Home");
     };
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Login</Text>
+            <Text style={styles.title}>Register</Text>
+
+            <TextInput
+                style={styles.input}
+                placeholder="Name"
+                value={name}
+                onChangeText={setName}
+                autoCapitalize="words"
+            />
 
             <TextInput
                 style={styles.input}
@@ -40,22 +42,10 @@ export default function LoginScreen({ navigation }) {
                 secureTextEntry
             />
 
-            <Button title="Login" onPress={handleLogin} />
+            <Button title="Register" onPress={handleRegister} />
 
-            <TouchableOpacity
-                onPress={() => navigation.navigate("Register")}
-            >
-                <Text style={styles.signupText}>New user? Sign up</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-                onPress={() => console.log("Navigate to Forgot Password screen")}
-            >
-                <Text style={styles.signupText}>Forgot password?</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={() => console.log("Login as guest")}>
-                <Text style={styles.signupText}>Login as guest</Text>
+            <TouchableOpacity onPress={() => navigation.navigate("Login")}>
+                <Text style={styles.loginText}>Already have an account? Login</Text>
             </TouchableOpacity>
         </View>
     );
@@ -81,7 +71,7 @@ const styles = StyleSheet.create({
         paddingHorizontal: 10,
         borderRadius: 5,
     },
-    signupText: {
+    loginText: {
         marginTop: 20,
         color: "#007bff",
         textAlign: "center",
