@@ -3546,39 +3546,6 @@
                     14.34504194983014
                 ]
             }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "lon": 73.7665081278571,
-                "lat": 15.633245749981901,
-                "categories": [
-                    "beach"
-                ],
-                "details": [],
-                "datasource": {
-                    "sourcename": "openstreetmap",
-                    "attribution": "\u00a9 OpenStreetMap contributors",
-                    "license": "Open Database License",
-                    "url": "https://www.openstreetmap.org/copyright",
-                    "raw": {
-                        "osm_id": 1280086670,
-                        "natural": "beach",
-                        "surface": "sand",
-                        "osm_type": "w",
-                        "lifeguard": "no",
-                        "supervised": "no"
-                    }
-                },
-                "place_id": "51ec501b780e71524059ab0175c938442f40f00102f9018e924c4c00000000"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    73.7665081278571,
-                    15.633245749981901
-                ]
-            }
         }
     ]
 }
