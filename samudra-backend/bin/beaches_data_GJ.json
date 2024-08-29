@@ -348,49 +348,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Nandana Roc Beach",
-                "country": "India",
-                "country_code": "in",
-                "state": "Gujarat",
-                "state_district": "Devbhumi Dwaraka District",
-                "county": "Kalyanpur Taluka",
-                "city": "Nandana",
-                "suburb": "Ambaliya",
-                "lon": 69.29249672006594,
-                "lat": 22.12965845,
-                "state_code": "GJ",
-                "formatted": "Nandana Roc Beach, Ambaliya, Nandana, Kalyanpur Taluka, India",
-                "address_line1": "Nandana Roc Beach",
-                "address_line2": "Ambaliya, Nandana, Kalyanpur Taluka, India",
-                "categories": [
-                    "beach"
-                ],
-                "details": [],
-                "datasource": {
-                    "sourcename": "openstreetmap",
-                    "attribution": "\u00a9 OpenStreetMap contributors",
-                    "license": "Open Database License",
-                    "url": "https://www.openstreetmap.org/copyright",
-                    "raw": {
-                        "name": "Nandana Roc Beach",
-                        "osm_id": 1245330671,
-                        "natural": "beach",
-                        "osm_type": "w"
-                    }
-                },
-                "place_id": "51b6b72944b852514059a425d44b31213640f00102f901ef3c3a4a000000009203114e616e64616e6120526f63204265616368"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    69.29249672006594,
-                    22.12965845040675
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Dwarka Beach",
                 "country": "India",
                 "country_code": "in",
@@ -1461,49 +1418,6 @@
                 "coordinates": [
                     72.73038236915721,
                     21.017018800404657
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "custom",
-                "country": "India",
-                "country_code": "in",
-                "state": "Gujarat",
-                "county": "Surat District",
-                "city": "Surat",
-                "postcode": "395003",
-                "suburb": "Salabatpura",
-                "lon": 72.8388582,
-                "lat": 21.2017711,
-                "state_code": "GJ",
-                "formatted": "custom, Salabatpura, Surat - 395003, Gujarat, India",
-                "address_line1": "custom",
-                "address_line2": "Salabatpura, Surat - 395003, Gujarat, India",
-                "categories": [
-                    "beach"
-                ],
-                "details": [],
-                "datasource": {
-                    "sourcename": "openstreetmap",
-                    "attribution": "\u00a9 OpenStreetMap contributors",
-                    "license": "Open Database License",
-                    "url": "https://www.openstreetmap.org/copyright",
-                    "raw": {
-                        "name": "custom",
-                        "osm_id": 11743542278,
-                        "natural": "beach",
-                        "osm_type": "n"
-                    }
-                },
-                "place_id": "51cfbe4ddaaf3552405923875545a7333540f00103f901063cf8bb02000000920306637573746f6d"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    72.83885819999999,
-                    21.201771100407438
                 ]
             }
         }
