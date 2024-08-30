@@ -12,3 +12,4 @@ bcrypt
 python-multipart
 email-validator
 alembic
+shapely

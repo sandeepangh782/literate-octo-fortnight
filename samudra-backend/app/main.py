@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 from app.core.logging import setup_logging
-from app.api import auth
+from app.api import auth, beaches
 
 app = FastAPI(title=settings.PROJECT_NAME, version=settings.PROJECT_VERSION)
 
@@ -21,6 +21,10 @@ setup_logging()
 
 # Include routers
 app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
+app.include_router(beaches.router, prefix="/api/v1/beaches", tags=["beaches"])
+
+# Handle trailing slashes
+app.router.redirect_slashes = False
 
 
 @app.get("/", tags=["root"])
