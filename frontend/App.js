@@ -1,15 +1,17 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet } from "react-native";
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { registerRootComponent } from 'expo'; // Import registerRootComponent
+import { AuthContextProvider } from "./src/context/AuthContext";
 import AppNavigator from "./src/navigation/AppNavigator"; // Adjusted import path
-import { SafeAreaView} from 'react-native-safe-area-context';
 
 function App() {
   return (
-    
-    <SafeAreaView style={styles.container}>
-      <AppNavigator />
-    </SafeAreaView>
+    <AuthContextProvider>
+      <SafeAreaView style={styles.container}>
+        <AppNavigator />
+      </SafeAreaView>
+    </AuthContextProvider>
   );
 }
 
