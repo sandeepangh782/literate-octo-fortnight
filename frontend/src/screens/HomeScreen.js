@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useContext, useRef } from 'react';
-import { View, StyleSheet, TextInput, ActivityIndicator,Text } from 'react-native';
+import React, { useState, useEffect, useContext, useRef, useCallback } from 'react';
+import { View, StyleSheet, TextInput, ActivityIndicator, Text } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import * as Location from 'expo-location';
 import axios from 'axios';
@@ -40,10 +40,10 @@ const HomeScreen = ({ navigation }) => {
     })();
   }, []);
 
-  const fetchNearbyBeaches = async (latitude, longitude) => {
+  const fetchNearbyBeaches = useCallback(async (latitude, longitude) => {
     try {
       const response = await axios.get(
-        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${latitude}&lon=${longitude}&radius=5&limit=10`,
+        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${latitude}&lon=${longitude}&radius=15&limit=25`,
         {
           headers: {
             Authorization: `Bearer ${userToken}`,
@@ -51,12 +51,13 @@ const HomeScreen = ({ navigation }) => {
         }
       );
       setNearbyBeaches(response.data);
-      // console.log('Nearby beaches:', response.data);
-      const coordinates = [
-        { latitude, longitude },
-        ...response.data.map(beach => ({ latitude: beach.latitude, longitude: beach.longitude }))
-      ];
-      if (mapReady) {
+      console.log('Nearby beaches:', response.data);
+      if (nearbyBeaches.length > 0 || mapReady) {
+        const coordinates = [
+          { latitude, longitude },
+          ...response.data.map(beach => ({ latitude: beach.latitude, longitude: beach.longitude }))
+        ];
+        
         mapRef.current.fitToCoordinates(coordinates, {
           edgePadding: { top: 50, right: 50, bottom: 50, left: 50 },
           animated: true,
@@ -65,15 +66,16 @@ const HomeScreen = ({ navigation }) => {
     } catch (error) {
       console.error('Error fetching nearby beaches:', error);
     }
-  };
+  }, [mapReady, userToken]);
 
   if (loading) {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <ActivityIndicator size="large" />
-            </View>
+        <ActivityIndicator size="large" />
+      </View>
     );
   }
+
   const handleClick = () => {
     console.log('SearchBar clicked');
     navigation.navigate('SearchResults', { nearbyBeaches });  
@@ -82,9 +84,8 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <Header navigation={navigation} />
-      {/* <SearchBar nearbyBeaches={nearbyBeaches} onPress={handleClick}/> */}
       <Text style={styles.searchBar} onPress={handleClick}>
-      Search...
+        Search...
       </Text>
       <View style={styles.map_container}>
         <MapView
@@ -142,10 +143,8 @@ const styles = StyleSheet.create({
     borderRadius: 20,    
     overflow: 'hidden',
     backgroundColor: '#000000',
-  
   },
   map_container: {
-    // flex: 1,
     margin: 20,
     borderRadius: 20,
     overflow: 'hidden',

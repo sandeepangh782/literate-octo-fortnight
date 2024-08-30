@@ -5,7 +5,7 @@ import SearchBar from '../components/SearchBar';
 const SearchResultsScreen = ({ route }) => {
   const { nearbyBeaches } = route.params;
   const [filteredBeaches, setFilteredBeaches] = useState(nearbyBeaches);
-  const [searchText, setSearchText] = useState(initialValue);
+  const [searchText, setSearchText] = useState("");
 
   const handleSearch = (text) => {
     const filtered = nearbyBeaches.filter(beach => 
