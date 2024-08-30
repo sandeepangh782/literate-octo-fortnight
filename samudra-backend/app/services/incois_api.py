@@ -28,8 +28,3 @@ print(f"Ocean temperature at ({latitude}, {longitude}): {temperature['temperatur
 
 wave_height = get_wave_height(latitude, longitude)
 print(f"Wave height at ({latitude}, {longitude}): {wave_height['wave_height']} meters")
-
-current_speed = get_current_speed(latitude, longitude)
-print(
-    f"Current speed at ({latitude}, {longitude}): {current_speed['current_speed']} m/s"
-)
