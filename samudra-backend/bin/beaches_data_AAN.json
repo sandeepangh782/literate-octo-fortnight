@@ -1,0 +1,106 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kalapathar Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Little Andaman",
+				"lon": 92.58172698867837,
+				"lat": 10.6583351,
+				"state_code": "AN",
+				"formatted": "Kalapathar Beach, Little Andaman, India",
+				"address_line1": "Kalapathar Beach",
+				"address_line2": "Little Andaman, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Kalapathar Beach",
+						"osm_id": 772151602,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51bfe4d5033b25574059771c544c11512540f00102f9013219062e000000009203104b616c61706174686172204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.58172698867837,
+					10.658335099475364
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.49370435146363,
+				"lat": 10.515321349466396,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 208181945,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5178db22da981f5740590bc72d33d8072540f00102f901b99a680c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.49370435146363,
+					10.515321349466396
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.5438128,
+				"lat": 10.549338499468476,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 8442476794,
+						"natural": "beach",
+						"osm_type": "n"
+					}
+				},
+				"place_id": "515bc933d4cd22574059384d53e542192540f00103f901faf835f701000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.5438128,
+					10.549338499468476
+				]
+			}
+		}
+	]
+}
