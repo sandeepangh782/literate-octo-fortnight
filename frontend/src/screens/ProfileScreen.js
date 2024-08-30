@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { AuthContext } from "../context/AuthContext";
 
 const ProfileScreen = () => {
+  const { userInfo } = useContext(AuthContext);
   // const navigation = useNavigation();
 
   // Placeholder user details
@@ -28,17 +30,17 @@ const ProfileScreen = () => {
           <Ionicons name='person-outline' size={20} color="black" />
           <Text style={styles.label}>Name</Text>
         </TouchableOpacity>
-        <Text style={styles.value}>{userDetails.name}</Text>
+        <Text style={styles.value}>{userInfo.full_name}</Text>
         <TouchableOpacity style={styles.menuItem}>
           <Ionicons name='mail-outline' size={20} color="black" />
           <Text style={styles.label}>Email</Text>
         </TouchableOpacity>
-        <Text style={styles.value}>{userDetails.email}</Text>
+        <Text style={styles.value}>{userInfo.email}</Text>
         <TouchableOpacity style={styles.menuItem}>
           <Ionicons name='home-outline' size={20} color="black" />
           <Text style={styles.label}>Mobile</Text>
         </TouchableOpacity>
-        <Text style={styles.value}>{userDetails.mobile}</Text>
+        <Text style={styles.value}>{userInfo.phone_number}</Text>
       </View>
     </View>
   );

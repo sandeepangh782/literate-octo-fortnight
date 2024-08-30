@@ -6,7 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 
 const SidebarMenu = () => {
   const navigation = useNavigation();
-  const { logout } = useContext(AuthContext);
+  const { logout, userInfo } = useContext(AuthContext);
 
   const menuItems = [
     { name: 'Home', icon: 'home-outline', screen: 'Home' },
@@ -27,7 +27,7 @@ const SidebarMenu = () => {
           source={require('../../assets/profile-image.png')}
           style={styles.avatar}
         />
-        <Text style={styles.name}>Sandeepan Ghosh</Text>
+        <Text style={styles.name}>{userInfo.full_name}</Text>
         <Text style={styles.name}></Text>
       </View>
 
