@@ -19,6 +19,6 @@ class Beach(Base):
     categories = Column(JSON)
     activities = Column(ARRAY(String))
     datasource = Column(JSON)
-    geom = Column(Geometry(geometry_type='POINT', srid=4326))
+    geom = Column(Geometry(geometry_type="POINT", srid=4326))
     created_at = Column(DateTime(timezone=True), server_default=func.now())
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())

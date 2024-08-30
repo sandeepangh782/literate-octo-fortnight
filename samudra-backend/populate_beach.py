@@ -21,9 +21,21 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # List of possible beach activities
 ACTIVITIES = [
-    "swimming", "surfing", "sunbathing", "beach volleyball", "fishing",
-    "snorkeling", "kayaking", "paddle boarding", "jet skiing", "beach combing",
-    "kite flying", "picnicking", "beach yoga", "sand castle building", "bird watching"
+    "swimming",
+    "surfing",
+    "sunbathing",
+    "beach volleyball",
+    "fishing",
+    "snorkeling",
+    "kayaking",
+    "paddle boarding",
+    "jet skiing",
+    "beach combing",
+    "kite flying",
+    "picnicking",
+    "beach yoga",
+    "sand castle building",
+    "bird watching",
 ]
 
 
@@ -36,12 +48,14 @@ def enable_postgis(engine):
     except ProgrammingError as e:
         logger.error(f"Error enabling PostGIS: {str(e)}")
         logger.info("You may need to enable PostGIS manually as a superuser.")
-        logger.info("Run: sudo -u postgres psql -d your_database_name -c 'CREATE EXTENSION postgis;'")
+        logger.info(
+            "Run: sudo -u postgres psql -d your_database_name -c 'CREATE EXTENSION postgis;'"
+        )
         raise
 
 
 def load_json_file(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, "r") as file:
         return json.load(file)
 
 
@@ -50,22 +64,22 @@ def get_random_activities(n=3):
 
 
 def process_beach_feature(feature):
-    props = feature['properties']
-    geometry = feature['geometry']
+    props = feature["properties"]
+    geometry = feature["geometry"]
 
     return Beach(
-        name=props.get('name'),
-        state=props.get('state'),
-        state_district=props.get('state_district'),
-        city=props.get('city'),
-        postcode=props.get('postcode'),
-        latitude=props.get('lat'),
-        longitude=props.get('lon'),
-        formatted_address=props.get('formatted'),
-        categories=props.get('categories', []),
+        name=props.get("name"),
+        state=props.get("state"),
+        state_district=props.get("state_district"),
+        city=props.get("city"),
+        postcode=props.get("postcode"),
+        latitude=props.get("lat"),
+        longitude=props.get("lon"),
+        formatted_address=props.get("formatted"),
+        categories=props.get("categories", []),
         activities=get_random_activities(),
-        datasource=props.get('datasource', {}),
-        geom=from_shape(Point(geometry['coordinates']), srid=4326)
+        datasource=props.get("datasource", {}),
+        geom=from_shape(Point(geometry["coordinates"]), srid=4326),
     )
 
 
@@ -80,15 +94,19 @@ def populate_beaches():
 
         try:
             # Get all JSON files in the 'bin' directory
-            json_files = [f for f in os.listdir('bin') if f.startswith('beaches_data_') and f.endswith('.json')]
+            json_files = [
+                f
+                for f in os.listdir("bin")
+                if f.startswith("beaches_data_") and f.endswith(".json")
+            ]
 
             total_beaches = 0
             for file_name in json_files:
-                file_path = os.path.join('bin', file_name)
+                file_path = os.path.join("bin", file_name)
                 data = load_json_file(file_path)
 
                 beaches = []
-                for feature in data['features']:
+                for feature in data["features"]:
                     beach = process_beach_feature(feature)
                     beaches.append(beach)
 

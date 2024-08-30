@@ -12,7 +12,7 @@ Base = declarative_base()
 
 
 def get_db():
-    '''Get the database session'''
+    """Get the database session"""
     db = SessionLocal()
     try:
         yield db
@@ -21,5 +21,5 @@ def get_db():
 
 
 def create_tables():
-    '''Create tables in the database'''
+    """Create tables in the database"""
     Base.metadata.create_all(bind=engine)
