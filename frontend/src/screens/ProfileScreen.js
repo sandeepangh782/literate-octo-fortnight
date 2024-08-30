@@ -6,15 +6,6 @@ import { AuthContext } from "../context/AuthContext";
 const ProfileScreen = () => {
   const { userInfo } = useContext(AuthContext);
   // const navigation = useNavigation();
-
-  // Placeholder user details
-  const userDetails = {
-    name: 'Sandeepan Ghosh',
-    email: 'sandeepan782@gmail.com',
-    mobile: '+91-8101596976',
-    location: 'Chennai, India',
-  };
-
   return (
     <View style={styles.container}>
       {/* User Avatar */}
@@ -23,7 +14,7 @@ const ProfileScreen = () => {
           source={require('../../assets/profile-image.png')}
           style={styles.avatar}
         />
-        <Text style={styles.label_location}>{userDetails.location}</Text>
+        <Text style={styles.label_location}>Chennai, India</Text>
       </View>
       <View style={styles.user_details}>
         <TouchableOpacity style={styles.menuItem}>
