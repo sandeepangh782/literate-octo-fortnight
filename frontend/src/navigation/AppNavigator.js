@@ -22,10 +22,6 @@ export default function AppNavigator() {
     return (
         <NavigationContainer>
             {(userToken !== null) ? <MainNavigator /> : <AuthNavigator />}
-            {/* <Stack.Navigator initialRouteName="Auth" screenOptions={{ headerShown: false }}>
-                <Stack.Screen name="Auth" component={AuthNavigator} />
-                <Stack.Screen name="Home" component={MainNavigator} />
-            </Stack.Navigator> */}
         </NavigationContainer>
     );
 }
