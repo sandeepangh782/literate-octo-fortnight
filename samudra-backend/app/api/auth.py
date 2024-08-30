@@ -62,4 +62,17 @@ async def login(
     user.last_login = datetime.utcnow()
     db.commit()
     logger.info(f"User logged in successfully: {user.email}")
-    return {"access_token": access_token, "token_type": "bearer"}
+    return {
+        "access_token": access_token,
+        "token_type": "bearer",
+        "user": {
+            "id": user.id,
+            "email": user.email,
+            "full_name": user.full_name,
+            "is_active": user.is_active,
+            "is_superuser": user.is_superuser,
+            "phone_number": user.phone_number,
+            "preferred_language": user.preferred_language,
+            "notification_preferences": user.notification_preferences
+        }
+    }

@@ -1,0 +1,561 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lagoon Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Agatti",
+				"city": "Agatti",
+				"lon": 72.20167946114506,
+				"lat": 10.8780741,
+				"state_code": "LD",
+				"formatted": "Lagoon Beach, Agatti, India",
+				"address_line1": "Lagoon Beach",
+				"address_line2": "Agatti, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Lagoon Beach",
+						"osm_id": 389443392,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "512579f850e80c524059758ca9ed92c12540f00102f901406f36170000000092030c4c61676f6f6e204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.20167946114505,
+					10.87807409949003
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "sport's beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Agatti",
+				"lon": 72.18063000002988,
+				"lat": 10.83331155,
+				"state_code": "LD",
+				"formatted": "sport's beach, Agatti, India",
+				"address_line1": "sport's beach",
+				"address_line2": "Agatti, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "sport's beach",
+						"osm_id": 389443397,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5183b321718f0b524059e2d9b8cfa7aa2540f00102f901456f36170000000092030d73706f72742773206265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.1806300000299,
+					10.833311549486954
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Agatti",
+				"lon": 72.3177271359032,
+				"lat": 10.9478981,
+				"state_code": "LD",
+				"formatted": "Agatti, India",
+				"address_line1": "Agatti",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 72.3177271359032,
+					"lat": 10.9478981
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": -8859353,
+						"natural": "beach",
+						"osm_type": "r"
+					}
+				},
+				"place_id": "51627032a45514524059da8a52e652e52540f00101f901d92e870000000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.3177271359032,
+					10.94789809949491
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Amini",
+				"city": "Amini",
+				"lon": 72.72001529065508,
+				"lat": 11.128603996608765,
+				"state_code": "LD",
+				"formatted": "Amini, India",
+				"address_line1": "Amini",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 72.72001529065508,
+					"lat": 11.128603996608765
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 293445244,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "519801379d122e5240598888f870eb412640f00102f9017c9e7d1100000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.71988611575796,
+					11.128749399508038
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Agatti",
+				"lon": 72.1803888,
+				"lat": 10.8303174,
+				"state_code": "LD",
+				"formatted": "Agatti, India",
+				"address_line1": "Agatti",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 72.1803888,
+					"lat": 10.8303174
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 389443376,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51a30c7141930b524059c46518ed13a92540f00102f901306f361700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.18086277046181,
+					10.830230149486745
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Agatti",
+				"lon": 72.18269569797394,
+				"lat": 10.835647218253298,
+				"state_code": "LD",
+				"formatted": "Agatti, India",
+				"address_line1": "Agatti",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 72.18269569797394,
+					"lat": 10.835647218253298
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 389443377,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "518af266e9b50b52405920573166c8ab2540f00102f901316f361700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.18297801068744,
+					10.835513299487104
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Agatti",
+				"lon": 72.18898006496246,
+				"lat": 10.8481525311243,
+				"state_code": "LD",
+				"formatted": "Agatti, India",
+				"address_line1": "Agatti",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 72.18898006496246,
+					"lat": 10.8481525311243
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 389443379,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51477d9ab0100c524059d99c7c295eb22540f00102f901336f361700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.18851866804935,
+					10.848374649487981
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Agatti",
+				"city": "Agatti",
+				"district": "Agatti Village Center",
+				"lon": 72.1920760575205,
+				"lat": 10.8608692128722,
+				"state_code": "LD",
+				"formatted": "Agatti, India",
+				"address_line1": "Agatti",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 72.1920760575205,
+					"lat": 10.8608692128722
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 389443382,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "515bb2aa993e0c52405938f6f8c7f8b82540f00102f901366f361700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.1913208167038,
+					10.861273049488872
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Agatti",
+				"city": "Agatti",
+				"district": "Agatti Village Center",
+				"lon": 72.1970163,
+				"lat": 10.8734406,
+				"state_code": "LD",
+				"formatted": "Agatti, India",
+				"address_line1": "Agatti",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 72.1970163,
+					"lat": 10.8734406
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 389444868,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5193cbcd2aa30c52405970f9060e8abf2540f00102f9010475361700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.1974589357108,
+					10.874100149489749
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Kavaratti",
+				"city": "Kavaratti",
+				"postcode": "262240",
+				"street": "Kavaratti Shore Way",
+				"lon": 72.6323376399035,
+				"lat": 10.56157485625125,
+				"state_code": "LD",
+				"formatted": "Kavaratti Shore Way, Kavaratti - 262240, Lakshadweep, India",
+				"address_line1": "Kavaratti Shore Way",
+				"address_line2": "Kavaratti - 262240, Lakshadweep, India",
+				"mappedTo": {
+					"lon": 72.6323376399035,
+					"lat": 10.56157485625125
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 612869271,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51de6dc39e7628524059bb0906968f1f2540f00102f90197a4872400000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.6322400005806,
+					10.561642349469244
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Kavaratti",
+				"city": "Kavaratti",
+				"postcode": "262240",
+				"street": "Kavaratti Shore Way",
+				"lon": 72.63638445440421,
+				"lat": 10.568822792731654,
+				"state_code": "LD",
+				"formatted": "Kavaratti Shore Way, Kavaratti - 262240, Lakshadweep, India",
+				"address_line1": "Kavaratti Shore Way",
+				"address_line2": "Kavaratti - 262240, Lakshadweep, India",
+				"mappedTo": {
+					"lon": 72.63638445440421,
+					"lat": 10.568822792731654
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 612872068,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5179d427eab5285240594abd29104e232540f00102f90184af872400000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.63610319032331,
+					10.568954949469703
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Lakshadweep",
+				"state_district": "Lakshadweep District",
+				"county": "Kavaratti",
+				"city": "Kavaratti",
+				"postcode": "262240",
+				"lon": 72.6404418,
+				"lat": 10.5586668,
+				"state_code": "LD",
+				"formatted": "Kavaratti - 262240, Lakshadweep, India",
+				"address_line1": "Kavaratti - 262240",
+				"address_line2": "Lakshadweep, India",
+				"mappedTo": {
+					"lon": 72.6404418,
+					"lat": 10.5586668
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 965144140,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51471ac7b4fc28524059e2796bd5d01d2540f00102f9014cee863900000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.64042396014803,
+					10.558233899469034
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 72.31309587860079,
+				"lat": 10.945414499494742,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 972482588,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5194c64bc30914524059fefc885e0de42540f00102f9011ce8f63900000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					72.31309587860079,
+					10.945414499494742
+				]
+			}
+		}
+	]
+}

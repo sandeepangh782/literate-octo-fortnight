@@ -1,0 +1,2072 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 80.1622882877286,
+                "lat": 14.336652299829165,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1188905161,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "515d146aee620a54405966c7b3b05dac2c40f00102f901c940dd4600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.1622882877286,
+                    14.336652299829165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 80.1512501465267,
+                "lat": 14.310794249826149,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1188905191,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "513c361815ae095440598a93856c209f2c40f00102f901e740dd4600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.1512501465267,
+                    14.310794249826149
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 80.14526629999999,
+                "lat": 14.046005299795416,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 8094447548,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "517fed050b4c09544059c320b4018e172c40f00103f901bc7777e201000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.14526629999999,
+                    14.046005299795416
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kotha patnam beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Prakasam",
+                "county": "Kotha Patnam",
+                "city": "Pallepalem",
+                "lon": 80.16134211655537,
+                "lat": 15.4181289,
+                "state_code": "AP",
+                "formatted": "Kotha patnam beach, Pallepalem, Kotha Patnam, India",
+                "address_line1": "Kotha patnam beach",
+                "address_line2": "Pallepalem, Kotha Patnam, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kotha patnam beach",
+                        "osm_id": 396722471,
+                        "natural": "beach",
+                        "osm_type": "w",
+                        "addr:street": "kotha patnam"
+                    }
+                },
+                "place_id": "51a984e26d530a5440590ea7bdfd14d62e40f00102f9012781a517000000009203124b6f746861207061746e616d206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.16134211655539,
+                    15.418128899956653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Potti Subbaiaha Palem  Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Bapatla",
+                "county": "Vetapalem",
+                "city": "Potti Subbaiaha Palem",
+                "lon": 80.3482439,
+                "lat": 15.7522105,
+                "state_code": "AP",
+                "formatted": "Potti Subbaiaha Palem  Beach, Potti Subbaiaha Palem, Vetapalem, India",
+                "address_line1": "Potti Subbaiaha Palem  Beach",
+                "address_line2": "Potti Subbaiaha Palem, Vetapalem, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Potti Subbaiaha Palem  Beach",
+                        "osm_id": 11043962142,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "510562c8a04916544059236112bc21812f40f00103f9011e7d45920200000092031c506f747469205375626261696168612050616c656d20204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.34824390000001,
+                    15.752210499995789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chirala beach",
+                "country": "India",
+                "country_code": "in",
+                "lon": 80.3828623,
+                "lat": 15.7754894,
+                "formatted": "Chirala beach, India",
+                "address_line1": "Chirala beach",
+                "address_line2": "India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Chirala beach",
+                        "osm_id": 11586160343,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51c357e0d08018544059c5c656f20c8d2f40f00103f901d7c696b20200000092030d43686972616c61206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.38286229999999,
+                    15.7754893999985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 80.10960827435315,
+                "lat": 15.343799549947892,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 396722469,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51f06d6cd20307544059bacf9e7e06b02e40f00102f9012581a51700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.10960827435315,
+                    15.343799549947892
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vadarevu beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Bapatla",
+                "county": "Chirala",
+                "city": "Vadarevu",
+                "lon": 80.41306061777115,
+                "lat": 15.7944848,
+                "state_code": "AP",
+                "formatted": "Vadarevu beach, Vadarevu, Chirala, India",
+                "address_line1": "Vadarevu beach",
+                "address_line2": "Vadarevu, Chirala, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Vadarevu beach",
+                        "osm_id": 258895497,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51ed25cd956f1a544059225832b6c6962f40f00102f901896e6e0f0000000092030e5661646172657675206265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.41306061777114,
+                    15.794484800000706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dindi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Bapatla",
+                "county": "Nizampatnam",
+                "city": "Dindi Adavala",
+                "lon": 80.73608493712592,
+                "lat": 15.87581325,
+                "state_code": "AP",
+                "formatted": "Dindi Beach, Dindi Adavala, Nizampatnam, India",
+                "address_line1": "Dindi Beach",
+                "address_line2": "Dindi Adavala, Nizampatnam, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Dindi Beach",
+                        "osm_id": 849010887,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "512f02ff031c2f544059e46424986ac02f40f00102f901c7e09a320000000092030b44696e6469204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.73608493712594,
+                    15.875813250010147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vodarevu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Bapatla",
+                "county": "Chirala",
+                "city": "Vadarevu",
+                "postcode": "523166",
+                "lon": 80.4127953,
+                "lat": 15.7942976,
+                "state_code": "AP",
+                "formatted": "Vodarevu Beach, Vadarevu - 523166, Andhra Pradesh, India",
+                "address_line1": "Vodarevu Beach",
+                "address_line2": "Vadarevu - 523166, Andhra Pradesh, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Vodarevu Beach",
+                        "osm_id": 11043962144,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51515cfa3c6b1a544059a996ce2cae962f40f00103f901207d45920200000092030e566f646172657675204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.41279529999998,
+                    15.794297600000691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 80.48023533563389,
+                "lat": 15.828283250004638,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 396477715,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51983bfd2cbc1e5440596430fdbd14a82f40f00102f90113c5a11700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.48023533563389,
+                    15.828283250004638
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Manginapudi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Krishna",
+                "county": "Machilipatnam",
+                "city": "Golivanipalem",
+                "lon": 81.24632877435567,
+                "lat": 16.2507311,
+                "state_code": "AP",
+                "formatted": "Manginapudi Beach, Golivanipalem, Machilipatnam, India",
+                "address_line1": "Manginapudi Beach",
+                "address_line2": "Golivanipalem, Machilipatnam, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Manginapudi Beach",
+                        "osm_id": 1245876219,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51f87ac3d9c34f5440597cd1d2e92f403040f00102f901fb8f424a000000009203114d616e67696e6170756469204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.24632877435567,
+                    16.25073110005313
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hamsaladeevi / Palakayatippa Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Krishna",
+                "county": "Koduru",
+                "lon": 81.1151262,
+                "lat": 15.9568327,
+                "state_code": "AP",
+                "formatted": "Hamsaladeevi / Palakayatippa Beach, Koduru, India",
+                "address_line1": "Hamsaladeevi / Palakayatippa Beach",
+                "address_line2": "Koduru, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hamsaladeevi / Palakayatippa Beach",
+                        "osm_id": 11033768823,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "516bfa473a5e4754405988a7c4f9e5e92f40f00103f90177f3a9910200000092032248616d73616c616465657669202f2050616c616b6179617469707061204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.1151262,
+                    15.956832700019518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 81.39718822368067,
+                "lat": 16.288552150057413,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 653932405,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5126c427886b59544059e4afbf8dde493040f00102f9017537fa2600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.39718822368067,
+                    16.288552150057413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Samudra Beach Resorts",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Dr. B. R. Ambedkar Konaseema",
+                "county": "Allavaram",
+                "city": "Odalarevu",
+                "postcode": "533210",
+                "street": "Odalarevu Beach Road",
+                "lon": 81.9777927184333,
+                "lat": 16.4148769,
+                "state_code": "AP",
+                "formatted": "Samudra Beach Resorts, Odalarevu Beach Road, Odalarevu - 533210, Andhra Pradesh, India",
+                "address_line1": "Samudra Beach Resorts",
+                "address_line2": "Odalarevu Beach Road, Odalarevu - 533210, Andhra Pradesh, India",
+                "categories": [
+                    "beach",
+                    "beach.beach_resort"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Samudra Beach Resorts",
+                        "osm_id": 1232437571,
+                        "barrier": "yes",
+                        "leisure": "beach_resort",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5107fce827947e5440596aac5d5f356a3040f00102f901438175490000000092031553616d75647261204265616368205265736f727473"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.97779271843329,
+                    16.414876900071626
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Odalarevu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Dr. B. R. Ambedkar Konaseema",
+                "county": "Allavaram",
+                "city": "Odalarevu",
+                "lon": 81.97741138451798,
+                "lat": 16.41327485,
+                "state_code": "AP",
+                "formatted": "Odalarevu Beach, Odalarevu, Allavaram, India",
+                "address_line1": "Odalarevu Beach",
+                "address_line2": "Odalarevu, Allavaram, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Odalarevu Beach",
+                        "osm_id": 1244604856,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518acf7ae88d7e544059f0506d61cc693040f00102f901b8292f4a0000000092030f4f64616c6172657675204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.97741138451798,
+                    16.413274850071446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Odalarevu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Dr. B. R. Ambedkar Konaseema",
+                "county": "Allavaram",
+                "city": "Odalarevu",
+                "postcode": "533210",
+                "lon": 81.9772632,
+                "lat": 16.4133333,
+                "state_code": "AP",
+                "formatted": "Odalarevu Beach, Odalarevu - 533210, Andhra Pradesh, India",
+                "address_line1": "Odalarevu Beach",
+                "address_line2": "Odalarevu - 533210, Andhra Pradesh, India",
+                "categories": [
+                    "beach",
+                    "tourism",
+                    "tourism.attraction"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Odalarevu Beach",
+                        "osm_id": 11435595288,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "tourism": "attraction",
+                        "osm_type": "n",
+                        "lifeguard": "no",
+                        "supervised": "no"
+                    }
+                },
+                "place_id": "5165e5f27a8b7e54405999270e36d0693040f00103f90118569da90200000092030f4f64616c6172657675204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    81.9772632,
+                    16.41333330007146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Uppada Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Kakinada",
+                "county": "Kothapalle",
+                "city": "Upp\u0101da",
+                "lon": 82.34238579030082,
+                "lat": 17.082307399999998,
+                "state_code": "AP",
+                "formatted": "Uppada Beach, Upp\u0101da, Kothapalle, India",
+                "address_line1": "Uppada Beach",
+                "address_line2": "Upp\u0101da, Kothapalle, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Uppada Beach",
+                        "osm_id": 395601296,
+                        "natural": "beach",
+                        "osm_type": "w",
+                        "wikipedia": "en:Uppada Beach"
+                    }
+                },
+                "wiki_and_media": {
+                    "wikipedia": "en:Uppada Beach"
+                },
+                "place_id": "5142fd16a6e99554405968d6071912153140f00102f901906594170000000092030c557070616461204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.34238579030082,
+                    17.08230740014406
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kakinada Beach Park",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Kakinada",
+                "county": "Kakinada (Rural)",
+                "city": "Suryaraopeta",
+                "postcode": "533005",
+                "lon": 82.29203674909205,
+                "lat": 17.02078225,
+                "state_code": "AP",
+                "formatted": "Kakinada Beach Park, Suryaraopeta - 533005, Andhra Pradesh, India",
+                "address_line1": "Kakinada Beach Park",
+                "address_line2": "Suryaraopeta - 533005, Andhra Pradesh, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kakinada Beach Park",
+                        "osm_id": 694240264,
+                        "natural": "beach",
+                        "operator": "Ap tourism",
+                        "osm_type": "w",
+                        "addr:city": "Kakinada,Andhra Pradesh",
+                        "addr:street": "Kakinada-Uppada Beach Rd",
+                        "addr:postcode": 533005,
+                        "opening_hours": "Mo-Su 05:00-19:00"
+                    }
+                },
+                "opening_hours": "Mo-Su 05:00-19:00",
+                "operator": "Ap tourism",
+                "place_id": "5127a5e7bab092544059a3ad4cfc51053140f00102f90108446129000000009203134b616b696e616461204265616368205061726b"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.29203674909205,
+                    17.020782250137596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kakinada Beach park",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Kakinada",
+                "county": "Kakinada (Rural)",
+                "city": "Suryaraopeta",
+                "postcode": "533005",
+                "lon": 82.29175817758679,
+                "lat": 17.01960945,
+                "state_code": "AP",
+                "formatted": "Kakinada Beach park, Suryaraopeta - 533005, Andhra Pradesh, India",
+                "address_line1": "Kakinada Beach park",
+                "address_line2": "Suryaraopeta - 533005, Andhra Pradesh, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kakinada Beach park",
+                        "osm_id": 694240265,
+                        "natural": "beach",
+                        "operator": "Ap tourism",
+                        "osm_type": "w",
+                        "addr:city": "Kakinada,Andhra Pradesh",
+                        "addr:street": "uppada kakinada beach",
+                        "addr:postcode": 533005
+                    }
+                },
+                "operator": "Ap tourism",
+                "place_id": "51dac47d2aac925440597308fb1f05053140f00102f90109446129000000009203134b616b696e616461204265616368207061726b"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.29175817758679,
+                    17.019609450137477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ramakrishna Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Visakhapatnam",
+                "county": "Visakhapatnam (Urban)",
+                "city": "Visakhapatnam",
+                "postcode": "530001",
+                "district": "Kirlampudi Layout",
+                "suburb": "Pedda Waltair",
+                "lon": 83.32009884353178,
+                "lat": 17.71209995,
+                "state_code": "AP",
+                "formatted": "Ramakrishna Beach, Pedda Waltair, Visakhapatnam - 530001, Andhra Pradesh, India",
+                "address_line1": "Ramakrishna Beach",
+                "address_line2": "Pedda Waltair, Visakhapatnam - 530001, Andhra Pradesh, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Ramakrishna Beach",
+                        "osm_id": 63133082,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "alt_name": "Vizag beach",
+                        "osm_type": "w",
+                        "wikidata": "Q7288804",
+                        "wikipedia": "en:RK Beach",
+                        "supervised": "yes"
+                    }
+                },
+                "name_other": {
+                    "alt_name": "Vizag beach"
+                },
+                "wiki_and_media": {
+                    "wikidata": "Q7288804",
+                    "wikipedia": "en:RK Beach"
+                },
+                "place_id": "51361ddc7f7cd45440597a9fad2e4cb63140f00102f9019a55c3030000000092031152616d616b726973686e61204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.32009884353178,
+                    17.712099950207154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rushikonda Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Visakhapatnam",
+                "county": "Visakhapatnam (Rural)",
+                "city": "Vadapalem",
+                "lon": 83.38515906661421,
+                "lat": 17.78172025,
+                "state_code": "AP",
+                "formatted": "Rushikonda Beach, Vadapalem, Visakhapatnam (Rural), India",
+                "address_line1": "Rushikonda Beach",
+                "address_line2": "Vadapalem, Visakhapatnam (Rural), India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Rushikonda Beach",
+                        "osm_id": 562030077,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "516ab73672a6d8544059fb497dd11ec83140f00102f901fde57f210000000092031052757368696b6f6e6461204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.3851590666142,
+                    17.78172025021375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jodugulla Palem Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Visakhapatnam",
+                "county": "Visakhapatnam (Urban)",
+                "city": "Visakhapatnam",
+                "postcode": "530001",
+                "suburb": "Jagalavanipalem",
+                "lon": 83.35085495676006,
+                "lat": 17.751817850000002,
+                "state_code": "AP",
+                "formatted": "Jodugulla Palem Beach, Jagalavanipalem, Visakhapatnam - 530001, Andhra Pradesh, India",
+                "address_line1": "Jodugulla Palem Beach",
+                "address_line2": "Jagalavanipalem, Visakhapatnam - 530001, Andhra Pradesh, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Jodugulla Palem Beach",
+                        "osm_id": 687683423,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51213b596874d65440597834772277c03140f00102f9015f37fd28000000009203154a6f647567756c6c612050616c656d204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.35085495676005,
+                    17.751817850210927
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Thanthadi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Anakapalli",
+                "county": "Atchutapuram",
+                "city": "Thanthadhi",
+                "lon": 83.0651442,
+                "lat": 17.5256033,
+                "state_code": "AP",
+                "formatted": "Thanthadi Beach, Thanthadhi, Atchutapuram, India",
+                "address_line1": "Thanthadi Beach",
+                "address_line2": "Thanthadhi, Atchutapuram, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Thanthadi Beach",
+                        "osm_id": 11295510668,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "518a2194522bc454405955fb18f08d863140f00103f9018cd043a10200000092030f5468616e7468616469204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.06514419999999,
+                    17.52560330018908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beach View Point",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Anakapalli",
+                "county": "Atchutapuram",
+                "city": "Thanthadhi",
+                "lon": 83.0661245,
+                "lat": 17.5253231,
+                "state_code": "AP",
+                "formatted": "Beach View Point, Thanthadhi, Atchutapuram, India",
+                "address_line1": "Beach View Point",
+                "address_line2": "Thanthadhi, Atchutapuram, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Beach View Point",
+                        "osm_id": 11295558269,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51b73d41623bc454405939251f937b863140f00103f9017d8a44a1020000009203104265616368205669657720506f696e74"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.06612449999999,
+                    17.525323100189073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rambilli Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Anakapalli",
+                "county": "Rambilli",
+                "city": "Vadapalem",
+                "postcode": "531061",
+                "lon": 82.9304908,
+                "lat": 17.445919,
+                "state_code": "AP",
+                "formatted": "Rambilli Beach, Vadapalem - 531061, Andhra Pradesh, India",
+                "address_line1": "Rambilli Beach",
+                "address_line2": "Vadapalem - 531061, Andhra Pradesh, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Rambilli Beach",
+                        "osm_id": 11337141679,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51a6ce48298dbb5440597c7162bf27723140f00103f901af0dbfa30200000092030e52616d62696c6c69204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.9304908,
+                    17.445919000181206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 82.90382635486233,
+                "lat": 17.43425720018004,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 300136613,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5162d97e4ad8b954405967d3d87a2b6f3140f00102f901a5b8e31100000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.90382635486233,
+                    17.43425720018004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 82.86758191606782,
+                "lat": 17.41594290017822,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 300136618,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5130074d7686b7544059d344e13b7b6a3140f00102f901aab8e31100000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.86758191606782,
+                    17.41594290017822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 82.85516787639357,
+                "lat": 17.411576500177787,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 300136627,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51cf6c0b12bbb6544059d410d8135d693140f00102f901b3b8e31100000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.85516787639357,
+                    17.411576500177787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 83.00468419641902,
+                "lat": 17.49466500018604,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 396596894,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51609bf1be4cc05440595e468e5da27e3140f00102f9019e96a31700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.00468419641902,
+                    17.49466500018604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 82.9969263614044,
+                "lat": 17.481651250184754,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 396596895,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5124b039a4cdbf544059fc9e0f7f4d7b3140f00102f9019f96a31700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    82.9969263614044,
+                    17.481651250184754
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 83.34456300521234,
+                "lat": 17.740405150209853,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 397054405,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "511ab3fd510dd6544059f8f021318bbd3140f00102f901c591aa1700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.34456300521234,
+                    17.740405150209853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 83.34336820320672,
+                "lat": 17.731643250209007,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 630130842,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5196d0a0bef9d5544059a1fcd7f84cbb3140f00102f9019a088f2500000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.34336820320672,
+                    17.731643250209007
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 83.36019309269625,
+                "lat": 17.761814000211878,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 687683421,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51085854670dd7544059828b083e06c33140f00102f9015d37fd2800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.36019309269625,
+                    17.761814000211878
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 83.35364119943107,
+                "lat": 17.755191850211247,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 687683422,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c784b20ea2d6544059f0dcca4054c13140f00102f9015e37fd2800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.35364119943107,
+                    17.755191850211247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Etcherla",
+                "city": "Badivanipeta",
+                "lon": 83.8390013,
+                "lat": 18.1688007,
+                "state_code": "AP",
+                "formatted": "Badivanipeta, Etcherla, India",
+                "address_line1": "Badivanipeta",
+                "address_line2": "Etcherla, India",
+                "mappedTo": {
+                    "lon": 83.8390013,
+                    "lat": 18.1688007
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 396092358,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5142fbdfe8c4f554405912506af2de2a3240f00102f901c6e39b1700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.84014341233436,
+                    18.167464400248782
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Etcherla",
+                "city": "S. Dibbalapalem",
+                "hamlet": "R\u0101llapeta",
+                "lon": 83.8737467,
+                "lat": 18.1884113,
+                "state_code": "AP",
+                "formatted": "S. Dibbalapalem, Etcherla, India",
+                "address_line1": "S. Dibbalapalem",
+                "address_line2": "Etcherla, India",
+                "mappedTo": {
+                    "lon": 83.8737467,
+                    "lat": 18.1884113
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 396092359,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519edc09b6ddf854405930976ceee8313240f00102f901c7e39b1700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.88853217089715,
+                    18.19496050025117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Ranastalam",
+                "city": "Kotapalem",
+                "postcode": "532409",
+                "lon": 83.73686004312091,
+                "lat": 18.12227384885034,
+                "state_code": "AP",
+                "formatted": "Kotapalem - 532409, Andhra Pradesh, India",
+                "address_line1": "Kotapalem - 532409",
+                "address_line2": "Andhra Pradesh, India",
+                "mappedTo": {
+                    "lon": 83.73686004312091,
+                    "lat": 18.12227384885034
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 396096668,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "510899003738ef544059d06bf1694e1f3240f00102f9019cf49b1700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.73780608232858,
+                    18.122290250244816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 83.38608729999999,
+                "lat": 17.781893800213773,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 9529480341,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51a8b981a7b5d854405902dd2c312ac83140f00103f9019554003802000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.38608729999999,
+                    17.781893800213773
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kothapeta Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Vajrapukothuru",
+                "city": "Dibbavani Peta",
+                "lon": 84.3765745,
+                "lat": 18.604179,
+                "state_code": "AP",
+                "formatted": "Kothapeta Beach, Dibbavani Peta, Vajrapukothuru, India",
+                "address_line1": "Kothapeta Beach",
+                "address_line2": "Dibbavani Peta, Vajrapukothuru, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kothapeta Beach",
+                        "osm_id": 11075656569,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "517c80eecb191855405977279779ab9a3240f00103f901791b29940200000092030f4b6f74686170657461204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.3765745,
+                    18.604179000285026
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bhavanapadu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Santhabommali",
+                "city": "Bhavanapadu",
+                "lon": 84.3568995,
+                "lat": 18.5702263,
+                "state_code": "AP",
+                "formatted": "Bhavanapadu Beach, Bhavanapadu, Santhabommali, India",
+                "address_line1": "Bhavanapadu Beach",
+                "address_line2": "Bhavanapadu, Santhabommali, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Bhavanapadu Beach",
+                        "osm_id": 11075656570,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "515b1d0071d7165540592408cf59fa913240f00103f9017a1b29940200000092031142686176616e6170616475204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.35689949999998,
+                    18.570226300282357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Geddalapadu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Santhabommali",
+                "city": "Kollipadu",
+                "hamlet": "Geddalapdu",
+                "lon": 84.2557067,
+                "lat": 18.4760057,
+                "state_code": "AP",
+                "formatted": "Geddalapadu Beach, Kollipadu, Santhabommali, India",
+                "address_line1": "Geddalapadu Beach",
+                "address_line2": "Kollipadu, Santhabommali, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Geddalapadu Beach",
+                        "osm_id": 11075656571,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "518e77a27f5d10554059c9637382db793240f00103f9017b1b29940200000092031147656464616c6170616475204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.25570669999999,
+                    18.476005700274786
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Gara",
+                "city": "Chinna Vatsavalasa",
+                "hamlet": "Yerragudu",
+                "postcode": "532404",
+                "lon": 84.0448394,
+                "lat": 18.2754004,
+                "state_code": "AP",
+                "formatted": "Chinna Vatsavalasa - 532404, Andhra Pradesh, India",
+                "address_line1": "Chinna Vatsavalasa - 532404",
+                "address_line2": "Andhra Pradesh, India",
+                "mappedTo": {
+                    "lon": 84.0448394,
+                    "lat": 18.2754004
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 395841909,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5186fb13a0700355405976021a90bd443240f00102f9017511981700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.05374910308282,
+                    18.268517500257495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Gara",
+                "city": "Balarampuram",
+                "postcode": "532404",
+                "hamlet": "Balarampuram",
+                "lon": 83.9723688,
+                "lat": 18.2411431,
+                "state_code": "AP",
+                "formatted": "Balarampuram - 532404, Andhra Pradesh, India",
+                "address_line1": "Balarampuram - 532404",
+                "address_line2": "Andhra Pradesh, India",
+                "mappedTo": {
+                    "lon": 83.9723688,
+                    "lat": 18.2411431
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 395967517,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5150835d1851fe5440599b6286c2b13a3240f00102f9011dfc991700000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.97369965679286,
+                    18.229274900254136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Gara",
+                "city": "Bandaruvanipeta",
+                "postcode": "532406",
+                "lon": 84.1257167,
+                "lat": 18.3192307,
+                "state_code": "AP",
+                "formatted": "Bandaruvanipeta - 532406, Andhra Pradesh, India",
+                "address_line1": "Bandaruvanipeta - 532406",
+                "address_line2": "Andhra Pradesh, India",
+                "mappedTo": {
+                    "lon": 84.1257167,
+                    "lat": 18.3192307
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 630400294,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "511dbb6e752c08554059284e5e77a9503240f00102f9012625932500000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.12771354497495,
+                    18.315085850261454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.28817535329766,
+                "lat": 18.50317165027699,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 721875746,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "514f7b09777112554059ca3676dbcf803240f00102f90122f3062b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.28817535329766,
+                    18.50317165027699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.17053807591681,
+                "lat": 18.394458700268096,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 778313916,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5145b28818ea0a5540592e46d13efb643240f00102f901bc20642e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.17053807591681,
+                    18.394458700268096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.42721463661022,
+                "lat": 18.6498056502886,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 779046879,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5142270f7c571b554059dcbec0a959a63240f00102f901df4f6f2e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.42721463661022,
+                    18.6498056502886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yekuvuru Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Sompeta",
+                "city": "Battigalluru",
+                "lon": 84.58116999432866,
+                "lat": 18.8560364,
+                "state_code": "AP",
+                "formatted": "Yekuvuru Beach, Battigalluru, Sompeta, India",
+                "address_line1": "Yekuvuru Beach",
+                "address_line2": "Battigalluru, Sompeta, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Yekuvuru Beach",
+                        "osm_id": 627423839,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51b6c3a1e33125554059eb7d973325db3240f00102f9015fba65250000000092030e59656b7576757275204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.58116999432863,
+                    18.856036400304145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Onturu Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Kaviti",
+                "city": "Onturu",
+                "postcode": "532292",
+                "lon": 84.6588816,
+                "lat": 18.9434486,
+                "state_code": "AP",
+                "formatted": "Onturu Beach, Onturu - 532292, Andhra Pradesh, India",
+                "address_line1": "Onturu Beach",
+                "address_line2": "Onturu - 532292, Andhra Pradesh, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Onturu Beach",
+                        "osm_id": 11074992601,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51eafbba1d2b2a55405958caf3d885f13240f00103f901d9f91e940200000092030c4f6e74757275204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.6588816,
+                    18.94344860031046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Kaviti",
+                "city": "Battivanipalem",
+                "hamlet": "Kottapalem",
+                "postcode": "532322",
+                "lon": 84.7001583,
+                "lat": 18.9913085,
+                "state_code": "AP",
+                "formatted": "Battivanipalem - 532322, Andhra Pradesh, India",
+                "address_line1": "Battivanipalem - 532322",
+                "address_line2": "Andhra Pradesh, India",
+                "mappedTo": {
+                    "lon": 84.7001583,
+                    "lat": 18.9913085
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 724344056,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "511afe82bbaf2c55405995da1f6adbfc3240f00102f901f89c2c2b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.69822585861439,
+                    18.987723000313583
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Andhra Pradesh",
+                "state_district": "Srikakulam",
+                "county": "Kaviti",
+                "city": "Pairedlaputtugu",
+                "hamlet": "Bairedlaputtuga",
+                "postcode": "532322",
+                "lon": 84.7183903,
+                "lat": 19.0344786,
+                "state_code": "AP",
+                "formatted": "Pairedlaputtugu - 532322, Andhra Pradesh, India",
+                "address_line1": "Pairedlaputtugu - 532322",
+                "address_line2": "Andhra Pradesh, India",
+                "mappedTo": {
+                    "lon": 84.7183903,
+                    "lat": 19.0344786
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 724381453,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "511880a8e9a72e5540592e52213e55073340f00102f9010d2f2d2b00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.72899857955088,
+                    19.028644450316442
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.75978128451831,
+                "lat": 19.073943850319555,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 784400937,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519e47ae41a030554059e1dcf2fbed123340f00102f9012902c12e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.75978128451831,
+                    19.073943850319555
+                ]
+            }
+        }
+    ]
+}

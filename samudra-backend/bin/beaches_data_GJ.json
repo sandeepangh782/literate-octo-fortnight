@@ -1,0 +1,1425 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 68.20709446621458,
+                "lat": 23.716093150349955,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -11353494,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51c0e42509410d51405986a475e151b73740f00101f901963dad0000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.20709446621458,
+                    23.716093150349955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 68.21512920122018,
+                "lat": 23.70874870035037,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -11353493,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51f0e944adc40d5140595c16098e70b53740f00101f901953dad0000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.21512920122018,
+                    23.70874870035037
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 68.20007976936327,
+                "lat": 23.72459315034947,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -6301035,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "516a80601bce0c51405916a8cbef7eb93740f00101f9016b25600000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.20007976936327,
+                    23.72459315034947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 68.23709333107405,
+                "lat": 23.683787650351768,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -6286174,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "5104c481892c0f51405966ab1bb50caf3740f00101f9015eeb5f0000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.23709333107405,
+                    23.683787650351768
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 68.25178411883721,
+                "lat": 23.679856300352,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -6286173,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51b603233b1d10514059ccfdff0f0bae3740f00101f9015deb5f0000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.25178411883721,
+                    23.679856300352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 68.25447048195136,
+                "lat": 23.680595050351954,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -6286172,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51d2718f3e4910514059c4142b7a3bae3740f00101f9015ceb5f0000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.25447048195136,
+                    23.680595050351954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 68.22939713538753,
+                "lat": 23.69157885035134,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -6286171,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "5146925271ae0e51405942ddc04f0bb13740f00101f9015beb5f0000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.22939713538753,
+                    23.69157885035134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.58942101445128,
+                "lat": 21.635100400410174,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 553654019,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "512d29eb12b9655140592e7099f095a23540f00102f9010317002100000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.58942101445128,
+                    21.635100400410174
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shivrajpur Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Gujarat",
+                "state_district": "Devbhumi Dwaraka District",
+                "county": "Okhamandal Taluka",
+                "city": "Shivrajpur",
+                "lon": 68.95640480659435,
+                "lat": 22.34367085,
+                "state_code": "GJ",
+                "formatted": "Shivrajpur Beach, Shivrajpur, Okhamandal Taluka, India",
+                "address_line1": "Shivrajpur Beach",
+                "address_line2": "Shivrajpur, Okhamandal Taluka, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [
+                    "details",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Shivrajpur Beach",
+                        "osm_id": 761459677,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "website": "https://www.gujarattourism.com/saurashtra/devbhoomi-dwarka/shivrajpur-beach.html",
+                        "osm_type": "w",
+                        "wikidata": "Q105636989",
+                        "wikipedia": "en:Shivrajpur beach"
+                    }
+                },
+                "website": "https://www.gujarattourism.com/saurashtra/devbhoomi-dwarka/shivrajpur-beach.html",
+                "wiki_and_media": {
+                    "wikidata": "Q105636989",
+                    "wikipedia": "en:Shivrajpur beach"
+                },
+                "place_id": "51d58381bc353d514059e61117d0fa573640f00102f901ddf3622d000000009203105368697672616a707572204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.95640480659434,
+                    22.34367085040312
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chowpati",
+                "country": "India",
+                "country_code": "in",
+                "state": "Gujarat",
+                "state_district": "Porbandar District",
+                "county": "Porbandar Taluka",
+                "city": "Porbandar",
+                "postcode": "360500",
+                "lon": 69.60922295695715,
+                "lat": 21.630542650000002,
+                "state_code": "GJ",
+                "formatted": "Chowpati, Porbandar - 360500, Gujarat, India",
+                "address_line1": "Chowpati",
+                "address_line2": "Porbandar - 360500, Gujarat, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Chowpati",
+                        "osm_id": 374269690,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519e064982fd66514059ae3e3e3e6ba13540f00102f901fae64e160000000092030843686f7770617469"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.60922295695715,
+                    21.63054265041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dwarka Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Gujarat",
+                "state_district": "Devbhumi Dwaraka District",
+                "county": "Okhamandal Taluka",
+                "city": "Dwarka",
+                "postcode": "361335",
+                "lon": 68.9625617,
+                "lat": 22.237475,
+                "state_code": "GJ",
+                "formatted": "Dwarka Beach, Dwarka - 361335, Gujarat, India",
+                "address_line1": "Dwarka Beach",
+                "address_line2": "Dwarka - 361335, Gujarat, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Dwarka Beach",
+                        "osm_id": 7898523256,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "517578639c9a3d514059835b6029cb3c3640f00103f90178e6c9d60100000092030c447761726b61204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.9625617,
+                    22.237475000405095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mandvi Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Gujarat",
+                "state_district": "Kachchh",
+                "county": "Mandvi Taluka",
+                "city": "Mandvi",
+                "postcode": "370405",
+                "suburb": "Rameshwar Colony",
+                "lon": 69.33806856846789,
+                "lat": 22.82560545,
+                "state_code": "GJ",
+                "formatted": "Mandvi Beach, Rameshwar Colony, Mandvi - 370405, Gujarat, India",
+                "address_line1": "Mandvi Beach",
+                "address_line2": "Rameshwar Colony, Mandvi - 370405, Gujarat, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Mandvi Beach",
+                        "osm_id": 139441823,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51005859eaa25551405954d3f8e05ad33640f00102f9019fb64f080000000092030c4d616e647669204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.33806856846786,
+                    22.825605450390256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 68.52700559947614,
+                "lat": 23.681111450351928,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 138606860,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c5a3b175ba215140595231ec515dae3740f00102f9010cf9420800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    68.52700559947614,
+                    23.681111450351928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.29152041445417,
+                "lat": 22.828659050390158,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 139425680,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519c8c3d45a852514059ccf5e0ff22d43640f00102f90190774f0800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.29152041445417,
+                    22.828659050390158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.37258608568115,
+                "lat": 22.817868700390513,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1009287534,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "517e3c4f73d8575140596a99d8d75fd13640f00102f9016e81283c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.37258608568115,
+                    22.817868700390513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.35298299274976,
+                "lat": 22.818799350390485,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1009287536,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e279fa459756514059c6e98fd59cd13640f00102f9017081283c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.35298299274976,
+                    22.818799350390485
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.35232023859223,
+                "lat": 22.81916995039047,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1009287537,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "513e9e2f6a8c5651405903cb321fb5d13640f00102f9017181283c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.35232023859223,
+                    22.81916995039047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.35268485374631,
+                "lat": 22.81999430039044,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1009287538,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51a3287e63925651405956157f25ebd13640f00102f9017281283c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.35268485374631,
+                    22.81999430039044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.35306970640235,
+                "lat": 22.820717500390412,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1009287539,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51368daeb19856514059836ec78a1ad23640f00102f9017381283c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.35306970640235,
+                    22.820717500390412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.34905057896847,
+                "lat": 22.821251600390404,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1009287547,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5172543dd85656514059e6767d8b3dd23640f00102f9017b81283c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.34905057896847,
+                    22.821251600390404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Veraval Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Gujarat",
+                "state_district": "Gir Somnath District",
+                "county": "Patan Veraval Taluka",
+                "city": "Veraval",
+                "postcode": "362200",
+                "lon": 70.35326512624601,
+                "lat": 20.9093903,
+                "state_code": "GJ",
+                "formatted": "Veraval Beach, Veraval - 362200, Gujarat, India",
+                "address_line1": "Veraval Beach",
+                "address_line2": "Veraval - 362200, Gujarat, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Veraval Beach",
+                        "osm_id": -12361416,
+                        "natural": "beach",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51ce0255e59b965140595a877fcdcde83440f00101f901c89ebc000000000092030d5665726176616c204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.35326512624599,
+                    20.909390300402585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Somnath Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Gujarat",
+                "state_district": "Gir Somnath District",
+                "county": "Patan Veraval Taluka",
+                "city": "Veraval",
+                "postcode": "362200",
+                "suburb": "Somnath",
+                "lon": 70.40282848085926,
+                "lat": 20.88513315,
+                "state_code": "GJ",
+                "formatted": "Somnath Beach, Somnath, Veraval - 362200, Gujarat, India",
+                "address_line1": "Somnath Beach",
+                "address_line2": "Somnath, Veraval - 362200, Gujarat, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Somnath Beach",
+                        "osm_id": 559250415,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5106cc1bf1c79951405914950d1698e23440f00102f901ef7b55210000000092030d536f6d6e617468204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.40282848085926,
+                    20.88513315040207
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 70.34565068058292,
+                "lat": 20.916840450402745,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -12361592,
+                        "natural": "beach",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51673c08241f965140593421460eb6ea3440f00101f901789fbc0000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.34565068058292,
+                    20.916840450402745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 69.95500525690025,
+                "lat": 21.257341500408096,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 542943281,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5142795ece1e7d5140590628f021e1413540f00102f90131a85c2000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.95500525690025,
+                    21.257341500408096
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 70.34426150865659,
+                "lat": 20.91779255040276,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 910712983,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e83c6c610896514059067edc73f4ea3440f00102f9019760483600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.34426150865659,
+                    20.91779255040276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 70.37692313317207,
+                "lat": 20.90157020040243,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 910716608,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "511d8534821f98514059cfc6fd4dcde63440f00102f901c06e483600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.37692313317207,
+                    20.90157020040243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 70.37013459871673,
+                "lat": 20.89921485040238,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 910718466,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51d0260749b097514059468ec6f132e63440f00102f9010276483600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.37013459871673,
+                    20.89921485040238
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gomtimata Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Dadra and Nagar Haveli and Daman and Diu",
+                "state_district": "Diu District",
+                "county": "Diu",
+                "city": "Vanakbara",
+                "lon": 70.89066796647111,
+                "lat": 20.7084201,
+                "formatted": "Gomtimata Beach, Vanakbara, Diu, India",
+                "address_line1": "Gomtimata Beach",
+                "address_line2": "Vanakbara, Diu, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Gomtimata Beach",
+                        "osm_id": 187900474,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51a4e536b400b9514059b4090b055bb53440f00102f9013a22330b0000000092030f476f6d74696d617461204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.89066796647109,
+                    20.708420100397873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kodidhar Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Dadra and Nagar Haveli and Daman and Diu",
+                "state_district": "Diu District",
+                "county": "Diu",
+                "city": "Nagoa",
+                "lon": 70.9118079015685,
+                "lat": 20.70185695,
+                "formatted": "Kodidhar Beach, Nagoa, Diu, India",
+                "address_line1": "Kodidhar Beach",
+                "address_line2": "Nagoa, Diu, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Kodidhar Beach",
+                        "osm_id": 187900475,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51265e870f5bba514059aa6da8e5acb33440f00102f9013b22330b0000000092030e4b6f646964686172204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.9118079015685,
+                    20.70185695039769
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nagoa Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Dadra and Nagar Haveli and Daman and Diu",
+                "state_district": "Diu District",
+                "county": "Diu",
+                "city": "Nagoa",
+                "lon": 70.91562491959829,
+                "lat": 20.70659285,
+                "formatted": "Nagoa Beach, Nagoa, Diu, India",
+                "address_line1": "Nagoa Beach",
+                "address_line2": "Nagoa, Diu, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Nagoa Beach",
+                        "osm_id": 187900476,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51f144439999ba514059cc0be044e3b43440f00102f9013c22330b0000000092030b4e61676f61204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.91562491959827,
+                    20.706592850397826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lonesome Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Dadra and Nagar Haveli and Daman and Diu",
+                "state_district": "Diu District",
+                "county": "Diu",
+                "lon": 70.899384075,
+                "lat": 20.7030326,
+                "formatted": "Lonesome Beach, Diu, India",
+                "address_line1": "Lonesome Beach",
+                "address_line2": "Diu, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Lonesome Beach",
+                        "osm_id": 187900480,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c32a39828fb9514059e5bacaf1f9b33440f00102f9014022330b0000000092030e4c6f6e65736f6d65204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.89938407499999,
+                    20.703032600397723
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sunset Point",
+                "country": "India",
+                "country_code": "in",
+                "state": "Dadra and Nagar Haveli and Daman and Diu",
+                "state_district": "Diu District",
+                "county": "Diu",
+                "city": "Diu",
+                "hamlet": "Sunset Point",
+                "lon": 70.97624537418815,
+                "lat": 20.7038631,
+                "formatted": "Sunset Point, Diu, India",
+                "address_line1": "Sunset Point",
+                "address_line2": "Diu, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Sunset Point",
+                        "osm_id": 322831433,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519ac0e0cd7abe514059c911455f30b43440f00102f90149043e130000000092030c53756e73657420506f696e74"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.97624537418815,
+                    20.703863100397744
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jallandhar Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Dadra and Nagar Haveli and Daman and Diu",
+                "state_district": "Diu District",
+                "county": "Diu",
+                "city": "Jallandhar Beach",
+                "hamlet": "Zampa Gate",
+                "lon": 70.98731436571971,
+                "lat": 20.7100737,
+                "formatted": "Jallandhar Beach, Diu, India",
+                "address_line1": "Jallandhar Beach",
+                "address_line2": "Diu, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Jallandhar Beach",
+                        "osm_id": 322839431,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c6e8972830bf5140596df5d863c7b53440f00102f90187233e13000000009203104a616c6c616e64686172204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    70.9873143657197,
+                    20.710073700397903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nandagaon Beach",
+                "country": "India",
+                "country_code": "in",
+                "city": "Nandgaon",
+                "postcode": "401504",
+                "lon": 72.6851114,
+                "lat": 19.7595197,
+                "formatted": "Nandagaon Beach, Nandgaon - 401504, India",
+                "address_line1": "Nandagaon Beach",
+                "address_line2": "Nandgaon - 401504, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Nandagaon Beach",
+                        "osm_id": 9815405675,
+                        "natural": "beach",
+                        "surface": "unpaved",
+                        "osm_type": "n",
+                        "lifeguard": "no"
+                    }
+                },
+                "place_id": "5179477cddd82b52405992b711e26fc23340f00103f9016b340b490200000092030f4e616e646167616f6e204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.6851114,
+                    19.759519700360734
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 72.706406545535,
+                "lat": 19.681164750356608,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 204932908,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5134b0ccc3352d5240593af825d060ae3340f00102f9012c07370c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.706406545535,
+                    19.681164750356608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 72.70807745814822,
+                "lat": 19.687437700356938,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 204932919,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5103721d24512d5240590c12c9eafbaf3340f00102f9013707370c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.70807745814822,
+                    19.687437700356938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 72.7068346711828,
+                "lat": 19.712303400358266,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 204932924,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "512e1a7dc73c2d5240594c5e018459b63340f00102f9013c07370c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.7068346711828,
+                    19.712303400358266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 72.68030764425316,
+                "lat": 19.87316025036644,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 240276777,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5150d212298a2b524059b47d1f6e87df3340f00102f9012955520e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.68030764425316,
+                    19.87316025036644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 72.68806016172522,
+                "lat": 19.77521985036155,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 517133767,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5194127d2d092c5240594c83e0ce74c63340f00102f901c7d5d21e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.68806016172522,
+                    19.77521985036155
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 72.69077480498736,
+                "lat": 19.74100770035977,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 518794648,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51931487a7352c5240591f213faeb2bd3340f00102f901982dec1e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.69077480498736,
+                    19.74100770035977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ubhrat Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Gujarat",
+                "state_district": "Navsari District",
+                "county": "Jalalpore Taluka",
+                "city": "Umbhrat",
+                "postcode": "394243",
+                "lon": 72.73038236915721,
+                "lat": 21.0170188,
+                "state_code": "GJ",
+                "formatted": "Ubhrat Beach, Umbhrat - 394243, Gujarat, India",
+                "address_line1": "Ubhrat Beach",
+                "address_line2": "Umbhrat - 394243, Gujarat, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Ubhrat Beach",
+                        "osm_id": 1108582520,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51bc46b195be2e524059b82717585b043540f00102f90178a013420000000092030c556268726174204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.73038236915721,
+                    21.017018800404657
+                ]
+            }
+        }
+    ]
+}

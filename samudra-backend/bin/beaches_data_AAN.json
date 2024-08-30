@@ -1,0 +1,2487 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Elephant Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 92.94799200201504,
+				"lat": 12.01010295,
+				"state_code": "AN",
+				"formatted": "Elephant Beach, South Andaman District, India",
+				"address_line1": "Elephant Beach",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Elephant Beach",
+						"osm_id": -10384999,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "r"
+					}
+				},
+				"place_id": "518c61a5e6ab3c574059f216bc362c052840f00101f90167769e000000000092030e456c657068616e74204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.94799200201504,
+					12.010102949581299
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kalapathar Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.01887533281035,
+				"lat": 11.976167199999999,
+				"state_code": "AN",
+				"formatted": "Kalapathar Beach, South Andaman District, India",
+				"address_line1": "Kalapathar Beach",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Kalapathar Beach",
+						"osm_id": -10384995,
+						"natural": "beach",
+						"osm_type": "r"
+					}
+				},
+				"place_id": "51c847e2403541574059923beb2fccf32740f00101f90163769e00000000009203104b616c61706174686172204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.01887533281035,
+					11.976167199578217
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Munda Pahar beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Port Blair Tehsil",
+				"lon": 92.70889061033299,
+				"lat": 11.49128645,
+				"state_code": "AN",
+				"formatted": "Munda Pahar beach, Port Blair Tehsil, India",
+				"address_line1": "Munda Pahar beach",
+				"address_line2": "Port Blair Tehsil, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Munda Pahar beach",
+						"osm_id": -10373535,
+						"natural": "beach",
+						"osm_type": "r"
+					}
+				},
+				"place_id": "5194f4b8765e2d5740591074c3e589fb2640f00101f9019f499e00000000009203114d756e6461205061686172206265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.70889061033296,
+					11.491286449536375
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Radhanagar Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 92.95707831459254,
+				"lat": 11.9826676,
+				"state_code": "AN",
+				"formatted": "Radhanagar Beach, South Andaman District, India",
+				"address_line1": "Radhanagar Beach",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Radhanagar Beach",
+						"osm_id": -6047179,
+						"name:mr": "राधानगर बीच",
+						"natural": "beach",
+						"surface": "sand",
+						"alt_name": "Beach #7",
+						"osm_type": "r",
+						"lifeguard": "yes"
+					}
+				},
+				"name_other": {
+					"alt_name": "Beach #7"
+				},
+				"name_international": {
+					"mr": "राधानगर बीच"
+				},
+				"place_id": "51b03867c5403d574059400f263520f72740f00101f901cb455c000000000092031052616468616e61676172204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.95707831459254,
+					11.982667599578804
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Corbyns Cove Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Port Blair Tehsil",
+				"city": "Port Blair",
+				"lon": 92.74678588320012,
+				"lat": 11.6427974,
+				"state_code": "AN",
+				"formatted": "Corbyns Cove Beach, Port Blair, Port Blair Tehsil, India",
+				"address_line1": "Corbyns Cove Beach",
+				"address_line2": "Port Blair, Port Blair Tehsil, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Corbyns Cove Beach",
+						"osm_id": 207052404,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51605d0457cb2f5740598c08a2bd1c492740f00102f901745e570c00000000920312436f7262796e7320436f7665204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.74678588320012,
+					11.642797399548975
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Govind Nagar Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Govind Nagar",
+				"lon": 93.00212401320607,
+				"lat": 12.0297396,
+				"state_code": "AN",
+				"formatted": "Govind Nagar Beach, Govind Nagar, South Andaman District, India",
+				"address_line1": "Govind Nagar Beach",
+				"address_line2": "Govind Nagar, South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Govind Nagar Beach",
+						"osm_id": 328996348,
+						"name:mr": "गोविंद नगर बीच",
+						"natural": "beach",
+						"surface": "sand",
+						"alt_name": "Beach #3",
+						"osm_type": "w"
+					}
+				},
+				"name_other": {
+					"alt_name": "Beach #3"
+				},
+				"name_international": {
+					"mr": "गोविंद नगर बीच"
+				},
+				"place_id": "5167d0c1cc22405740590b365f073a0f2840f00102f901fc159c1300000000920312476f76696e64204e61676172204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.00212401320606,
+					12.0297395995831
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Beach #5",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Vijay Nagar",
+				"lon": 93.00646789189008,
+				"lat": 12.02304565,
+				"state_code": "AN",
+				"formatted": "Beach #5, Vijay Nagar, South Andaman District, India",
+				"address_line1": "Beach #5",
+				"address_line2": "Vijay Nagar, South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Beach #5",
+						"osm_id": 362045062,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5114094ef869405740592e8baea3cc0b2840f00102f901865e9415000000009203084265616368202335"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.00646789189005,
+					12.023045649582482
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Cross Bill Beach Resort",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Krishna nagar village",
+				"postcode": "744211",
+				"street": "Path to Elephant Beach",
+				"lon": 92.99951222898156,
+				"lat": 12.03053455,
+				"state_code": "AN",
+				"formatted": "Cross Bill Beach Resort, Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Cross Bill Beach Resort",
+				"address_line2": "Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort",
+					"internet_access",
+					"internet_access.free"
+				],
+				"details": [
+					"details",
+					"details.facilities"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Cross Bill Beach Resort",
+						"stars": 2,
+						"osm_id": 484715417,
+						"leisure": "beach_resort",
+						"name:mr": "क्रॉस बिल बीच रिसोर्ट",
+						"osm_type": "w",
+						"internet_access": "wlan",
+						"internet_access:fee": "no",
+						"internet_access:ssid": "Crossbill"
+					}
+				},
+				"name_international": {
+					"mr": "क्रॉस बिल बीच रिसोर्ट"
+				},
+				"facilities": {
+					"internet_access": true,
+					"internet_access_details": {
+						"ssid": "Crossbill"
+					}
+				},
+				"place_id": "5162db2302f83f57405934b77739a20f2840f00102f901992be41c0000000092031743726f73732042696c6c204265616368205265736f7274"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.99951222898156,
+					12.030534549583173
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Beach #2",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Govind Nagar",
+				"lon": 92.98725006359628,
+				"lat": 12.03785225,
+				"state_code": "AN",
+				"formatted": "Beach #2, Govind Nagar, South Andaman District, India",
+				"address_line1": "Beach #2",
+				"address_line2": "Govind Nagar, South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Beach #2",
+						"osm_id": 485828855,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51ad07e41a2f3f574059d215bc5e61132840f00102f901f728f51c000000009203084265616368202332"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.98725006359628,
+					12.037852249583839
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Merk Bay",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "North and Middle Andaman District",
+				"county": "Rangat",
+				"lon": 92.93303029742594,
+				"lat": 12.29105445,
+				"state_code": "AN",
+				"formatted": "Merk Bay, Rangat, India",
+				"address_line1": "Merk Bay",
+				"address_line2": "Rangat, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Merk Bay",
+						"osm_id": 486404819,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51c867b5c4b63b574059fcd6bc1605952840f00102f901d3f2fd1c000000009203084d65726b20426179"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.93303029742594,
+					12.291054449607593
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lalaji Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "North and Middle Andaman District",
+				"county": "Rangat",
+				"lon": 92.94443159175898,
+				"lat": 12.404622100000001,
+				"state_code": "AN",
+				"formatted": "Lalaji Beach, Rangat, India",
+				"address_line1": "Lalaji Beach",
+				"address_line2": "Rangat, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Lalaji Beach",
+						"osm_id": 486404821,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5180fa3391713c5740598c33baa02acf2840f00102f901d5f2fd1c0000000092030c4c616c616a69204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.94443159175898,
+					12.404622099618585
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lalaji Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "North and Middle Andaman District",
+				"county": "Rangat",
+				"lon": 92.94287901468095,
+				"lat": 12.39944285,
+				"state_code": "AN",
+				"formatted": "Lalaji Beach, Rangat, India",
+				"address_line1": "Lalaji Beach",
+				"address_line2": "Rangat, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Lalaji Beach",
+						"osm_id": 637439065,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51ec083921583c5740591e76efc583cc2840f00102f901598cfe250000000092030c4c616c616a69204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.94287901468095,
+					12.39944284961808
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lakshmanpur Beach 1",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.01273386811809,
+				"lat": 11.847863149999998,
+				"state_code": "AN",
+				"formatted": "Lakshmanpur Beach 1, South Andaman District, India",
+				"address_line1": "Lakshmanpur Beach 1",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Lakshmanpur Beach 1",
+						"osm_id": 639633313,
+						"natural": "beach",
+						"surface": "sand",
+						"alt_name": "Beach 1",
+						"osm_type": "w"
+					}
+				},
+				"name_other": {
+					"alt_name": "Beach 1"
+				},
+				"place_id": "519ac7b6a1d040574059ccbe651e1bb22740f00102f901a1072026000000009203134c616b73686d616e7075722042656163682031"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.01273386811809,
+					11.847863149566727
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bharatpur Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.02964449635024,
+				"lat": 11.8379008,
+				"state_code": "AN",
+				"formatted": "Bharatpur Beach, South Andaman District, India",
+				"address_line1": "Bharatpur Beach",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Bharatpur Beach",
+						"osm_id": 639633488,
+						"natural": "beach",
+						"surface": "sand",
+						"alt_name": "Beach 4;Lakshmanpur Beach 4",
+						"osm_type": "w"
+					}
+				},
+				"name_other": {
+					"alt_name": "Beach 4;Lakshmanpur Beach 4"
+				},
+				"place_id": "512a9507b2e541574059e7da665501ad2740f00102f901500820260000000092030f426861726174707572204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.02964449635024,
+					11.837900799565842
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Sitapur Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.06282703058659,
+				"lat": 11.818967449999999,
+				"state_code": "AN",
+				"formatted": "Sitapur Beach, South Andaman District, India",
+				"address_line1": "Sitapur Beach",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Sitapur Beach",
+						"osm_id": 715059704,
+						"name:mr": "सीतापूर बीच",
+						"natural": "beach",
+						"surface": "sand",
+						"alt_name": "Beach 5;Lakshmanpur Beach 5",
+						"osm_type": "w"
+					}
+				},
+				"name_other": {
+					"alt_name": "Beach 5;Lakshmanpur Beach 5"
+				},
+				"name_international": {
+					"mr": "सीतापूर बीच"
+				},
+				"place_id": "51266baa5b0544574059c1bb98b34fa32740f00102f901f8f19e2a0000000092030d53697461707572204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.06282703058659,
+					11.818967449564186
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ramnagar Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.0421410136712,
+				"lat": 11.8167287,
+				"state_code": "AN",
+				"formatted": "Ramnagar Beach, South Andaman District, India",
+				"address_line1": "Ramnagar Beach",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Ramnagar Beach",
+						"osm_id": 877462965,
+						"name:mr": "रामनगर बीच",
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"name_international": {
+					"mr": "रामनगर बीच"
+				},
+				"place_id": "5170e23870b242574059eea99c432aa22740f00102f901b5054d340000000092030e52616d6e61676172204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.0421410136712,
+					11.816728699563978
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lakshmanpur Beach 3",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.03014564135441,
+				"lat": 11.82628685,
+				"state_code": "AN",
+				"formatted": "Lakshmanpur Beach 3, South Andaman District, India",
+				"address_line1": "Lakshmanpur Beach 3",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Lakshmanpur Beach 3",
+						"osm_id": 877462969,
+						"name:mr": "लक्ष्मणपूर बीच",
+						"natural": "beach",
+						"surface": "sand",
+						"alt_name": "Beach 3",
+						"osm_type": "w"
+					}
+				},
+				"name_other": {
+					"alt_name": "Beach 3"
+				},
+				"name_international": {
+					"mr": "लक्ष्मणपूर बीच"
+				},
+				"place_id": "51fceefbe7ed41574059d8fde7110fa72740f00102f901b9054d34000000009203134c616b73686d616e7075722042656163682033"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.03014564135441,
+					11.826286849564823
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lakshmanpur Beach 2",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.01555384660233,
+				"lat": 11.8295684,
+				"state_code": "AN",
+				"formatted": "Lakshmanpur Beach 2, South Andaman District, India",
+				"address_line1": "Lakshmanpur Beach 2",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Lakshmanpur Beach 2",
+						"osm_id": 877472775,
+						"natural": "beach",
+						"surface": "sand",
+						"alt_name": "Beach 2",
+						"osm_type": "w"
+					}
+				},
+				"name_other": {
+					"alt_name": "Beach 2"
+				},
+				"place_id": "51f99e8fd5fe40574059bcda7330bda82740f00102f901072c4d34000000009203134c616b73686d616e7075722042656163682032"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.01555384660232,
+					11.829568399565112
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Symphony of Palms",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Krishna nagar village",
+				"postcode": "744211",
+				"street": "Path to Elephant Beach",
+				"lon": 93.0015219,
+				"lat": 12.0289842,
+				"state_code": "AN",
+				"formatted": "Symphony of Palms, Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Symphony of Palms",
+				"address_line2": "Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Symphony of Palms",
+						"osm_id": 4780005309,
+						"leisure": "beach_resort",
+						"name:mr": "सिंफनी ऑफ पाम्स",
+						"osm_type": "n"
+					}
+				},
+				"name_international": {
+					"mr": "सिंफनी ऑफ पाम्स"
+				},
+				"place_id": "5194ae4fef1840574059a59e5a04d70e2840f00103f901bd17e91c0100000092031153796d70686f6e79206f662050616c6d73"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.0015219,
+					12.02898419958303
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Elephant Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"postcode": "744211",
+				"lon": 92.949336,
+				"lat": 12.0113061,
+				"state_code": "AN",
+				"formatted": "Elephant Beach, 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Elephant Beach",
+				"address_line2": "744211, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Elephant Beach",
+						"osm_id": 5607597080,
+						"name:mr": "एलिफंट बीच",
+						"natural": "beach",
+						"osm_type": "n"
+					}
+				},
+				"name_international": {
+					"mr": "एलिफंट बीच"
+				},
+				"place_id": "51973ac8ebc13c5740591ee5bfe9c9052840f00103f90118243d4e0100000092030e456c657068616e74204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.949336,
+					12.011306099581414
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Taj Resort Private Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"postcode": "744211",
+				"lon": 92.9551754,
+				"lat": 11.9834073,
+				"state_code": "AN",
+				"formatted": "Taj Resort Private Beach, 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Taj Resort Private Beach",
+				"address_line2": "744211, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Taj Resort Private Beach",
+						"osm_id": 6255117985,
+						"name:mr": "ताज रिसोर्ट खाजगी बीच",
+						"natural": "beach",
+						"osm_type": "n"
+					}
+				},
+				"name_international": {
+					"mr": "ताज रिसोर्ट खाजगी बीच"
+				},
+				"place_id": "51663c0098213d57405985ad5c2981f72740f00103f901a186d5740100000092031854616a205265736f72742050726976617465204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.9551754,
+					11.983407299578866
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "El dorado",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Krishna nagar village",
+				"postcode": "744211",
+				"street": "Path to Elephant Beach",
+				"lon": 93.0038624,
+				"lat": 12.0256177,
+				"state_code": "AN",
+				"formatted": "El dorado, Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "El dorado",
+				"address_line2": "Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "El dorado",
+						"osm_id": 6888359691,
+						"leisure": "beach_resort",
+						"name:hi": "El Dorado",
+						"name:mr": "एल डोराडो",
+						"osm_type": "n"
+					}
+				},
+				"name_international": {
+					"hi": "El Dorado",
+					"mr": "एल डोराडो"
+				},
+				"place_id": "51c76b14483f4057405926d05bc31d0d2840f00103f9010b07949a01000000920309456c20646f7261646f"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.00386239999999,
+					12.025617699582721
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Kala Patthar Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.0167555,
+				"lat": 11.9797046,
+				"state_code": "AN",
+				"formatted": "Kala Patthar Beach, South Andaman District, India",
+				"address_line1": "Kala Patthar Beach",
+				"address_line2": "South Andaman District, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Kala Patthar Beach",
+						"osm_id": 9328926520,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "n"
+					}
+				},
+				"place_id": "51cd21a985124157405973dc5dd79bf52740f00103f901381f0c2c020000009203124b616c612050617474686172204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.0167555,
+					11.97970459957853
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Havelock exotic beach resort",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Krishna nagar village",
+				"postcode": "744211",
+				"street": "Path to Elephant Beach",
+				"lon": 93.0022359,
+				"lat": 12.0284251,
+				"state_code": "AN",
+				"formatted": "Havelock exotic beach resort, Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Havelock exotic beach resort",
+				"address_line2": "Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Havelock exotic beach resort",
+						"osm_id": 11377216497,
+						"leisure": "beach_resort",
+						"name:mr": "हेव्हलॉक एग्जॉटिक बीच रिसोर्ट",
+						"osm_type": "n",
+						"check_date": "2023-12-06"
+					}
+				},
+				"name_international": {
+					"mr": "हेव्हलॉक एग्जॉटिक बीच रिसोर्ट"
+				},
+				"place_id": "5122580ba22440574059563012bc8d0e2840f00103f901f18b22a60200000092031c486176656c6f636b2065786f746963206265616368207265736f7274"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.00223589999999,
+					12.028425099582972
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Gold star beach resort",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Krishna nagar village",
+				"postcode": "744211",
+				"street": "Path to Elephant Beach",
+				"lon": 93.002731,
+				"lat": 12.0273456,
+				"state_code": "AN",
+				"formatted": "Gold star beach resort, Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Gold star beach resort",
+				"address_line2": "Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Gold star beach resort",
+						"osm_id": 11377216498,
+						"leisure": "beach_resort",
+						"name:mr": "गोल्ड स्टार बीच रिसोर्ट",
+						"osm_type": "n"
+					}
+				},
+				"name_international": {
+					"mr": "गोल्ड स्टार बीच रिसोर्ट"
+				},
+				"place_id": "51ddeba4be2c40574059c2cb0f3e000e2840f00103f901f28b22a602000000920316476f6c642073746172206265616368207265736f7274"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.002731,
+					12.027345599582876
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Summer Sand",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"street": "path to natural bridge",
+				"lon": 93.0481801,
+				"lat": 11.8158775,
+				"state_code": "AN",
+				"formatted": "Summer Sand, path to natural bridge, -, Andaman and Nicobar Islands, India",
+				"address_line1": "Summer Sand",
+				"address_line2": "path to natural bridge, -, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Summer Sand",
+						"osm_id": 11377216499,
+						"leisure": "beach_resort",
+						"name:mr": "समर सॅंड",
+						"osm_type": "n"
+					}
+				},
+				"name_international": {
+					"mr": "समर सॅंड"
+				},
+				"place_id": "515a74fc611543574059a65614b2baa12740f00103f901f38b22a60200000092030b53756d6d65722053616e64"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.0481801,
+					11.815877499563907
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Holiday Inn",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"street": "path to natural bridge",
+				"lon": 93.0486246,
+				"lat": 11.815399,
+				"state_code": "AN",
+				"formatted": "Holiday Inn, path to natural bridge, -, Andaman and Nicobar Islands, India",
+				"address_line1": "Holiday Inn",
+				"address_line2": "path to natural bridge, -, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Holiday Inn",
+						"osm_id": 11377216500,
+						"leisure": "beach_resort",
+						"name:mr": "हॉलिडे इन",
+						"osm_type": "n"
+					}
+				},
+				"name_international": {
+					"mr": "हॉलिडे इन"
+				},
+				"place_id": "51fdb15aaa1c43574059c3a248fa7ba12740f00103f901f48b22a60200000092030b486f6c6964617920496e6e"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.0486246,
+					11.81539899956386
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Aquays",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"street": "path to natural bridge",
+				"lon": 93.0480604,
+				"lat": 11.8154684,
+				"state_code": "AN",
+				"formatted": "Aquays, path to natural bridge, -, Andaman and Nicobar Islands, India",
+				"address_line1": "Aquays",
+				"address_line2": "path to natural bridge, -, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Aquays",
+						"osm_id": 11377216501,
+						"leisure": "beach_resort",
+						"name:mr": "अक्वेज",
+						"osm_type": "n"
+					}
+				},
+				"name_international": {
+					"mr": "अक्वेज"
+				},
+				"place_id": "51e48eed6b1343574059b818f61285a12740f00103f901f58b22a602000000920306417175617973"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.0480604,
+					11.81546839956387
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Lemon Grass",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Krishna nagar village",
+				"postcode": "744211",
+				"street": "Path to Elephant Beach",
+				"lon": 93.0019659,
+				"lat": 12.0285944,
+				"state_code": "AN",
+				"formatted": "Lemon Grass, Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Lemon Grass",
+				"address_line2": "Path to Elephant Beach, Krishna nagar village - 744211, Andaman and Nicobar Islands, India",
+				"categories": [
+					"beach",
+					"beach.beach_resort"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Lemon Grass",
+						"osm_id": 11397485315,
+						"leisure": "beach_resort",
+						"name:en": "Lemon Grass",
+						"name:mr": "लेमन ग्रास",
+						"osm_type": "n",
+						"check_date": "2023-12-06"
+					}
+				},
+				"name_international": {
+					"en": "Lemon Grass",
+					"mr": "लेमन ग्रास"
+				},
+				"place_id": "51420d95352040574059881dd6eca30e2840f00103f90103d357a70200000092030b4c656d6f6e204772617373"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.00196589999999,
+					12.028594399582985
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 92.48746789633373,
+				"lat": 10.7056905,
+				"state_code": "AN",
+				"formatted": "South Andaman District, India",
+				"address_line1": "South Andaman District",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.48746789633373,
+					"lat": 10.7056905
+				},
+				"categories": [
+					"beach",
+					"no_access"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"access": "no",
+						"osm_id": -11949543,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "r"
+					}
+				},
+				"restrictions": {
+					"access": "private"
+				},
+				"place_id": "5176c4951a0d45574059d93431dda1912740f00101f901e755b60000000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.07892479539609,
+					11.784438049561162
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 92.48746789633373,
+				"lat": 10.7056905,
+				"state_code": "AN",
+				"formatted": "South Andaman District, India",
+				"address_line1": "South Andaman District",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.48746789633373,
+					"lat": 10.7056905
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": -10385000,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "r"
+					}
+				},
+				"place_id": "51466a305d7d3b574059064ee7d852012840f00101f90168769e0000000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.92952661254921,
+					12.002585199580619
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"postcode": "744211",
+				"lon": 93.00698710370743,
+				"lat": 11.99984561156418,
+				"state_code": "AN",
+				"formatted": "744211, Andaman and Nicobar Islands, India",
+				"address_line1": "744211",
+				"address_line2": "Andaman and Nicobar Islands, India",
+				"mappedTo": {
+					"lon": 93.00698710370743,
+					"lat": 11.99984561156418
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": -10384993,
+						"natural": "beach",
+						"osm_type": "r"
+					}
+				},
+				"place_id": "51cca0adb078405740592cfe94d30a002840f00101f90161769e0000000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.0073663421237,
+					12.000082599580388
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "North and Middle Andaman District",
+				"county": "Rangat",
+				"lon": 92.9305787,
+				"lat": 12.363885,
+				"state_code": "AN",
+				"formatted": "Rangat, India",
+				"address_line1": "Rangat",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.9305787,
+					"lat": 12.363885
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": -6047228,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "r"
+					}
+				},
+				"place_id": "5144cfbbb47c3b574059981c56be2eb92840f00101f901fc455c0000000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.92948644963059,
+					12.361684749614412
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "North and Middle Andaman District",
+				"county": "Rangat",
+				"lon": 92.9189941,
+				"lat": 12.3665049,
+				"state_code": "AN",
+				"formatted": "Rangat, India",
+				"address_line1": "Rangat",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.9189941,
+					"lat": 12.3665049
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": -6047227,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "r"
+					}
+				},
+				"place_id": "5118b7d6f0c83a574059dfafe8dcb4bb2840f00101f901fb455c0000000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.9185144516781,
+					12.366614249614882
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Ferrargunj",
+				"lon": 92.69860158861552,
+				"lat": 11.87178295,
+				"state_code": "AN",
+				"formatted": "Ferrargunj, India",
+				"address_line1": "Ferrargunj",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.69860158861552,
+					"lat": 11.87178295
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 193410524,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "519e7e3c1030115740598f783f4827242740f00102f901dc35870b00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.26855855853725,
+					11.57061219954292
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Ferrargunj",
+				"lon": 92.69860158861552,
+				"lat": 11.87178295,
+				"state_code": "AN",
+				"formatted": "Ferrargunj, India",
+				"address_line1": "Ferrargunj",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.69860158861552,
+					"lat": 11.87178295
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 193412501,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51067c81ee0d0e57405993a5d60e57302740f00102f901953d870b00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.21960032124488,
+					11.594414199544905
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Ferrargunj",
+				"lon": 92.69860158861552,
+				"lat": 11.87178295,
+				"state_code": "AN",
+				"formatted": "Ferrargunj, India",
+				"address_line1": "Ferrargunj",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.69860158861552,
+					"lat": 11.87178295
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 193412503,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51e848d903900d574059184158ea7b302740f00102f901973d870b00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.21191498011797,
+					11.594695399544932
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Port Blair Tehsil",
+				"lon": 92.65179201695375,
+				"lat": 11.43156055,
+				"state_code": "AN",
+				"formatted": "Port Blair Tehsil, India",
+				"address_line1": "Port Blair Tehsil",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.65179201695375,
+					"lat": 11.43156055
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 228933428,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51310eef6f9a2e574059d200ff11034b2640f00102f901343fa50d00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.7281761011625,
+					11.146507799509354
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Port Blair Tehsil",
+				"lon": 92.65179201695375,
+				"lat": 11.43156055,
+				"state_code": "AN",
+				"formatted": "Port Blair Tehsil, India",
+				"address_line1": "Port Blair Tehsil",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.65179201695375,
+					"lat": 11.43156055
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 228933430,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51b15ef37e9b2d574059fc7d5831c89e2640f00102f901363fa50d00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.71261571661559,
+					11.310121099521886
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 92.48746789633373,
+				"lat": 10.7056905,
+				"state_code": "AN",
+				"formatted": "South Andaman District, India",
+				"address_line1": "South Andaman District",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.48746789633373,
+					"lat": 10.7056905
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 485329412,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5164230f002c3d574059ef833e356f4a2840f00102f901048aed1c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.95581056097359,
+					12.145379699593802
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"postcode": "744211",
+				"lon": 92.98037397835117,
+				"lat": 12.041049130659848,
+				"state_code": "AN",
+				"formatted": "744211, Andaman and Nicobar Islands, India",
+				"address_line1": "744211",
+				"address_line2": "Andaman and Nicobar Islands, India",
+				"mappedTo": {
+					"lon": 92.98037397835117,
+					"lat": 12.041049130659848
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 485828852,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "517130cd45bc3e57405943d697d145152840f00102f901f428f51c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.98024125135431,
+					12.041548299584184
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Govind Nagar",
+				"postcode": "744211",
+				"lon": 92.981619240077,
+				"lat": 12.041804065478955,
+				"state_code": "AN",
+				"formatted": "Govind Nagar - 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Govind Nagar - 744211",
+				"address_line2": "Andaman and Nicobar Islands, India",
+				"mappedTo": {
+					"lon": 92.981619240077,
+					"lat": 12.041804065478955
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 485828853,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51df348419d13e5740593a6b68d49e152840f00102f901f528f51c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.98151243124765,
+					12.042227399584238
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"city": "Govind Nagar",
+				"postcode": "744211",
+				"lon": 92.9822717,
+				"lat": 12.0422391,
+				"state_code": "AN",
+				"formatted": "Govind Nagar - 744211, Andaman and Nicobar Islands, India",
+				"address_line1": "Govind Nagar - 744211",
+				"address_line2": "Andaman and Nicobar Islands, India",
+				"mappedTo": {
+					"lon": 92.9822717,
+					"lat": 12.0422391
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 485828854,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "518aef179bd93e5740596e9c5977a9152840f00102f901f628f51c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.98203160607787,
+					12.042308549584245
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Port Blair Tehsil",
+				"lon": 92.65179201695375,
+				"lat": 11.43156055,
+				"state_code": "AN",
+				"formatted": "Port Blair Tehsil, India",
+				"address_line1": "Port Blair Tehsil",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 92.65179201695375,
+					"lat": 11.43156055
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 489752974,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51755314e4212d574059c0f7ec31b39c2640f00102f9018e09311d00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.70519353852235,
+					11.30605464952157
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.04258274114878,
+				"lat": 11.834947344261037,
+				"state_code": "AN",
+				"formatted": "South Andaman District, India",
+				"address_line1": "South Andaman District",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 93.04258274114878,
+					"lat": 11.834947344261037
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 877445157,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51f5e060969942574059df5f4d35d5ac2740f00102f90125c04c3400000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.04062423191847,
+					11.83756414956582
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.03755468502105,
+				"lat": 11.821910380136817,
+				"state_code": "AN",
+				"formatted": "South Andaman District, India",
+				"address_line1": "South Andaman District",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 93.03755468502105,
+					"lat": 11.821910380136817
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 877462964,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51af1567dd494257405950365c3134a42740f00102f901b4054d3400000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.03575835291734,
+					11.82071069956433
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.01780796779957,
+				"lat": 11.8319569273981,
+				"state_code": "AN",
+				"formatted": "South Andaman District, India",
+				"address_line1": "South Andaman District",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 93.01780796779957,
+					"lat": 11.8319569273981
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 877472776,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51c846701d2941574059d94308ba73a92740f00102f901082c4d3400000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.01813446011067,
+					11.830961049565234
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.01998877639774,
+				"lat": 11.83309075841815,
+				"state_code": "AN",
+				"formatted": "South Andaman District, India",
+				"address_line1": "South Andaman District",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 93.01998877639774,
+					"lat": 11.83309075841815
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 877472777,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51723dd5396b4157405958f6b806d8a82740f00102f901092c4d3400000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.022169550173,
+					11.829773149565128
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"county": "South Andaman District",
+				"lon": 93.01729566038563,
+				"lat": 11.843600392197501,
+				"state_code": "AN",
+				"formatted": "South Andaman District, India",
+				"address_line1": "South Andaman District",
+				"address_line2": "India",
+				"mappedTo": {
+					"lon": 93.01729566038563,
+					"lat": 11.843600392197501
+				},
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 877493626,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51ecd31c5a2741574059579dd2917eb02740f00102f9017a7d4d3400000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.01802685561387,
+					11.844715649566451
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 93.01435185134277,
+				"lat": 11.835666749565648,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 877500743,
+						"natural": "beach",
+						"surface": "sand",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51df090724eb40574059697a1f83dcab2740f00102f90147994d3400000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.01435185134277,
+					11.835666749565648
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.93087919124997,
+				"lat": 12.222937449601098,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 930294916,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5184bc5086933b574059442e7edb24722840f00102f901842c733700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.93087919124997,
+					12.222937449601098
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.93473891876442,
+				"lat": 12.212501449600113,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 930294926,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5110992fc3d23b57405929c570fdcc6c2840f00102f9018e2c733700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.93473891876442,
+					12.212501449600113
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.5792699972899,
+				"lat": 11.58261829954392,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 935098739,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51817a77c212255740593e2f1df24c2a2740f00102f9017379bc3700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.5792699972899,
+					11.58261829954392
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.57681111864821,
+				"lat": 11.582657349543922,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 935098740,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "510ca42e79ea2457405960216a10522a2740f00102f9017479bc3700000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.57681111864821,
+					11.582657349543922
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.2159957803367,
+				"lat": 11.590323049544565,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 1122530719,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51b027f7dfd20d574059e0bc9fd23e2e2740f00102f9019f75e84200000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.2159957803367,
+					11.590323049544565
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.25204198249327,
+				"lat": 11.523308299539002,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 1124393101,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51c401b2742110574059a37dc010ef0b2740f00102f9018de0044300000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.25204198249327,
+					11.523308299539002
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 92.61680399999999,
+				"lat": 11.621085099547143,
+				"categories": [
+					"beach"
+				],
+				"details": [
+					"details"
+				],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 6831693206,
+						"natural": "beach",
+						"osm_type": "n",
+						"description": "North Wandoor"
+					}
+				},
+				"description": "North Wandoor",
+				"place_id": "51af027cb77927574059ff2cbdddfe3d2740f00103f901965d339701000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.61680399999999,
+					11.621085099547143
+				]
+			}
+		}
+	]
+}
