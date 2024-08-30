@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
 import {
     View,
     Text,
@@ -9,15 +10,10 @@ import {
 } from "react-native";
 
 export default function LoginScreen({ navigation }) {
+    const { login, loginError } = useContext(AuthContext);
+
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-
-    const handleLogin = () => {
-        // Handle login logic here
-        console.log("Login pressed");
-        // Navigate to HomeScreen after successful login
-        navigation.navigate("Home");
-    };
 
     return (
         <View style={styles.container}>
@@ -27,7 +23,7 @@ export default function LoginScreen({ navigation }) {
                 style={styles.input}
                 placeholder="Email"
                 value={email}
-                onChangeText={setEmail}
+                onChangeText={text => setEmail(text)}
                 keyboardType="email-address"
                 autoCapitalize="none"
             />
@@ -36,25 +32,23 @@ export default function LoginScreen({ navigation }) {
                 style={styles.input}
                 placeholder="Password"
                 value={password}
-                onChangeText={setPassword}
+                onChangeText={text => setPassword(text)}
                 secureTextEntry
             />
 
-            <Button title="Login" onPress={handleLogin} />
+            <Text style={styles.errorText}>{loginError}</Text>
 
-            <TouchableOpacity
-                onPress={() => navigation.navigate("Register")}
-            >
+            <Button title="Login" onPress={() => { login(email, password) }} />
+
+            <TouchableOpacity onPress={() => navigation.navigate("Register")}>
                 <Text style={styles.signupText}>New user? Sign up</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity
-                onPress={() => console.log("Navigate to Forgot Password screen")}
-            >
+            <TouchableOpacity onPress={() => console.log("Navigate to Forgot Password screen")}>
                 <Text style={styles.signupText}>Forgot password?</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => console.log("Login as guest")}>
+            <TouchableOpacity onPress={() => navigation.navigate("Main")}>
                 <Text style={styles.signupText}>Login as guest</Text>
             </TouchableOpacity>
         </View>
@@ -66,6 +60,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         paddingHorizontal: 20,
+        backgroundColor: "#fff",
     },
     title: {
         fontSize: 24,
@@ -80,6 +75,11 @@ const styles = StyleSheet.create({
         marginBottom: 12,
         paddingHorizontal: 10,
         borderRadius: 5,
+    },
+    errorText: {
+        color: "red",
+        marginBottom: 12,
+        textAlign: "center",
     },
     signupText: {
         marginTop: 20,
