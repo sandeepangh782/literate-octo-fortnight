@@ -1,0 +1,1181 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "IISER Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Ganjam District",
+                "county": "Rangeilunda",
+                "lon": 84.8438966,
+                "lat": 19.1967799,
+                "state_code": "OR",
+                "formatted": "IISER Beach, Rangeilunda, India",
+                "address_line1": "IISER Beach",
+                "address_line2": "Rangeilunda, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "IISER Beach",
+                        "osm_id": 11752486258,
+                        "natural": "beach",
+                        "osm_type": "n"
+                    }
+                },
+                "place_id": "51288de2660236554059fc6ae42a60323340f00103f90172b580bc0200000092030b4949534552204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.8438966,
+                    19.19677990032777
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.75978128451831,
+                "lat": 19.073943850319555,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 784400937,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "519e47ae41a030554059e1dcf2fbed123340f00102f9012902c12e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.75978128451831,
+                    19.073943850319555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.76833802003709,
+                "lat": 19.08411125032024,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 784400940,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "514b153b732c31554059e2599d5088153340f00102f9012c02c12e00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.76833802003709,
+                    19.08411125032024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.93317879352952,
+                "lat": 19.276910250332925,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 594319357,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51ece18b33b93b5540596a1b1597e3463340f00102f901fd976c2300000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.93317879352952,
+                    19.276910250332925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.97095911538973,
+                "lat": 19.309809050335005,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 763374247,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518796b331243e55405994315ba54f4f3340f00102f901a72a802d00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.97095911538973,
+                    19.309809050335005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 84.96068427540759,
+                "lat": 19.297078400334204,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1156825737,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "510d2ae6d97b3d5540598dc87d540d4c3340f00102f90189c2f34400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84.96068427540759,
+                    19.297078400334204
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 85.80774745202197,
+                "lat": 19.78952795036227,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 687677903,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5126775e22b2735540597815f6801eca3340f00102f901cf21fd2800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.80774745202197,
+                    19.78952795036227
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 85.87888264190765,
+                "lat": 19.81015365036332,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 687677904,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51fd00fb9c3f78554059a40bc93a66cf3340f00102f901d021fd2800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.87888264190765,
+                    19.81015365036332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chandrabhaga Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Puri District",
+                "county": "Konark",
+                "city": "Konark",
+                "lon": 86.11234473713594,
+                "lat": 19.865394950000002,
+                "state_code": "OR",
+                "formatted": "Chandrabhaga Beach, Konark, India",
+                "address_line1": "Chandrabhaga Beach",
+                "address_line2": "Konark, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Chandrabhaga Beach",
+                        "osm_id": 277014051,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5118f8faa730875540591cf201868add3340f00102f90123e68210000000009203124368616e6472616268616761204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.11234473713591,
+                    19.865394950366053
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Paradip Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Jagatsinghapur District",
+                "county": "Paradip",
+                "city": "Paradip",
+                "postcode": "754142",
+                "lon": 86.66385233428477,
+                "lat": 20.25438465,
+                "state_code": "OR",
+                "formatted": "Paradip Beach, Paradip - 754142, Odisha, India",
+                "address_line1": "Paradip Beach",
+                "address_line2": "Paradip - 754142, Odisha, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Paradip Beach",
+                        "osm_id": 594314237,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "511648808e7caa554059f4ff395a1f413440f00102f901fd836c230000000092030d50617261646970204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.66385233428477,
+                    20.254384650383102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Barang",
+                "postcode": "753009",
+                "lon": 85.863921,
+                "lat": 20.4488526,
+                "state_code": "OR",
+                "formatted": "753009, Odisha, India",
+                "address_line1": "753009",
+                "address_line2": "Odisha, India",
+                "mappedTo": {
+                    "lon": 85.863921,
+                    "lat": 20.4488526
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911476,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51c4866c1c3c7755405985ebc5ab51733440f00101f901b445d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.86304388616833,
+                    20.45046495039016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Cuttack (M.Corp.) P.S",
+                "city": "Cuttack",
+                "postcode": "753001",
+                "suburb": "Badambadi",
+                "lon": 85.86252333262397,
+                "lat": 20.460012482164416,
+                "state_code": "OR",
+                "formatted": "Badambadi, Cuttack - 753001, Odisha, India",
+                "address_line1": "Badambadi",
+                "address_line2": "Cuttack - 753001, Odisha, India",
+                "mappedTo": {
+                    "lon": 85.86252333262397,
+                    "lat": 20.460012482164416
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911475,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51b061b6de2977554059f85b0cd462753440f00101f901b345d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.8619305401869,
+                    20.45853925039043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Cuttack (M.Corp.) P.S",
+                "city": "Cuttack",
+                "postcode": "753001",
+                "suburb": "Badambadi",
+                "street": "Ring Road",
+                "lon": 85.88296356137265,
+                "lat": 20.45271072546462,
+                "state_code": "OR",
+                "formatted": "Ring Road, Badambadi, Cuttack - 753001, Odisha, India",
+                "address_line1": "Ring Road",
+                "address_line2": "Badambadi, Cuttack - 753001, Odisha, India",
+                "mappedTo": {
+                    "lon": 85.88296356137265,
+                    "lat": 20.45271072546462
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911474,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "512a67b7807378554059df4e087877733440f00101f901b245d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.88204973135421,
+                    20.45104170039019
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Cuttack Sadar",
+                "postcode": "754001",
+                "lon": 85.93201174042564,
+                "lat": 20.38179546582466,
+                "state_code": "OR",
+                "formatted": "754001, Odisha, India",
+                "address_line1": "754001",
+                "address_line2": "Odisha, India",
+                "mappedTo": {
+                    "lon": 85.93201174042564,
+                    "lat": 20.38179546582466
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911472,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51bafbac40cf7b554059703d5134b4623440f00101f901b045d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.93452469723607,
+                    20.385562200387938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Cuttack Sadar",
+                "postcode": "754112",
+                "lon": 85.94909396052644,
+                "lat": 20.389235973949305,
+                "state_code": "OR",
+                "formatted": "754112, Odisha, India",
+                "address_line1": "754112",
+                "address_line2": "Odisha, India",
+                "mappedTo": {
+                    "lon": 85.94909396052644,
+                    "lat": 20.389235973949305
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911471,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51b14831d4a97c554059a8ae46e2d4623440f00101f901af45d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.94786553204428,
+                    20.386060850387963
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Cuttack Sadar",
+                "postcode": "754001",
+                "lon": 85.94782557215609,
+                "lat": 20.375911135816256,
+                "state_code": "OR",
+                "formatted": "754001, Odisha, India",
+                "address_line1": "754001",
+                "address_line2": "Odisha, India",
+                "mappedTo": {
+                    "lon": 85.94782557215609,
+                    "lat": 20.375911135816256
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911470,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "510d0e8cc3e67c554059fe138f9ce05f3440f00101f901ae45d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.9515847079967,
+                    20.37452105038755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Cuttack Sadar",
+                "postcode": "754003",
+                "lon": 85.9690551154825,
+                "lat": 20.370249735586498,
+                "state_code": "OR",
+                "formatted": "754003, Odisha, India",
+                "address_line1": "754003",
+                "address_line2": "Odisha, India",
+                "mappedTo": {
+                    "lon": 85.9690551154825,
+                    "lat": 20.370249735586498
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911469,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51aac554a7007e554059deb54f8e4c5e3440f00101f901ad45d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.9687898948529,
+                    20.368355650387336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Cuttack Sadar",
+                "postcode": "754112",
+                "lon": 85.91484591082082,
+                "lat": 20.39722358842957,
+                "state_code": "OR",
+                "formatted": "754112, Odisha, India",
+                "address_line1": "754112",
+                "address_line2": "Odisha, India",
+                "mappedTo": {
+                    "lon": 85.91484591082082,
+                    "lat": 20.39722358842957
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911267,
+                        "natural": "beach",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "5157ca7a07897a554059e79a51a912653440f00101f901e344d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.91461359969377,
+                    20.394816000388257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Cuttack District",
+                "county": "Cuttack Sadar",
+                "postcode": "754001",
+                "lon": 85.89580038728604,
+                "lat": 20.423561769386655,
+                "state_code": "OR",
+                "formatted": "754001, Odisha, India",
+                "address_line1": "754001",
+                "address_line2": "Odisha, India",
+                "mappedTo": {
+                    "lon": 85.89580038728604,
+                    "lat": 20.423561769386655
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": -13911265,
+                        "natural": "beach",
+                        "osm_type": "r"
+                    }
+                },
+                "place_id": "51bc77f3f88b79554059ec039db5ca6c3440f00101f901e144d40000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.89916824127334,
+                    20.424968100389307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gahirmatha Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "Odisha",
+                "state_district": "Kendrapara District",
+                "county": "Jamboo Marine",
+                "lon": 86.94016093614027,
+                "lat": 20.6415529,
+                "state_code": "OR",
+                "formatted": "Gahirmatha Beach, Jamboo Marine, India",
+                "address_line1": "Gahirmatha Beach",
+                "address_line2": "Jamboo Marine, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Gahirmatha Beach",
+                        "osm_id": 86201476,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c06cc6982bbc554059e0da95cf3ca43440f00102f901845423050000000092031047616869726d61746861204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.94016093614027,
+                    20.64155290039605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.14725797454709,
+                "lat": 21.52195530040997,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1156766730,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "515130b6ac6cc9554059143cd1dc9e853540f00102f9010adcf24400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.14725797454709,
+                    21.52195530040997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.10839410156854,
+                "lat": 21.50036170040989,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1156766731,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "513c54d0edefc6554059726e53b417803540f00102f9010bdcf24400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.10839410156854,
+                    21.50036170040989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.08080963947776,
+                "lat": 21.478473500409805,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1156766739,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518cb031fc2bc55540594443443d7d7a3540f00102f90113dcf24400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.08080963947776,
+                    21.478473500409805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 86.89132314518946,
+                "lat": 21.309586000408625,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1175401562,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "516cb03b700bb9554059f30d3307414f3540f00102f9015a340f4600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.89132314518946,
+                    21.309586000408625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.6066843499089,
+                "lat": 21.643629550410175,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 380060950,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51a47698ead3e65540593ac0fde7c4a43540f00102f9011645a71600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.6066843499089,
+                    21.643629550410175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.39308056079564,
+                "lat": 21.623737450410168,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745202323,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e1535e3b281956405956cdee41ad9f3540f00102f90193e26a2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.39308056079564,
+                    21.623737450410168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.38182034498175,
+                "lat": 21.66388990041017,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745225890,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5138a999be6f18564059086842b0f4a93540f00102f901a23e6b2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.38182034498175,
+                    21.66388990041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.38200027211693,
+                "lat": 21.66304655041017,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745225891,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518af344b17218564059bfbc316bbda93540f00102f901a33e6b2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.38200027211693,
+                    21.66304655041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.4274217083483,
+                "lat": 21.628278600410177,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745241346,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5136bd94e05a1b564059d289c9ddd6a03540f00102f901027b6b2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.4274217083483,
+                    21.628278600410177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.41360242550712,
+                "lat": 21.620700850410163,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745268568,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "515cc64e76781a5640596d1c3d40e69e3540f00102f90158e56b2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41360242550712,
+                    21.620700850410163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.38219413054684,
+                "lat": 21.66220985041017,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 807670520,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51ffda5ede7518564059ca99b29586a93540f00102f901f812243000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.38219413054684,
+                    21.66220985041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.70246761462636,
+                "lat": 21.662789650410176,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 953602321,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5170d4b93af5ec55405994a32095aca93540f00102f90111d1d63800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.70246761462636,
+                    21.662789650410176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.70373672797169,
+                "lat": 21.663182850410166,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 953602329,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "517ae8c5050aed5540599cc7ed59c6a93540f00102f90119d1d63800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.70373672797169,
+                    21.663182850410166
+                ]
+            }
+        }
+    ]
+}
