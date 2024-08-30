@@ -73,6 +73,6 @@ async def login(
             "is_superuser": user.is_superuser,
             "phone_number": user.phone_number,
             "preferred_language": user.preferred_language,
-            "notification_preferences": user.notification_preferences
-        }
+            "notification_preferences": user.notification_preferences,
+        },
     }

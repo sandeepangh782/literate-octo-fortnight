@@ -37,6 +37,9 @@ class BeachOut(BeachBase):
     id: int
     created_at: datetime
     updated_at: Optional[datetime]
+    image_url: Optional[str] = None
+    distance: Optional[float] = None  # Distance in km
+    safety_status: Optional[str] = None
 
     class Config:
         from_attributes = True
