@@ -1,19 +1,19 @@
 import React, { useState, useContext } from "react";
+import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity, Alert } from "react-native";
 import { AuthContext } from "../context/AuthContext";
-import {
-    View,
-    Text,
-    TextInput,
-    Button,
-    StyleSheet,
-    TouchableOpacity,
-} from "react-native";
 
 export default function LoginScreen({ navigation }) {
     const { login, loginError } = useContext(AuthContext);
-
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+
+    const handleLogin = () => {
+        if (email === "" || password === "") {
+            Alert.alert("Validation Error", "Email and password are required");
+            return;
+        }
+        login(email, password);
+    };
 
     return (
         <View style={styles.container}>
@@ -23,7 +23,7 @@ export default function LoginScreen({ navigation }) {
                 style={styles.input}
                 placeholder="Email"
                 value={email}
-                onChangeText={text => setEmail(text)}
+                onChangeText={setEmail}
                 keyboardType="email-address"
                 autoCapitalize="none"
             />
@@ -32,13 +32,13 @@ export default function LoginScreen({ navigation }) {
                 style={styles.input}
                 placeholder="Password"
                 value={password}
-                onChangeText={text => setPassword(text)}
+                onChangeText={setPassword}
                 secureTextEntry
             />
 
-            <Text style={styles.errorText}>{loginError}</Text>
+            {loginError && <Text style={styles.errorText}>{loginError}</Text>}
 
-            <Button title="Login" onPress={() => { login(email, password) }} />
+            <Button title="Login" onPress={handleLogin} />
 
             <TouchableOpacity onPress={() => navigation.navigate("Register")}>
                 <Text style={styles.signupText}>New user? Sign up</Text>
