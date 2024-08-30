@@ -2482,6 +2482,287 @@
 					11.621085099547143
 				]
 			}
+		},
+        {
+			"type": "Feature",
+			"properties": {
+				"lon": 93.35548465454407,
+				"lat": 14.079606899799296,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 1094477881,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51c95fb542c0565740590d594e3cc2282c40f00102f90139683c4100000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.35548465454407,
+					14.079606899799296
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 93.36090494296138,
+				"lat": 14.185861199811608,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 1094479948,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51f8be0b1119575740598692fd32295f2c40f00102f9014c703c4100000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.36090494296138,
+					14.185861199811608
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 93.3707574286762,
+				"lat": 14.185460449811561,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 1094749669,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "5174ba5d7dba57574059c2480dacf45e2c40f00102f901e58d404100000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.3707574286762,
+					14.185460449811561
+				]
+			}
+		},
+        {
+			"type": "Feature",
+			"properties": {
+				"name": "Kalapathar Beach",
+				"country": "India",
+				"country_code": "in",
+				"state": "Andaman and Nicobar Islands",
+				"state_district": "South Andaman District",
+				"county": "Little Andaman",
+				"lon": 92.58172698867837,
+				"lat": 10.6583351,
+				"state_code": "AN",
+				"formatted": "Kalapathar Beach, Little Andaman, India",
+				"address_line1": "Kalapathar Beach",
+				"address_line2": "Little Andaman, India",
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"name": "Kalapathar Beach",
+						"osm_id": 772151602,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51bfe4d5033b25574059771c544c11512540f00102f9013219062e000000009203104b616c61706174686172204265616368"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					92.58172698867837,
+					10.658335099475364
+				]
+			}
+		},
+        {
+			"type": "Feature",
+			"properties": {
+				"lon": 93.31560086598152,
+				"lat": 7.94689959939056,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 469763906,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51b77ef9cd32545740596de96f0ca0c91f40f00102f9014207001c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.31560086598152,
+					7.94689959939056
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 93.32291301945824,
+				"lat": 7.928047849390628,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 469763908,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51a6815e9baa545740590606e92c52b61f40f00102f9014407001c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.32291301945824,
+					7.928047849390628
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 93.32457761653758,
+				"lat": 7.982995399390455,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 469763912,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "51b90232e1c5545740597900925896ee1f40f00102f9014807001c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.32457761653758,
+					7.982995399390455
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 93.33389324639259,
+				"lat": 8.008387999390408,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 469763943,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "512267c7815e55574059101f8e6e4b042040f00102f9016707001c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.33389324639259,
+					8.008387999390408
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"lon": 93.34276075722525,
+				"lat": 8.010887349390401,
+				"categories": [
+					"beach"
+				],
+				"details": [],
+				"datasource": {
+					"sourcename": "openstreetmap",
+					"attribution": "© OpenStreetMap contributors",
+					"license": "Open Database License",
+					"url": "https://www.openstreetmap.org/copyright",
+					"raw": {
+						"osm_id": 469763944,
+						"natural": "beach",
+						"osm_type": "w"
+					}
+				},
+				"place_id": "519ea8d0caef55574059d024d30693052040f00102f9016807001c00000000"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					93.34276075722525,
+					8.010887349390401
+				]
+			}
 		}
 	]
 }
