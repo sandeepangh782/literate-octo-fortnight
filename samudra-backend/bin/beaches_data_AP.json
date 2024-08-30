@@ -403,36 +403,6 @@
         {
             "type": "Feature",
             "properties": {
-                "lon": 80.27458969898714,
-                "lat": 16.866956200121226,
-                "categories": [
-                    "beach"
-                ],
-                "details": [],
-                "datasource": {
-                    "sourcename": "openstreetmap",
-                    "attribution": "\u00a9 OpenStreetMap contributors",
-                    "license": "Open Database License",
-                    "url": "https://www.openstreetmap.org/copyright",
-                    "raw": {
-                        "osm_id": 66765196,
-                        "natural": "beach",
-                        "osm_type": "w"
-                    }
-                },
-                "place_id": "51f83dace09211544059c9956ed7f0dd3040f00102f9018cc1fa0300000000"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    80.27458969898714,
-                    16.866956200121226
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Manginapudi Beach",
                 "country": "India",
                 "country_code": "in",
