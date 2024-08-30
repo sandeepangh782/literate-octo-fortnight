@@ -9,11 +9,12 @@ export const AuthContextProvider = ({ children }) => {
     const [isLoading, setIsLoading] = useState(false);
     const [userToken, setUserToken] = useState(null);
     const [userInfo, setUserInfo] = useState(null);
-    const [loginError, setLoginError] = useState(null);  // Add a state for login error
+    const [loginError, setLoginError] = useState(null);
+    const [registerError, setRegisterError] = useState(null);
 
     const login = (username, password) => {
         setIsLoading(true);
-        setLoginError(null);  // Reset error before a new login attempt
+        setLoginError(null);
         axios.post(`${BASE_URL}/api/v1/auth/login`, `username=${username}&password=${password}`, {
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded'
@@ -30,13 +31,38 @@ export const AuthContextProvider = ({ children }) => {
                 console.log("Successfully Logged In");
             })
             .catch(err => {
-                setLoginError(`${err.response.data.detail}*` || 'Login failed');
-                console.log(`login error: ${err.response.data.detail}`);
+                setLoginError(err.response?.data?.detail || 'Login failed');
+                console.log(`login error: ${err.response?.data?.detail}`);
             })
             .finally(() => {
                 setIsLoading(false);
             });
-    }
+    };
+
+    const register = async (email, password, name, phoneNumber) => {
+        setIsLoading(true);
+        setRegisterError(null);
+        try {
+            const response = await axios.post(`${BASE_URL}/api/v1/auth/register`, {
+                email,
+                password,
+                full_name: name,
+                phone_number: phoneNumber,
+            }, {
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            });
+            console.log("Registration successful:", response.data);
+            login(email, password);
+        } catch (error) {
+            const errorMsg = error.response?.data?.detail[0]?.msg || 'Registration failed';
+            setRegisterError(errorMsg);
+            console.log(`registration error: ${errorMsg}`);
+        } finally {
+            setIsLoading(false);
+        }
+    };
 
     const logout = () => {
         setIsLoading(true);
@@ -45,7 +71,7 @@ export const AuthContextProvider = ({ children }) => {
         AsyncStorage.removeItem('userToken');
         console.log("Successfully Logged Out");
         setIsLoading(false);
-    }
+    };
 
     const isLoggedIn = async () => {
         setIsLoading(true);
@@ -58,19 +84,18 @@ export const AuthContextProvider = ({ children }) => {
                 setUserToken(userToken);
             }
             setIsLoading(false);
-        }
-        catch (e) {
+        } catch (e) {
             console.log(`isLoggedIn error: ${e}`);
         }
-    }
+    };
 
     useEffect(() => {
         isLoggedIn();
     }, []);
 
     return (
-        <AuthContext.Provider value={{ login, logout, isLoading, userToken, userInfo, loginError }}>
+        <AuthContext.Provider value={{ login, register, logout, isLoading, userToken, userInfo, loginError, registerError }}>
             {children}
         </AuthContext.Provider>
     );
-}
+};

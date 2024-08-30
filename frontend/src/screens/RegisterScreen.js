@@ -1,40 +1,27 @@
-import React, { useState } from "react";
-import axios from "axios";
+import React, { useState, useContext } from "react";
 import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity, Alert } from "react-native";
-import { BASE_URL } from "@env";
+import { AuthContext } from "../context/AuthContext";
 
 export default function RegisterScreen({ navigation }) {
+    const { register, registerError } = useContext(AuthContext);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [phoneNumber, setPhoneNumber] = useState("");
 
     const handleRegister = async () => {
+        if (email === "" || password === "" || name === "" || phoneNumber === "") {
+            Alert.alert("Validation Error", "All fields are required");
+            return;
+        }
+
         try {
-            const response = await axios.post(`${BASE_URL}/api/v1/auth/register`, {
-                email,
-                password,
-                full_name: name,
-                phone_number: phoneNumber,
-                // preferred_language: preferredLanguage,
-                // notification_preferences: notificationPreferences
-            }, {
-                headers: {
-                    "Content-Type": "application/json"
-                }
-            });
-            console.log("Registration successful:", response.data);
-            // Navigate to HomeScreen after successful registration
-            navigation.navigate("Main");
-        } catch (error) {
-            if (error.response && error.response.data && error.response.data.detail) {
-                // Handle specific error message from the server
-                Alert.alert("Registration Error", error.response.data.detail);
-            } else {
-                // Handle generic error
-                console.error("Registration error:", error);
-                Alert.alert("Registration Error", "An error occurred during registration. Please try again.");
+            await register(email, password, name, phoneNumber);
+            if (registerError) {
+                Alert.alert("Registration Error", registerError);
             }
+        } catch (error) {
+            Alert.alert("Registration Error", "An unexpected error occurred");
         }
     };
 
@@ -76,6 +63,8 @@ export default function RegisterScreen({ navigation }) {
                 secureTextEntry
             />
 
+            {registerError && <Text style={styles.errorText}>{registerError}</Text>}
+
             <Button title="Register" onPress={handleRegister} />
 
             <TouchableOpacity onPress={() => navigation.navigate("Login")}>
@@ -105,6 +94,11 @@ const styles = StyleSheet.create({
         marginBottom: 12,
         paddingHorizontal: 10,
         borderRadius: 5,
+    },
+    errorText: {
+        color: "red",
+        marginBottom: 12,
+        textAlign: "center",
     },
     loginText: {
         marginTop: 20,
