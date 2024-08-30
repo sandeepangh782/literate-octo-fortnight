@@ -1,49 +1,94 @@
-import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, TextInput, ActivityIndicator } from 'react-native';
+import React, { useState, useEffect, useContext, useRef } from 'react';
+import { View, StyleSheet, TextInput, ActivityIndicator,Text } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import * as Location from 'expo-location';
+import axios from 'axios';
 import Header from '../components/Header';
+import { AuthContext } from "../context/AuthContext";
+import { NEARBY_BASE_URL } from '@env';
+import SearchBar from '../components/SearchBar';
 
 const HomeScreen = ({ navigation }) => {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [nearbyBeaches, setNearbyBeaches] = useState([]);
+  const [mapReady, setMapReady] = useState(false);
+  const { userToken } = useContext(AuthContext);
+  const mapRef = useRef(null);
+  console.log(userToken);
 
   useEffect(() => {
     (async () => {
-      let { status } = await Location.requestForegroundPermissionsAsync();
-      if (status !== 'granted') {
-        setErrorMsg('Permission to access location was denied');
-        return;
-      }
+      try {
+        let { status } = await Location.requestForegroundPermissionsAsync();
+        if (status !== 'granted') {
+          setErrorMsg('Permission to access location was denied');
+          return;
+        }
 
-      let location = await Location.getCurrentPositionAsync({});
-      setLocation(location);
-      console.log(location);
-      setLoading(false);
+        let location = await Location.getCurrentPositionAsync({});
+        setLocation(location);
+        
+        await fetchNearbyBeaches(location.coords.latitude, location.coords.longitude);
+      } catch (error) {
+        console.error('Error:', error);
+        setErrorMsg('An error occurred while fetching location or beaches');
+      } finally {
+        setLoading(false);
+      }
     })();
   }, []);
 
-  const nearbyBeaches = [
-    { id: 1, name: 'Beach 1', latitude: 37.7749, longitude: -122.4194 },
-    { id: 2, name: 'Beach 2', latitude: 37.7849, longitude: -122.4094 },
-    // Add more beaches here
-  ];
+  const fetchNearbyBeaches = async (latitude, longitude) => {
+    try {
+      const response = await axios.get(
+        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${latitude}&lon=${longitude}&radius=5&limit=10`,
+        {
+          headers: {
+            Authorization: `Bearer ${userToken}`,
+          }
+        }
+      );
+      setNearbyBeaches(response.data);
+      // console.log('Nearby beaches:', response.data);
+      const coordinates = [
+        { latitude, longitude },
+        ...response.data.map(beach => ({ latitude: beach.latitude, longitude: beach.longitude }))
+      ];
+      if (mapReady) {
+        mapRef.current.fitToCoordinates(coordinates, {
+          edgePadding: { top: 50, right: 50, bottom: 50, left: 50 },
+          animated: true,
+        });
+      }
+    } catch (error) {
+      console.error('Error fetching nearby beaches:', error);
+    }
+  };
 
   if (loading) {
     return (
-      <View style={styles.container}>
-        <ActivityIndicator size="large" color="#0000ff" />
-      </View>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                <ActivityIndicator size="large" />
+            </View>
     );
+  }
+  const handleClick = () => {
+    console.log('SearchBar clicked');
+    navigation.navigate('SearchResults', { nearbyBeaches });  
   }
 
   return (
     <View style={styles.container}>
       <Header navigation={navigation} />
-      <TextInput style={styles.searchBar} placeholder="Search..." />
+      {/* <SearchBar nearbyBeaches={nearbyBeaches} onPress={handleClick}/> */}
+      <Text style={styles.searchBar} onPress={handleClick}>
+      Search...
+      </Text>
       <View style={styles.map_container}>
         <MapView
+          ref={mapRef}
           style={styles.map}
           initialRegion={{
             latitude: location.coords.latitude,
@@ -51,6 +96,7 @@ const HomeScreen = ({ navigation }) => {
             latitudeDelta: 0.0922,
             longitudeDelta: 0.0421,
           }}
+          onMapReady={() => setMapReady(true)}
         >
           <Marker
             coordinate={{
@@ -66,7 +112,9 @@ const HomeScreen = ({ navigation }) => {
                 latitude: beach.latitude,
                 longitude: beach.longitude,
               }}
-              title={beach.name}
+              title={beach.name || 'Unnamed Beach'}
+              description={beach.city}
+              pinColor='green'
             />
           ))}
         </MapView>
@@ -82,18 +130,19 @@ const styles = StyleSheet.create({
   },
   searchBar: {
     height: 45,
-    margin: 50,
+    margin: 30,
     borderRadius: 18,
-    paddingHorizontal: 10,
+    paddingHorizontal: 15,
+    paddingVertical: 12,
     backgroundColor: '#f2f2f2',
   },
   map: {
-    height: 500,         // Set the desired height for the MapView
-    margin: 30,          // Optional: Add margin if needed
-    borderRadius: 20,    // Apply the border radius for rounded corners
+    height: 500,         
+    margin: 30,          
+    borderRadius: 20,    
     overflow: 'hidden',
     backgroundColor: '#000000',
-    // Ensure content within the border radius is clipped
+  
   },
   map_container: {
     // flex: 1,
@@ -102,7 +151,6 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
     backgroundColor: '#D8EFD3',
   },
-
 });
 
 export default HomeScreen;

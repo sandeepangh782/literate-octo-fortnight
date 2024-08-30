@@ -8,6 +8,7 @@ import FavouriteScreen from '../screens/FavouriteScreen'; // Add this import
 import SettingScreen from '../screens/SettingScreen'; // Add this import
 import TellAFriendScreen from '../screens/TellAFriendScreen'; // Add this import
 import SidebarMenu from '../components/SideBarMenu';
+import SearchResultsScreen from '../screens/SearchResultsScreen';
 
 
 const Drawer = createDrawerNavigator();
@@ -33,6 +34,7 @@ export default function MainNavigator() {
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Drawer" component={DrawerNavigator} />
+            <Stack.Screen name="SearchResults" component={SearchResultsScreen} />
             {/* <Stack.Screen name="Favourites" component={DrawerNavigator} />
             <Stack.Screen name="Settings" component={DrawerNavigator} /> */}
         </Stack.Navigator>
