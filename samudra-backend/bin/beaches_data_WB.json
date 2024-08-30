@@ -1,0 +1,954 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New Digha",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-I",
+                "city": "Digha",
+                "postcode": "721428",
+                "suburb": "Old Digha",
+                "lon": 87.50711642476077,
+                "lat": 21.61792835,
+                "state_code": "WB",
+                "formatted": "New Digha, Old Digha, Digha - 721428, West Bengal, India",
+                "address_line1": "New Digha",
+                "address_line2": "Old Digha, Digha - 721428, West Bengal, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "New Digha",
+                        "osm_id": 376191689,
+                        "natural": "beach",
+                        "surface": "sand",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "512ae7729874e05540596c48688d309e3540f00102f901c93a6c16000000009203094e6577204469676861"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.50711642476077,
+                    21.617928350410168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Old Digha",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-I",
+                "city": "Digha",
+                "postcode": "721428",
+                "suburb": "Old Digha",
+                "lon": 87.52404909466335,
+                "lat": 21.622175249999998,
+                "state_code": "WB",
+                "formatted": "Old Digha, Digha - 721428, West Bengal, India",
+                "address_line1": "Old Digha",
+                "address_line2": "Digha - 721428, West Bengal, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Old Digha",
+                        "osm_id": 379518274,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51f4c436058ae15540596ce490e0469f3540f00102f90142fd9e16000000009203094f6c64204469676861"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.52404909466333,
+                    21.622175250410166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Old Digha",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-I",
+                "city": "Digha",
+                "postcode": "721428",
+                "suburb": "Old Digha",
+                "lon": 87.5248764654603,
+                "lat": 21.62236305,
+                "state_code": "WB",
+                "formatted": "Old Digha, Digha - 721428, West Bengal, India",
+                "address_line1": "Old Digha",
+                "address_line2": "Digha - 721428, West Bengal, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Old Digha",
+                        "osm_id": 379518518,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e465759397e155405920c0532f539f3540f00102f90136fe9e16000000009203094f6c64204469676861"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.5248764654603,
+                    21.622363050410172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Digha Mohona",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-I",
+                "city": "Digha",
+                "postcode": "721428",
+                "suburb": "Old Digha",
+                "lon": 87.54072195478068,
+                "lat": 21.62747125,
+                "state_code": "WB",
+                "formatted": "Digha Mohona, Old Digha, Digha - 721428, West Bengal, India",
+                "address_line1": "Digha Mohona",
+                "address_line2": "Old Digha, Digha - 721428, West Bengal, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Digha Mohona",
+                        "osm_id": 379931623,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51c80042309be255405920b1b3f4a1a03540f00102f901e74ba5160000000092030c4469676861204d6f686f6e61"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.54072195478068,
+                    21.627471250410167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shankarpur",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-I",
+                "city": "Shankarpur",
+                "suburb": "Digha Mohona",
+                "lon": 87.56828601711771,
+                "lat": 21.6355442,
+                "state_code": "WB",
+                "formatted": "Digha Mohona, Shankarpur, Ramnagar-I, India",
+                "address_line1": "Digha Mohona",
+                "address_line2": "Shankarpur, Ramnagar-I, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Shankarpur",
+                        "osm_id": 627301697,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51dc9250cc5ee455405995ec5306b3a23540f00102f90141dd63250000000092030a5368616e6b6172707572"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.56828601711771,
+                    21.63554420041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Udaypur Beach",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-I",
+                "city": "Digha",
+                "postcode": "721428",
+                "lon": 87.48512964415988,
+                "lat": 21.6107741,
+                "state_code": "WB",
+                "formatted": "Udaypur Beach, Digha - 721428, West Bengal, India",
+                "address_line1": "Udaypur Beach",
+                "address_line2": "Digha - 721428, West Bengal, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Udaypur Beach",
+                        "osm_id": 1146893940,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5128ff345d0cdf554059668102b15b9c3540f00102f90174365c440000000092030d55646179707572204265616368"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.48512964415988,
+                    21.61077410041016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.14725797454709,
+                "lat": 21.52195530040997,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1156766730,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "515130b6ac6cc9554059143cd1dc9e853540f00102f9010adcf24400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.14725797454709,
+                    21.52195530040997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.10839410156854,
+                "lat": 21.50036170040989,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1156766731,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "513c54d0edefc6554059726e53b417803540f00102f9010bdcf24400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.10839410156854,
+                    21.50036170040989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.08080963947776,
+                "lat": 21.478473500409805,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1156766739,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518cb031fc2bc55540594443443d7d7a3540f00102f90113dcf24400000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.08080963947776,
+                    21.478473500409805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 86.89132314518946,
+                "lat": 21.309586000408625,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 1175401562,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "516cb03b700bb9554059f30d3307414f3540f00102f9015a340f4600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    86.89132314518946,
+                    21.309586000408625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mandarmani",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-II",
+                "lon": 87.73403462768464,
+                "lat": 21.675771400000002,
+                "state_code": "WB",
+                "formatted": "Mandarmani, Ramnagar-II, India",
+                "address_line1": "Mandarmani",
+                "address_line2": "Ramnagar-II, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Mandarmani",
+                        "osm_id": 416659276,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "515e02606cfaee5540597055c05affac3540f00102f9014cb7d5180000000092030a4d616e6461726d616e69"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.73403462768462,
+                    21.675771400410156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tajpur",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-I",
+                "city": "Tajpur",
+                "lon": 87.63508049399927,
+                "lat": 21.65118115,
+                "state_code": "WB",
+                "formatted": "Tajpur, Ramnagar-I, India",
+                "address_line1": "Tajpur",
+                "address_line2": "Ramnagar-I, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Tajpur",
+                        "osm_id": 627301698,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "517a03a828a5e855405989c8d0ceb3a63540f00102f90142dd63250000000092030654616a707572"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.63508049399925,
+                    21.65118115041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mandarmani",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-II",
+                "city": "Mandarmani",
+                "lon": 87.67306932450563,
+                "lat": 21.652869799999998,
+                "state_code": "WB",
+                "formatted": "Mandarmani, Ramnagar-II, India",
+                "address_line1": "Mandarmani",
+                "address_line2": "Ramnagar-II, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Mandarmani",
+                        "osm_id": 953377253,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51532c5c9113eb554059c84ea97922a73540f00102f901e561d3380000000092030a4d616e6461726d616e69"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.67306932450565,
+                    21.652869800410173
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mandarmani",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-II",
+                "city": "Mandarmani",
+                "lon": 87.71242090340324,
+                "lat": 21.666490699999997,
+                "state_code": "WB",
+                "formatted": "Mandarmani, Ramnagar-II, India",
+                "address_line1": "Mandarmani",
+                "address_line2": "Ramnagar-II, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Mandarmani",
+                        "osm_id": 953414953,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51a346d84d98ed5540598c5971229faa3540f00102f90129f5d3380000000092030a4d616e6461726d616e69"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.71242090340324,
+                    21.666490700410165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mandarmani",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-II",
+                "lon": 87.75437782975555,
+                "lat": 21.686505750000002,
+                "state_code": "WB",
+                "formatted": "Mandarmani, Ramnagar-II, India",
+                "address_line1": "Mandarmani",
+                "address_line2": "Ramnagar-II, India",
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Mandarmani",
+                        "osm_id": 953415001,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5129e8f2b947f05540590a8742d7beaf3540f00102f90159f5d3380000000092030a4d616e6461726d616e69"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.75437782975554,
+                    21.68650575041014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mohana Resort",
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "Purba Medinipur District",
+                "county": "Ramnagar-II",
+                "city": "Mandarmani",
+                "street": "Mandarmoni Beach Road",
+                "lon": 87.6504068,
+                "lat": 21.6488223,
+                "state_code": "WB",
+                "formatted": "Mohana Resort, Mandarmoni Beach Road, Mandarmani -, West Bengal, India",
+                "address_line1": "Mohana Resort",
+                "address_line2": "Mandarmoni Beach Road, Mandarmani -, West Bengal, India",
+                "categories": [
+                    "beach",
+                    "beach.beach_resort"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Mohana Resort",
+                        "osm_id": 8456764194,
+                        "leisure": "beach_resort",
+                        "osm_type": "n",
+                        "addr:city": "Mandarmani"
+                    }
+                },
+                "place_id": "5125c6d743a0e95540595b2de13719a63540f00103f90122fb0ff80100000092030d4d6f68616e61205265736f7274"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.6504068,
+                    21.64882230041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.6066843499089,
+                "lat": 21.643629550410175,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 380060950,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51a47698ead3e65540593ac0fde7c4a43540f00102f9011645a71600000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.6066843499089,
+                    21.643629550410175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.70246761462636,
+                "lat": 21.662789650410176,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 953602321,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5170d4b93af5ec55405994a32095aca93540f00102f90111d1d63800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.70246761462636,
+                    21.662789650410176
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 87.70373672797169,
+                "lat": 21.663182850410166,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 953602329,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "517ae8c5050aed5540599cc7ed59c6a93540f00102f90119d1d63800000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.70373672797169,
+                    21.663182850410166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.39308056079564,
+                "lat": 21.623737450410168,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745202323,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51e1535e3b281956405956cdee41ad9f3540f00102f90193e26a2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.39308056079564,
+                    21.623737450410168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.38182034498175,
+                "lat": 21.66388990041017,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745225890,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5138a999be6f18564059086842b0f4a93540f00102f901a23e6b2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.38182034498175,
+                    21.66388990041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.38200027211693,
+                "lat": 21.66304655041017,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745225891,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "518af344b17218564059bfbc316bbda93540f00102f901a33e6b2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.38200027211693,
+                    21.66304655041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.4274217083483,
+                "lat": 21.628278600410177,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745241346,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5136bd94e05a1b564059d289c9ddd6a03540f00102f901027b6b2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.4274217083483,
+                    21.628278600410177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.41360242550712,
+                "lat": 21.620700850410163,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 745268568,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "515cc64e76781a5640596d1c3d40e69e3540f00102f90158e56b2c00000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.41360242550712,
+                    21.620700850410163
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "lon": 88.38219413054684,
+                "lat": 21.66220985041017,
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 807670520,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "51ffda5ede7518564059ca99b29586a93540f00102f901f812243000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.38219413054684,
+                    21.66220985041017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "country": "India",
+                "country_code": "in",
+                "state": "West Bengal",
+                "state_district": "South 24 Parganas District",
+                "county": "Basanti",
+                "lon": 88.8069316,
+                "lat": 22.3218793,
+                "state_code": "WB",
+                "formatted": "Basanti, India",
+                "address_line1": "Basanti",
+                "address_line2": "India",
+                "mappedTo": {
+                    "lon": 88.8069316,
+                    "lat": 22.3218793
+                },
+                "categories": [
+                    "beach"
+                ],
+                "details": [],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "osm_id": 815641381,
+                        "natural": "beach",
+                        "osm_type": "w"
+                    }
+                },
+                "place_id": "5120754453aa3356405990a73ad961523640f00102f90125b39d3000000000"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.8072708290606,
+                    22.321805550403553
+                ]
+            }
+        }
+    ]
+}
