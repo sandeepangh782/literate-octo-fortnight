@@ -4,16 +4,20 @@ import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
 import { registerRootComponent } from 'expo'; // Import registerRootComponent
 import { AuthContextProvider } from "./src/context/AuthContext";
 import AppNavigator from "./src/navigation/AppNavigator"; // Adjusted import path
+import { NearbyBeachesProvider } from "./src/context/NearByBeachesContext";
+
 
 function App() {
   return (
-    <AuthContextProvider>
-<SafeAreaProvider style={styles.ios}>
-      <SafeAreaView style={styles.container}>
-        <AppNavigator />
-      </SafeAreaView>
-      </SafeAreaProvider>
-    </AuthContextProvider>
+    <NearbyBeachesProvider>
+      <AuthContextProvider>
+        <SafeAreaProvider style={styles.ios}>
+          <SafeAreaView style={styles.container}>
+            <AppNavigator />
+          </SafeAreaView>
+        </SafeAreaProvider>
+      </AuthContextProvider>
+    </NearbyBeachesProvider>
   );
 }
 
