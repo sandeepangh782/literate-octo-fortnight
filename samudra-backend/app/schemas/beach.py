@@ -29,6 +29,19 @@ class MarineConditions(BaseModel):
     nearest_current_time: str
 
 
+class WeatherConditions(BaseModel):
+    temperature: MeasurementWithUnit
+    feels_like: MeasurementWithUnit
+    humidity: MeasurementWithUnit
+    pressure: MeasurementWithUnit
+    weather_description: str
+    weather_icon: str
+    visibility: MeasurementWithUnit
+    sunrise: str
+    sunset: str
+    timestamp: str
+
+
 class BeachBase(BaseModel):
     name: Optional[str] = None
     state: Optional[str] = None
@@ -67,6 +80,7 @@ class BeachOut(BeachBase):
     distance: Optional[float] = None  # Distance in km
     safety_status: Optional[str] = None
     marine_conditions: Optional[MarineConditions] = None
+    weather_conditions: Optional[WeatherConditions] = None
 
     class Config:
         from_attributes = True

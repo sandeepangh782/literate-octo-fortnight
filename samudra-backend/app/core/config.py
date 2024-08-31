@@ -11,6 +11,7 @@ class Settings(BaseSettings):
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     GOOGLE_PLACES_API_KEY: str
+    OPENWEATHERMAP_API_KEY: str
 
     class Config:
         env_file = ".env"

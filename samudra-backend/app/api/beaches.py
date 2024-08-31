@@ -9,12 +9,14 @@ from app.schemas.beach import (
     BeachCreate,
     BeachUpdate,
     MarineConditions,
+    WeatherConditions,
 )
 from typing import List, Optional
 from sqlalchemy import func, case
 from app.core.security import get_current_user
 from app.services.google_places import get_place_image
 from app.services.marine_services import get_marine_data
+from app.services.weather_services import get_weather_data
 from geoalchemy2.functions import (
     ST_SetSRID,
     ST_MakePoint,
@@ -56,11 +58,9 @@ async def search_beaches(
     lon: Optional[float] = None,
     db: Session = Depends(get_db),
 ):
-    """Search beaches by name, city, or state, with optional location-based sorting"""
+    """Search beaches by name, city, or state, with location-based sorting"""
     beaches_query = db.query(Beach).filter(
-        (func.lower(Beach.name).contains(func.lower(query)))
-        | (func.lower(Beach.city).contains(func.lower(query)))
-        | (func.lower(Beach.state).contains(func.lower(query)))
+        (func.lower(Beach.name).contains(func.lower(query))) | (func.lower(Beach.city).contains(func.lower(query))) | (func.lower(Beach.state).contains(func.lower(query)))
     )
 
     if lat is not None and lon is not None:
@@ -75,9 +75,6 @@ async def search_beaches(
     beach_list = []
     for beach, distance in beaches:
         beach_dict = BeachOut.model_validate(beach).dict()
-        beach_dict["image_url"] = get_place_image(
-            beach.name, (beach.latitude, beach.longitude)
-        )
         beach_dict["safety_status"] = get_mock_safety_status()
 
         if distance is not None:
@@ -115,9 +112,9 @@ async def get_nearby_beaches(
     beach_list = []
     for beach, distance in nearby_beaches:
         beach_dict = BeachOut.model_validate(beach).dict()
-        beach_dict["image_url"] = get_place_image(
-            beach.name, (beach.latitude, beach.longitude)
-        )
+        # beach_dict["image_url"] = get_place_image(
+        #     beach.name, (beach.latitude, beach.longitude)
+        # )
         beach_dict["safety_status"] = get_mock_safety_status()
         beach_dict["distance"] = round(distance / 1000, 2)  # Convert meters to km
         beach_list.append(beach_dict)
@@ -133,14 +130,24 @@ async def get_beach(beach_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Beach not found")
 
     beach_dict = BeachOut.model_validate(beach).dict()
-    beach_dict["image_url"] = get_place_image(
-        beach.name, (beach.latitude, beach.longitude)
-    )
+    beach_dict["image_url"] = get_place_image(beach.name, (beach.latitude, beach.longitude))
     beach_dict["safety_status"] = get_mock_safety_status()
 
-    # Fetch marine data
-    marine_data = await get_marine_data(beach.latitude, beach.longitude)
-    beach_dict["marine_conditions"] = MarineConditions(**marine_data)
+    try:
+        # Fetch marine data
+        marine_data = await get_marine_data(beach.latitude, beach.longitude)
+        beach_dict["marine_conditions"] = MarineConditions(**marine_data)
+    except HTTPException as exc:
+        logger.warning(f"Failed to fetch marine data for beach {beach_id}: {exc.detail}")
+        beach_dict["marine_conditions"] = None
+
+    try:
+        # Fetch weather data
+        weather_data = await get_weather_data(beach.latitude, beach.longitude)
+        beach_dict["weather_conditions"] = WeatherConditions(**weather_data)
+    except HTTPException as exc:
+        logger.warning(f"Failed to fetch weather data for beach {beach_id}: {exc.detail}")
+        beach_dict["weather_conditions"] = None
 
     return beach_dict
 
