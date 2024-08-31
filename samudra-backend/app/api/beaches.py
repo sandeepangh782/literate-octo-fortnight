@@ -5,13 +5,10 @@ from app.models.beach import Beach
 from app.models.user import User
 from app.schemas.beach import BeachOut, BeachList, BeachCreate, BeachUpdate
 from typing import List, Optional
-from sqlalchemy import func
+from sqlalchemy import func, case
 from app.core.security import get_current_user
 from app.services.google_places import get_place_image
 from geoalchemy2.functions import (
-    ST_DWithin,
-    ST_Distance,
-    ST_Transform,
     ST_SetSRID,
     ST_MakePoint,
     ST_DistanceSphere,
@@ -21,6 +18,8 @@ import logging
 
 router = APIRouter()
 logger = logging.getLogger("samudra_suraksha")
+
+NULL = None
 
 
 @router.get("/", response_model=BeachList)
@@ -52,9 +51,7 @@ async def search_beaches(
 ):
     """Search beaches by name, city, or state, with optional location-based sorting"""
     beaches_query = db.query(Beach).filter(
-        (func.lower(Beach.name).contains(func.lower(query)))
-        | (func.lower(Beach.city).contains(func.lower(query)))
-        | (func.lower(Beach.state).contains(func.lower(query)))
+        (func.lower(Beach.name).contains(func.lower(query))) | (func.lower(Beach.city).contains(func.lower(query))) | (func.lower(Beach.state).contains(func.lower(query)))
     )
 
     if lat is not None and lon is not None:
@@ -92,25 +89,17 @@ async def get_nearby_beaches(
     limit: int = 15,
     db: Session = Depends(get_db),
 ):
-    """Get nearby beaches within a specified radius"""
+    """Get nearby beaches within a specified radius, named beaches first"""
     radius_meters = radius * 1000
     user_location = ST_SetSRID(ST_MakePoint(lon, lat), 4326)
-
-    # Query without distance filter to check beach coordinates
-    all_beaches = db.query(
-        Beach, ST_DistanceSphere(Beach.geom, user_location).label("distance")
-    ).all()
-
-    logger.info(f"User location: lat {lat}, lon {lon}")
-    for beach, distance in all_beaches:
-        logger.info(
-            f"Beach: {beach.name}, lat: {beach.latitude}, lon: {beach.longitude}, distance: {distance / 1000:.2f} km"
-        )
 
     nearby_beaches = (
         db.query(Beach, ST_DistanceSphere(Beach.geom, user_location).label("distance"))
         .filter(ST_DistanceSphere(Beach.geom, user_location) <= radius_meters)
-        .order_by("distance")
+        .order_by(
+            case((Beach.name != NULL, 0), (Beach.name == NULL, 1)),
+            "distance"
+        )
         .limit(limit)
         .all()
     )
