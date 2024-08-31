@@ -24,7 +24,10 @@ class MarineConditions(BaseModel):
     swell_wave_height: MeasurementWithUnit
     swell_wave_direction: DirectionWithUnit
     swell_wave_period: MeasurementWithUnit
+    ocean_current_velocity: MeasurementWithUnit
+    ocean_current_direction: DirectionWithUnit
     timestamp: str
+    nearest_current_time: str
 
 
 class BeachBase(BaseModel):
