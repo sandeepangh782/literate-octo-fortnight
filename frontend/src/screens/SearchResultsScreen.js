@@ -33,20 +33,20 @@ const SearchResultsScreen = () => {
   const navigation = useNavigation();
 
   const handleSearch = (text) => {
-    const filtered = nearbyBeaches.filter(beach => 
+    const filtered = nearbyBeaches.filter(beach =>
       beach.name?.toLowerCase().includes(text.toLowerCase()) ||
       beach.city?.toLowerCase().includes(text.toLowerCase())
     );
     setFilteredBeaches(filtered);
   };
 
-  const navigateToBeachDetail = (beach) => {
-    navigation.navigate('BeachDetail', { beach });
+  const navigateToBeachDetails = (beach) => {
+    navigation.navigate('BeachDetails', { beach });
   };
 
 
   const renderBeachItem = ({ item }) => (
-    <TouchableOpacity onPress={() => navigateToBeachDetail(item)}>
+    <TouchableOpacity onPress={() => navigateToBeachDetails(item)}>
       <View style={styles.beachItem}>
         <View style={styles.beachInfo}>
           <View style={styles.nameAndSafety}>

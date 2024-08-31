@@ -19,7 +19,7 @@ const Header = ({ navigation }) => {
   );
 };
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ 
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
