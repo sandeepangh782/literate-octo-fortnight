@@ -17,6 +17,7 @@ from app.core.security import get_current_user
 from app.services.google_places import get_place_image
 from app.services.marine_services import get_marine_data
 from app.services.weather_services import get_weather_data
+from app.services.llm_services import generate_safety_points
 from geoalchemy2.functions import (
     ST_SetSRID,
     ST_MakePoint,
@@ -139,7 +140,7 @@ async def get_beach(beach_id: int, db: Session = Depends(get_db)):
         beach_dict["marine_conditions"] = MarineConditions(**marine_data)
     except HTTPException as exc:
         logger.warning(f"Failed to fetch marine data for beach {beach_id}: {exc.detail}")
-        beach_dict["marine_conditions"] = None
+        beach_dict["marine_conditions"] = {"error": str(exc.detail)}
 
     try:
         # Fetch weather data
@@ -147,9 +148,17 @@ async def get_beach(beach_id: int, db: Session = Depends(get_db)):
         beach_dict["weather_conditions"] = WeatherConditions(**weather_data)
     except HTTPException as exc:
         logger.warning(f"Failed to fetch weather data for beach {beach_id}: {exc.detail}")
-        beach_dict["weather_conditions"] = None
+        beach_dict["weather_conditions"] = {"error": str(exc.detail)}
 
-    return beach_dict
+    try:
+        # Generate safety points using LLM
+        safety_points = await generate_safety_points(beach_dict)
+        beach_dict["safety_points"] = safety_points
+    except HTTPException as exc:
+        logger.warning(f"Failed to generate safety points for beach {beach_id}: {exc.detail}")
+        beach_dict["safety_points"] = ["Always follow lifeguard instructions and beach safety signs."]
+
+    return BeachOut(**beach_dict)
 
 
 @router.post("/beaches", response_model=BeachOut, status_code=status.HTTP_201_CREATED)
