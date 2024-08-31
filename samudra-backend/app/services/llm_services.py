@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 
 genai.configure(api_key=settings.GEMINI_API_KEY)
 
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 SYSTEM_PROMPT = """
 You are an AI beach safety expert. Your role is to analyze beach conditions and provide concise, important safety points for visitors.
