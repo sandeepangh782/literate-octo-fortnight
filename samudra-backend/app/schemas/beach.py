@@ -1,6 +1,30 @@
-from pydantic import BaseModel, HttpUrl
+# app/schemas/beach.py
+from pydantic import BaseModel
 from typing import List, Optional, Dict
 from datetime import datetime
+
+
+class MeasurementWithUnit(BaseModel):
+    value: Optional[float]
+    unit: str
+
+
+class DirectionWithUnit(BaseModel):
+    value: Optional[str]
+    unit: str = "cardinal"
+
+
+class MarineConditions(BaseModel):
+    wave_height: MeasurementWithUnit
+    wave_direction: DirectionWithUnit
+    wave_period: MeasurementWithUnit
+    wind_wave_height: MeasurementWithUnit
+    wind_wave_direction: DirectionWithUnit
+    wind_wave_period: MeasurementWithUnit
+    swell_wave_height: MeasurementWithUnit
+    swell_wave_direction: DirectionWithUnit
+    swell_wave_period: MeasurementWithUnit
+    timestamp: str
 
 
 class BeachBase(BaseModel):
@@ -40,6 +64,7 @@ class BeachOut(BeachBase):
     image_url: Optional[str] = None
     distance: Optional[float] = None  # Distance in km
     safety_status: Optional[str] = None
+    marine_conditions: Optional[MarineConditions] = None
 
     class Config:
         from_attributes = True

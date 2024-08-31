@@ -3,11 +3,18 @@ from sqlalchemy.orm import Session
 from app.db.database import get_db
 from app.models.beach import Beach
 from app.models.user import User
-from app.schemas.beach import BeachOut, BeachList, BeachCreate, BeachUpdate
+from app.schemas.beach import (
+    BeachOut,
+    BeachList,
+    BeachCreate,
+    BeachUpdate,
+    MarineConditions,
+)
 from typing import List, Optional
 from sqlalchemy import func, case
 from app.core.security import get_current_user
 from app.services.google_places import get_place_image
+from app.services.marine_services import get_marine_data
 from geoalchemy2.functions import (
     ST_SetSRID,
     ST_MakePoint,
@@ -51,7 +58,9 @@ async def search_beaches(
 ):
     """Search beaches by name, city, or state, with optional location-based sorting"""
     beaches_query = db.query(Beach).filter(
-        (func.lower(Beach.name).contains(func.lower(query))) | (func.lower(Beach.city).contains(func.lower(query))) | (func.lower(Beach.state).contains(func.lower(query)))
+        (func.lower(Beach.name).contains(func.lower(query)))
+        | (func.lower(Beach.city).contains(func.lower(query)))
+        | (func.lower(Beach.state).contains(func.lower(query)))
     )
 
     if lat is not None and lon is not None:
@@ -96,10 +105,7 @@ async def get_nearby_beaches(
     nearby_beaches = (
         db.query(Beach, ST_DistanceSphere(Beach.geom, user_location).label("distance"))
         .filter(ST_DistanceSphere(Beach.geom, user_location) <= radius_meters)
-        .order_by(
-            case((Beach.name != NULL, 0), (Beach.name == NULL, 1)),
-            "distance"
-        )
+        .order_by(case((Beach.name != NULL, 0), (Beach.name == NULL, 1)), "distance")
         .limit(limit)
         .all()
     )
@@ -121,7 +127,7 @@ async def get_nearby_beaches(
 
 @router.get("/{beach_id}", response_model=BeachOut)
 async def get_beach(beach_id: int, db: Session = Depends(get_db)):
-    """Get details of a specific beach"""
+    """Get detailed information for a specific beach"""
     beach = db.query(Beach).filter(Beach.id == beach_id).first()
     if beach is None:
         raise HTTPException(status_code=404, detail="Beach not found")
@@ -130,6 +136,11 @@ async def get_beach(beach_id: int, db: Session = Depends(get_db)):
     beach_dict["image_url"] = get_place_image(
         beach.name, (beach.latitude, beach.longitude)
     )
+    beach_dict["safety_status"] = get_mock_safety_status()
+
+    # Fetch marine data
+    marine_data = await get_marine_data(beach.latitude, beach.longitude)
+    beach_dict["marine_conditions"] = MarineConditions(**marine_data)
 
     return beach_dict
 
