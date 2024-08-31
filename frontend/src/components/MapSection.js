@@ -13,7 +13,7 @@ const MapSection = () => {
   const [loading, setLoading] = useState(true);
   const { nearbyBeaches, setNearbyBeaches} = useContext(NearbyBeachesContext);
   const [mapReady, setMapReady] = useState(false);
-  
+
   const { userToken } = useContext(AuthContext);
   const mapRef = useRef(null);
   const hasFitToCoordinates = useRef(false);

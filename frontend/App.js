@@ -1,23 +1,22 @@
 import React from "react";
 import { StyleSheet } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from 'react-native-safe-area-context';
-import { registerRootComponent } from 'expo'; // Import registerRootComponent
+import { registerRootComponent } from 'expo';
+import AppNavigator from "./src/navigation/AppNavigator";
 import { AuthContextProvider } from "./src/context/AuthContext";
-import AppNavigator from "./src/navigation/AppNavigator"; // Adjusted import path
 import { NearbyBeachesProvider } from "./src/context/NearByBeachesContext";
-
 
 function App() {
   return (
-    <NearbyBeachesProvider>
-      <AuthContextProvider>
+    <AuthContextProvider>
+      <NearbyBeachesProvider>
         <SafeAreaProvider style={styles.ios}>
           <SafeAreaView style={styles.container}>
             <AppNavigator />
           </SafeAreaView>
         </SafeAreaProvider>
-      </AuthContextProvider>
-    </NearbyBeachesProvider>
+      </NearbyBeachesProvider>
+    </AuthContextProvider>
   );
 }
 
@@ -27,7 +26,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     justifyContent: "center",
   },
-  ios:{
+  ios: {
     margin: 0,
     flex: 1,
     backgroundColor: "#fff",
@@ -35,5 +34,5 @@ const styles = StyleSheet.create({
   },
 });
 
-registerRootComponent(App); // Register the root component
+registerRootComponent(App);
 export default App;

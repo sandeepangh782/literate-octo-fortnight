@@ -9,7 +9,7 @@ import SettingScreen from '../screens/SettingScreen'; // Add this import
 import TellAFriendScreen from '../screens/TellAFriendScreen'; // Add this import
 import SidebarMenu from '../components/SideBarMenu';
 import SearchResultsScreen from '../screens/SearchResultsScreen';
-import BeachDetailScreen from '../screens/BeachDetailScreen';
+import BeachDetailsScreen from '../screens/BeachDetailsScreen';
 
 
 const Drawer = createDrawerNavigator();
@@ -36,7 +36,7 @@ export default function MainNavigator() {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Drawer" component={DrawerNavigator} />
             <Stack.Screen name="SearchResults" component={SearchResultsScreen} />
-            <Stack.Screen name="BeachDetail" component={BeachDetailScreen} />
+            <Stack.Screen name="BeachDetails" component={BeachDetailsScreen} />
             {/* <Stack.Screen name="Favourites" component={DrawerNavigator} />
             <Stack.Screen name="Settings" component={DrawerNavigator} /> */}
         </Stack.Navigator>
