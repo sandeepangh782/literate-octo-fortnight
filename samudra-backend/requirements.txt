@@ -13,3 +13,5 @@ python-multipart
 email-validator
 alembic
 shapely
+httpx
+google-generativeai

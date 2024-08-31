@@ -3,11 +3,21 @@ from sqlalchemy.orm import Session
 from app.db.database import get_db
 from app.models.beach import Beach
 from app.models.user import User
-from app.schemas.beach import BeachOut, BeachList, BeachCreate, BeachUpdate
+from app.schemas.beach import (
+    BeachOut,
+    BeachList,
+    BeachCreate,
+    BeachUpdate,
+    MarineConditions,
+    WeatherConditions,
+)
 from typing import List, Optional
 from sqlalchemy import func, case
 from app.core.security import get_current_user
 from app.services.google_places import get_place_image
+from app.services.marine_services import get_marine_data
+from app.services.weather_services import get_weather_data
+from app.services.llm_services import generate_safety_points
 from geoalchemy2.functions import (
     ST_SetSRID,
     ST_MakePoint,
@@ -49,7 +59,7 @@ async def search_beaches(
     lon: Optional[float] = None,
     db: Session = Depends(get_db),
 ):
-    """Search beaches by name, city, or state, with optional location-based sorting"""
+    """Search beaches by name, city, or state, with location-based sorting"""
     beaches_query = db.query(Beach).filter(
         (func.lower(Beach.name).contains(func.lower(query))) | (func.lower(Beach.city).contains(func.lower(query))) | (func.lower(Beach.state).contains(func.lower(query)))
     )
@@ -66,9 +76,6 @@ async def search_beaches(
     beach_list = []
     for beach, distance in beaches:
         beach_dict = BeachOut.model_validate(beach).dict()
-        beach_dict["image_url"] = get_place_image(
-            beach.name, (beach.latitude, beach.longitude)
-        )
         beach_dict["safety_status"] = get_mock_safety_status()
 
         if distance is not None:
@@ -96,10 +103,7 @@ async def get_nearby_beaches(
     nearby_beaches = (
         db.query(Beach, ST_DistanceSphere(Beach.geom, user_location).label("distance"))
         .filter(ST_DistanceSphere(Beach.geom, user_location) <= radius_meters)
-        .order_by(
-            case((Beach.name != NULL, 0), (Beach.name == NULL, 1)),
-            "distance"
-        )
+        .order_by(case((Beach.name != NULL, 0), (Beach.name == NULL, 1)), "distance")
         .limit(limit)
         .all()
     )
@@ -109,9 +113,9 @@ async def get_nearby_beaches(
     beach_list = []
     for beach, distance in nearby_beaches:
         beach_dict = BeachOut.model_validate(beach).dict()
-        beach_dict["image_url"] = get_place_image(
-            beach.name, (beach.latitude, beach.longitude)
-        )
+        # beach_dict["image_url"] = get_place_image(
+        #     beach.name, (beach.latitude, beach.longitude)
+        # )
         beach_dict["safety_status"] = get_mock_safety_status()
         beach_dict["distance"] = round(distance / 1000, 2)  # Convert meters to km
         beach_list.append(beach_dict)
@@ -121,17 +125,40 @@ async def get_nearby_beaches(
 
 @router.get("/{beach_id}", response_model=BeachOut)
 async def get_beach(beach_id: int, db: Session = Depends(get_db)):
-    """Get details of a specific beach"""
+    """Get detailed information for a specific beach"""
     beach = db.query(Beach).filter(Beach.id == beach_id).first()
     if beach is None:
         raise HTTPException(status_code=404, detail="Beach not found")
 
     beach_dict = BeachOut.model_validate(beach).dict()
-    beach_dict["image_url"] = get_place_image(
-        beach.name, (beach.latitude, beach.longitude)
-    )
+    beach_dict["image_url"] = get_place_image(beach.name, (beach.latitude, beach.longitude))
+    beach_dict["safety_status"] = get_mock_safety_status()
 
-    return beach_dict
+    try:
+        # Fetch marine data
+        marine_data = await get_marine_data(beach.latitude, beach.longitude)
+        beach_dict["marine_conditions"] = MarineConditions(**marine_data)
+    except HTTPException as exc:
+        logger.warning(f"Failed to fetch marine data for beach {beach_id}: {exc.detail}")
+        beach_dict["marine_conditions"] = {"error": str(exc.detail)}
+
+    try:
+        # Fetch weather data
+        weather_data = await get_weather_data(beach.latitude, beach.longitude)
+        beach_dict["weather_conditions"] = WeatherConditions(**weather_data)
+    except HTTPException as exc:
+        logger.warning(f"Failed to fetch weather data for beach {beach_id}: {exc.detail}")
+        beach_dict["weather_conditions"] = {"error": str(exc.detail)}
+
+    try:
+        # Generate safety points using LLM
+        safety_points = await generate_safety_points(beach_dict)
+        beach_dict["safety_points"] = safety_points
+    except HTTPException as exc:
+        logger.warning(f"Failed to generate safety points for beach {beach_id}: {exc.detail}")
+        beach_dict["safety_points"] = ["Always follow lifeguard instructions and beach safety signs."]
+
+    return BeachOut(**beach_dict)
 
 
 @router.post("/beaches", response_model=BeachOut, status_code=status.HTTP_201_CREATED)
