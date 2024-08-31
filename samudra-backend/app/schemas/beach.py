@@ -1,4 +1,3 @@
-# app/schemas/beach.py
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 from datetime import datetime
