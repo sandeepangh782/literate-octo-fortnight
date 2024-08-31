@@ -11,7 +11,7 @@ const MapSection = () => {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
   const [loading, setLoading] = useState(true);
-  const { nearbyBeaches, setNearbyBeaches } = useContext(NearbyBeachesContext);
+  const { nearbyBeaches, setNearbyBeaches} = useContext(NearbyBeachesContext);
   const [mapReady, setMapReady] = useState(false);
   
   const { userToken } = useContext(AuthContext);
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
   mapContainer: {
     flex: 1,
     margin: 20,
-    marginBottom: 70,
+    marginBottom: 90,
     borderRadius: 20,
     overflow: 'hidden',
     backgroundColor: '#D8EFD3',
