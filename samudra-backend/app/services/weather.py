@@ -2,7 +2,7 @@ import requests
 from app.core.config import OPENWEATHERMAP_API_KEY
 
 def get_weather_data(lat, lon):
-    url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={OPENWEATHERMAP_API_KEY}"
+    url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&units=metric&appid={OPENWEATHERMAP_API_KEY}"
     response = requests.get(url)
     data = response.json()
     
