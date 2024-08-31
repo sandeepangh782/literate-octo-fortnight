@@ -1,11 +1,36 @@
-import React, { useState } from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import React, { useState, useContext } from 'react';
+import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import SearchBar from '../components/SearchBar';
+import { NearbyBeachesContext } from '../context/NearByBeachesContext';
+import { useNavigation } from '@react-navigation/native';
 
-const SearchResultsScreen = ({ route }) => {
-  const { nearbyBeaches } = route.params;
+
+const activityIcons = {
+  surfing: 'water',
+  swimming: 'swim',
+  fishing: 'fish',
+  'beach combing': 'search',
+  sunbathing: 'sunny',
+  'bird watching': 'eye',
+  picnicking: 'cafe',
+  'kite flying': 'airplane',
+  kayaking: 'boat',
+  'beach yoga': 'fitness',
+  'sand castle building': 'construct',
+};
+
+const safetyColors = {
+  Safe: '#4CAF50',
+  Moderate: '#FFC107',
+  Caution: '#FF9800',
+  Dangerous: '#F44336',
+};
+
+const SearchResultsScreen = () => {
+  const { nearbyBeaches } = useContext(NearbyBeachesContext);
   const [filteredBeaches, setFilteredBeaches] = useState(nearbyBeaches);
-  const [searchText, setSearchText] = useState("");
+  const navigation = useNavigation();
 
   const handleSearch = (text) => {
     const filtered = nearbyBeaches.filter(beach => 
@@ -15,13 +40,30 @@ const SearchResultsScreen = ({ route }) => {
     setFilteredBeaches(filtered);
   };
 
-  const renderBeachItem = ({ item }) => (
-    <View style={styles.beachItem}>
-      <Text style={styles.beachName}>{item.name || 'Unnamed Beach'}</Text>
-      <Text style={styles.beachCity}>{item.city}</Text>
-    </View>
-  );
+  const navigateToBeachDetail = (beach) => {
+    navigation.navigate('BeachDetail', { beach });
+  };
 
+
+  const renderBeachItem = ({ item }) => (
+    <TouchableOpacity onPress={() => navigateToBeachDetail(item)}>
+      <View style={styles.beachItem}>
+        <View style={styles.beachInfo}>
+          <View style={styles.nameAndSafety}>
+            <View style={[styles.safetyDot, { backgroundColor: safetyColors[item.safety_status] }]} />
+            <Text style={styles.beachName}>{item.name || 'Unnamed Beach'}</Text>
+          </View>
+          <Text style={styles.beachCity}>{item.city}</Text>
+          <Text>{item.distance ? `${item.distance.toFixed(2)} km away` : 'Distance unknown'}</Text>
+        </View>
+        <View style={styles.activityIcons}>
+          {item.activities && item.activities.slice(0, 3).map((activity, index) => (
+            <Ionicons key={index} name={activityIcons[activity] || 'help-circle-outline'} size={14} color="#666" style={styles.icon} />
+          ))}
+        </View>
+      </View>
+    </TouchableOpacity>
+  );
   return (
     <View style={styles.container}>
       <SearchBar nearbyBeaches={nearbyBeaches} onSearch={handleSearch} />
@@ -44,9 +86,25 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   beachItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
     padding: 15,
     borderBottomWidth: 1,
     borderBottomColor: '#e0e0e0',
+  },
+  beachInfo: {
+    flex: 1,
+  },
+  nameAndSafety: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  safetyDot: {
+    width: 10,
+    height: 10,
+    borderRadius: 5,
+    marginRight: 8,
   },
   beachName: {
     fontSize: 16,
@@ -55,6 +113,12 @@ const styles = StyleSheet.create({
   beachCity: {
     fontSize: 14,
     color: '#666',
+  },
+  activityIcons: {
+    flexDirection: 'row',
+  },
+  icon: {
+    marginLeft: 8,
   },
 });
 
