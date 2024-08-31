@@ -5,18 +5,22 @@ import { registerRootComponent } from 'expo';
 import AppNavigator from "./src/navigation/AppNavigator";
 import { AuthContextProvider } from "./src/context/AuthContext";
 import { NearbyBeachesProvider } from "./src/context/NearByBeachesContext";
+import { LocationProvider } from './src/context/LocationContext';
+
 
 function App() {
   return (
-    <AuthContextProvider>
-      <NearbyBeachesProvider>
+    <LocationProvider>
+    <NearbyBeachesProvider>
+      <AuthContextProvider>
         <SafeAreaProvider style={styles.ios}>
           <SafeAreaView style={styles.container}>
             <AppNavigator />
           </SafeAreaView>
         </SafeAreaProvider>
-      </NearbyBeachesProvider>
-    </AuthContextProvider>
+      </AuthContextProvider>
+    </NearbyBeachesProvider>
+    </LocationProvider>
   );
 }
 

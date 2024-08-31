@@ -1,17 +1,21 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import { View, StyleSheet, Text, FlatList, TouchableOpacity } from 'react-native';
 import Header from '../components/Header';
 import MapSection from '../components/MapSection';
+import { NearbyBeachesContext } from '../context/NearByBeachesContext';
 
 const HomeScreen = ({ navigation }) => {
-
-  const nearbyBeaches = [
-    {"name":"Marina Beach","state":"Goa","state_district":null,"city":"Chennai","latitude":15.500038649966278,"longitude":73.82062025701819,"formatted_address":null,"activities":["surfing","beach yoga","snorkeling"],"id":111,"created_at":"2024-08-30T18:02:26.711866+05:30","updated_at":null},
-    {"name":"Kegdole Beach","state":"Goa","state_district":"North Goa District","city":"Reis Magos","latitude":15.496590699999999,"longitude":73.80998966699704,"formatted_address":"Kegdole Beach, Verem, Reis Magos, Bardez, India","activities":["snorkeling","picnicking","swimming"],"id":72,"created_at":"2024-08-30T18:02:26.711866+05:30","updated_at":null},
-    {"name":"Marina Beach","state":"Goa","state_district":null,"city":"Chennai","latitude":15.500038649966278,"longitude":73.82062025701819,"formatted_address":null,"activities":["surfing","beach yoga","snorkeling"],"id":111,"created_at":"2024-08-30T18:02:26.711866+05:30","updated_at":null},
-    {"name":"Kegdole Beach","state":"Goa","state_district":"North Goa District","city":"Reis Magos","latitude":15.496590699999999,"longitude":73.80998966699704,"formatted_address":"Kegdole Beach, Verem, Reis Magos, Bardez, India","activities":["snorkeling","picnicking","swimming"],"id":72,"created_at":"2024-08-30T18:02:26.711866+05:30","updated_at":null}
   
-  ];
+  const { nearbyBeaches } = useContext(NearbyBeachesContext);
+  const firstFourBeaches = nearbyBeaches.slice(0, 4);
+
+  // const nearbyBeaches = [
+  //   {"name":"Marina Beach","state":"Goa","state_district":null,"city":"Chennai","latitude":15.500038649966278,"longitude":73.82062025701819,"formatted_address":null,"activities":["surfing","beach yoga","snorkeling"],"id":111,"created_at":"2024-08-30T18:02:26.711866+05:30","updated_at":null},
+  //   {"name":"Kegdole Beach","state":"Goa","state_district":"North Goa District","city":"Reis Magos","latitude":15.496590699999999,"longitude":73.80998966699704,"formatted_address":"Kegdole Beach, Verem, Reis Magos, Bardez, India","activities":["snorkeling","picnicking","swimming"],"id":72,"created_at":"2024-08-30T18:02:26.711866+05:30","updated_at":null},
+  //   {"name":"Marina Beach","state":"Goa","state_district":null,"city":"Chennai","latitude":15.500038649966278,"longitude":73.82062025701819,"formatted_address":null,"activities":["surfing","beach yoga","snorkeling"],"id":111,"created_at":"2024-08-30T18:02:26.711866+05:30","updated_at":null},
+  //   {"name":"Kegdole Beach","state":"Goa","state_district":"North Goa District","city":"Reis Magos","latitude":15.496590699999999,"longitude":73.80998966699704,"formatted_address":"Kegdole Beach, Verem, Reis Magos, Bardez, India","activities":["snorkeling","picnicking","swimming"],"id":72,"created_at":"2024-08-30T18:02:26.711866+05:30","updated_at":null}
+  
+  // ];
 
   const handleClick = () => {
     navigation.navigate('SearchResults');  
@@ -44,7 +48,7 @@ const HomeScreen = ({ navigation }) => {
       </View>
       <View style={styles.nearby}><Text style={styles.nearbytext}>Beaches Near You</Text></View>
       <FlatList
-        data={nearbyBeaches}
+        data={firstFourBeaches}
         renderItem={renderBeachItem}
         keyExtractor={(item) => item.id.toString()}
         numColumns={2}  // Display items in 2 columns

@@ -1,9 +1,13 @@
 import React, { useState, useContext } from 'react';
-import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, FlatList, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import axios from 'axios';
 import SearchBar from '../components/SearchBar';
 import { NearbyBeachesContext } from '../context/NearByBeachesContext';
 import { useNavigation } from '@react-navigation/native';
+import { AuthContext } from '../context/AuthContext';
+import { LocationContext } from '../context/LocationContext';
+import { NEARBY_BASE_URL } from '@env';
 
 
 const activityIcons = {
@@ -27,12 +31,40 @@ const safetyColors = {
   Dangerous: '#F44336',
 };
 
+const removeDuplicatesById = (arr) => {
+  const uniqueIds = new Set();
+  return arr.filter(item => {
+    const isDuplicate = uniqueIds.has(item.id);
+    uniqueIds.add(item.id);
+    return !isDuplicate;
+  });
+};
+
 const SearchResultsScreen = () => {
-  const { nearbyBeaches } = useContext(NearbyBeachesContext);
+  const { userToken } = useContext(AuthContext);
+  const { latitude, longitude } = useContext(LocationContext); 
+  const { nearbyBeaches, setNearbyBeaches } = useContext(NearbyBeachesContext);
   const [filteredBeaches, setFilteredBeaches] = useState(nearbyBeaches);
   const navigation = useNavigation();
 
-  const handleSearch = (text) => {
+  const handleSearch = async (text) => {
+    if (text.length > 3) {
+      try {
+        const response = await axios.get(`${NEARBY_BASE_URL}api/v1/beaches/search?query=${text}&lat=${latitude}&lon=${longitude}`, {
+          headers: {
+            Authorization: `Bearer ${userToken}`,
+          },
+        });
+  
+        const fetchedBeaches = response.data.beaches;
+        const uniqueFetchedBeaches = removeDuplicatesById(fetchedBeaches);
+        setFilteredBeaches(removeDuplicatesById([...filteredBeaches, ...uniqueFetchedBeaches]));
+        setNearbyBeaches(removeDuplicatesById([...nearbyBeaches, ...uniqueFetchedBeaches]));
+      } catch (error) {
+        console.error('Error fetching beaches:', error);
+      }
+    }
+    
     const filtered = nearbyBeaches.filter(beach =>
       beach.name?.toLowerCase().includes(text.toLowerCase()) ||
       beach.city?.toLowerCase().includes(text.toLowerCase())
@@ -40,10 +72,9 @@ const SearchResultsScreen = () => {
     setFilteredBeaches(filtered);
   };
 
-  const navigateToBeachDetails = (beach) => {
-    navigation.navigate('BeachDetails', { beach });
+  const navigateToBeachDetail = (beach) => {
+    navigation.navigate('BeachDetail', { beach });
   };
-
 
   const renderBeachItem = ({ item }) => (
     <TouchableOpacity onPress={() => navigateToBeachDetails(item)}>
@@ -64,9 +95,10 @@ const SearchResultsScreen = () => {
       </View>
     </TouchableOpacity>
   );
+
   return (
     <View style={styles.container}>
-      <SearchBar nearbyBeaches={nearbyBeaches} onSearch={handleSearch} />
+      <SearchBar initialValue="" onSearch={handleSearch} />
       <FlatList
         data={filteredBeaches}
         renderItem={renderBeachItem}

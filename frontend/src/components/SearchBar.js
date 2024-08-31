@@ -19,7 +19,7 @@ const SearchBar = ({ initialValue = '', onSearch }) => {
   };
 
   const handleSubmitEditing = () => {
-    onSubmit();
+    onSearch(searchText);
   };
 
   return (
