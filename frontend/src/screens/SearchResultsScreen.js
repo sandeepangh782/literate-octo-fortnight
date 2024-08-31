@@ -1,8 +1,12 @@
 import React, { useState, useContext } from 'react';
-import { View, Text, FlatList, StyleSheet } from 'react-native';
+import { View, Text, FlatList, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import SearchBar from '../components/SearchBar';
 import { NearbyBeachesContext } from '../context/NearByBeachesContext';
+import axios from 'axios';
+import { NEARBY_BASE_URL } from '@env';
+import { AuthContext } from "../context/AuthContext";
+import { useNavigation } from '@react-navigation/native';
 
 const activityIcons = {
   surfing: 'water',
@@ -28,36 +32,72 @@ const safetyColors = {
 const SearchResultsScreen = () => {
   const { nearbyBeaches } = useContext(NearbyBeachesContext);
   const [filteredBeaches, setFilteredBeaches] = useState(nearbyBeaches);
+  const { userToken } = useContext(AuthContext);
+  const navigation = useNavigation();
+  const [searchText, setSearchText] = useState('');
 
   const handleSearch = (text) => {
-    const filtered = nearbyBeaches.filter(beach => 
-      beach.name?.toLowerCase().includes(text.toLowerCase()) ||
-      beach.city?.toLowerCase().includes(text.toLowerCase())
-    );
-    setFilteredBeaches(filtered);
+    setSearchText(text);
+  };
+
+  const searchAPIForBeach = async () => {
+    try {
+      const response = await axios.get(
+        `${NEARBY_BASE_URL}api/v1/beaches/search?query=${searchText}`,
+        {
+          headers: {
+            Authorization: `Bearer ${userToken}`,
+          }
+        }
+      );
+      if (response.data && response.data.length > 0) {
+        // Update filteredBeaches with the API results
+        setFilteredBeaches(response.data);
+      } else {
+        alert('No beaches found matching your search.');
+        setFilteredBeaches([]);
+      }
+    } catch (error) {
+      console.error('Error searching for beach:', error);
+      alert('An error occurred while searching for the beach.');
+      setFilteredBeaches([]);
+    }
+  };
+
+  const handleSearchSubmit = () => {
+    searchAPIForBeach();
+  };
+
+  const navigateToBeachDetail = (beach) => {
+    navigation.navigate('BeachDetail', { beach });
   };
 
   const renderBeachItem = ({ item }) => (
-    <View style={styles.beachItem}>
-      <View style={styles.beachInfo}>
-        <View style={styles.nameAndSafety}>
-          <View style={[styles.safetyDot, { backgroundColor: safetyColors[item.safety_status] }]} />
-          <Text style={styles.beachName}>{item.name || 'Unnamed Beach'}</Text>
+    <TouchableOpacity onPress={() => navigateToBeachDetail(item)}>
+      <View style={styles.beachItem}>
+        <View style={styles.beachInfo}>
+          <View style={styles.nameAndSafety}>
+            <View style={[styles.safetyDot, { backgroundColor: safetyColors[item.safety_status] }]} />
+            <Text style={styles.beachName}>{item.name || 'Unnamed Beach'}</Text>
+          </View>
+          <Text style={styles.beachCity}>{item.city}</Text>
+          <Text>{item.distance ? `${item.distance.toFixed(2)} km away` : 'Distance unknown'}</Text>
         </View>
-        <Text style={styles.beachCity}>{item.city}</Text>
-        <Text>{item.distance.toFixed(2)} km away</Text>
+        <View style={styles.activityIcons}>
+          {item.activities && item.activities.slice(0, 3).map((activity, index) => (
+            <Ionicons key={index} name={activityIcons[activity] || 'help-circle-outline'} size={14} color="#666" style={styles.icon} />
+          ))}
+        </View>
       </View>
-      <View style={styles.activityIcons}>
-        {item.activities.slice(0, 3).map((activity, index) => (
-          <Ionicons key={index} name={activityIcons[activity] || 'help-circle-outline'} size={14} color="#666" style={styles.icon} />
-        ))}
-      </View>
-    </View>
+    </TouchableOpacity>
   );
 
   return (
     <View style={styles.container}>
-      <SearchBar nearbyBeaches={nearbyBeaches} onSearch={handleSearch} />
+      <SearchBar 
+        onSearch={handleSearch} 
+        onSubmit={handleSearchSubmit}
+      />
       <FlatList
         data={filteredBeaches}
         renderItem={renderBeachItem}

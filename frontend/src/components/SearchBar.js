@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, TextInput, StyleSheet, Animated } from 'react-native';
 
-const SearchBar = ({ initialValue = '', onSearch, placeholder }) => {
+const SearchBar = ({ initialValue = '', onSearch }) => {
   const [searchText, setSearchText] = useState(initialValue);
   const [animation] = useState(new Animated.Value(0));
 
@@ -18,13 +18,18 @@ const SearchBar = ({ initialValue = '', onSearch, placeholder }) => {
     onSearch(text);
   };
 
+  const handleSubmitEditing = () => {
+    onSubmit();
+  };
+
   return (
     <Animated.View style={[styles.container, { opacity: animation }]}>
       <TextInput
         style={styles.input}
-        placeholder={placeholder}
+        placeholder="Search..."
         value={searchText}
         onChangeText={handleChangeText}
+        onSubmitEditing={handleSubmitEditing}
         autoFocus
       />
     </Animated.View>
