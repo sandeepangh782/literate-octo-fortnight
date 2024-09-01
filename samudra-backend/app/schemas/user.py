@@ -1,6 +1,7 @@
 from pydantic import BaseModel, EmailStr, validator
-from typing import Optional
+from typing import Optional, List
 from datetime import datetime
+from app.schemas.beach import BeachOut
 
 
 class UserCreate(BaseModel):
@@ -39,6 +40,7 @@ class UserInDB(BaseModel):
     phone_number: Optional[str]
     preferred_language: str
     notification_preferences: str
+    favorite_beaches: List[BeachOut] = []
 
     class Config:
         orm_mode = True

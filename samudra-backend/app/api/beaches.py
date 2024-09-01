@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Depends, HTTPException, status, Query
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, joinedload
 from app.db.database import get_db
 from app.models.beach import Beach
 from app.models.user import User
@@ -24,7 +24,10 @@ from geoalchemy2.functions import (
     ST_DistanceSphere,
 )
 import random
+import asyncio
 import logging
+from datetime import datetime
+
 
 router = APIRouter()
 logger = logging.getLogger("samudra_suraksha")
@@ -123,40 +126,48 @@ async def get_nearby_beaches(
     return beach_list
 
 
+async def fetch_external_data(beach):
+    try:
+        marine_data_task = get_marine_data(beach.latitude, beach.longitude)
+        weather_data_task = get_weather_data(beach.latitude, beach.longitude)
+        image_url_task = asyncio.to_thread(get_place_image, beach.name, (beach.latitude, beach.longitude))
+
+        marine_data, weather_data, image_url = await asyncio.gather(
+            marine_data_task, weather_data_task, image_url_task
+        )
+    except Exception as e:
+        logger.error(f"Error fetching external data: {str(e)}")
+        marine_data = get_default_marine_conditions()
+        weather_data = get_default_weather_conditions()
+        image_url = None
+
+    return marine_data, weather_data, image_url
+
+
 @router.get("/{beach_id}", response_model=BeachOut)
 async def get_beach(beach_id: int, db: Session = Depends(get_db)):
     """Get detailed information for a specific beach"""
-    beach = db.query(Beach).filter(Beach.id == beach_id).first()
+    beach = db.query(Beach).options(joinedload(Beach.favorited_by)).filter(Beach.id == beach_id).first()
     if beach is None:
         raise HTTPException(status_code=404, detail="Beach not found")
 
     beach_dict = BeachOut.model_validate(beach).dict()
-    beach_dict["image_url"] = get_place_image(beach.name, (beach.latitude, beach.longitude))
-    beach_dict["safety_status"] = get_mock_safety_status()
 
-    try:
-        # Fetch marine data
-        marine_data = await get_marine_data(beach.latitude, beach.longitude)
-        beach_dict["marine_conditions"] = MarineConditions(**marine_data)
-    except HTTPException as exc:
-        logger.warning(f"Failed to fetch marine data for beach {beach_id}: {exc.detail}")
-        beach_dict["marine_conditions"] = {"error": str(exc.detail)}
+    marine_data, weather_data, image_url = await fetch_external_data(beach)
 
-    try:
-        # Fetch weather data
-        weather_data = await get_weather_data(beach.latitude, beach.longitude)
-        beach_dict["weather_conditions"] = WeatherConditions(**weather_data)
-    except HTTPException as exc:
-        logger.warning(f"Failed to fetch weather data for beach {beach_id}: {exc.detail}")
-        beach_dict["weather_conditions"] = {"error": str(exc.detail)}
+    beach_dict["image_url"] = image_url
+    beach_dict["marine_conditions"] = MarineConditions(**marine_data)
+    beach_dict["weather_conditions"] = WeatherConditions(**weather_data)
 
     try:
         # Generate safety points using LLM
         safety_points = await generate_safety_points(beach_dict)
         beach_dict["safety_points"] = safety_points
-    except HTTPException as exc:
-        logger.warning(f"Failed to generate safety points for beach {beach_id}: {exc.detail}")
+    except Exception as exc:
+        logger.error(f"Error generating safety points for beach {beach_id}: {str(exc)}")
         beach_dict["safety_points"] = ["Always follow lifeguard instructions and beach safety signs."]
+
+    beach_dict["safety_status"] = get_mock_safety_status()
 
     return BeachOut(**beach_dict)
 
@@ -247,3 +258,36 @@ async def get_beach_safety(
 def get_mock_safety_status():
     statuses = ["Safe", "Moderate", "Caution", "Dangerous"]
     return random.choice(statuses)
+
+
+def get_default_marine_conditions():
+    return {
+        "wave_height": {"value": None, "unit": "m"},
+        "wave_direction": {"value": "N/A", "unit": "cardinal"},
+        "wave_period": {"value": None, "unit": "s"},
+        "wind_wave_height": {"value": None, "unit": "m"},
+        "wind_wave_direction": {"value": "N/A", "unit": "cardinal"},
+        "wind_wave_period": {"value": None, "unit": "s"},
+        "swell_wave_height": {"value": None, "unit": "m"},
+        "swell_wave_direction": {"value": "N/A", "unit": "cardinal"},
+        "swell_wave_period": {"value": None, "unit": "s"},
+        "ocean_current_velocity": {"value": None, "unit": "km/h"},
+        "ocean_current_direction": {"value": "N/A", "unit": "cardinal"},
+        "timestamp": datetime.utcnow().isoformat(),
+        "nearest_current_time": datetime.utcnow().isoformat()
+    }
+
+
+def get_default_weather_conditions():
+    return {
+        "temperature": {"value": None, "unit": "°C"},
+        "feels_like": {"value": None, "unit": "°C"},
+        "humidity": {"value": None, "unit": "%"},
+        "pressure": {"value": None, "unit": "hPa"},
+        "weather_description": "N/A",
+        "weather_icon": "N/A",
+        "visibility": {"value": None, "unit": "m"},
+        "sunrise": datetime.utcnow().isoformat(),
+        "sunset": datetime.utcnow().isoformat(),
+        "timestamp": datetime.utcnow().isoformat()
+    }

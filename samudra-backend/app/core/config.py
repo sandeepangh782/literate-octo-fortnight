@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     INCOIS_API_URL: str = "https://incois.gov.in/api"
     SECRET_KEY: str = "test"
     ALGORITHM: str = "HS256"
-    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 1440
     GOOGLE_PLACES_API_KEY: str
     OPENWEATHERMAP_API_KEY: str
     GEMINI_API_KEY: str
