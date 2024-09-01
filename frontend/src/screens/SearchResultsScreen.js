@@ -12,7 +12,7 @@ import { NEARBY_BASE_URL } from '@env';
 
 const activityIcons = {
   surfing: 'water',
-  swimming: 'swim',
+  swimming: 'fish',
   fishing: 'fish',
   'beach combing': 'search',
   sunbathing: 'sunny',
@@ -72,8 +72,8 @@ const SearchResultsScreen = () => {
     setFilteredBeaches(filtered);
   };
 
-  const navigateToBeachDetail = (beach) => {
-    navigation.navigate('BeachDetail', { beach });
+  const navigateToBeachDetails = (beach) => {
+    navigation.navigate('BeachDetails', { beach });
   };
 
   const renderBeachItem = ({ item }) => (

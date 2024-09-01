@@ -21,6 +21,8 @@ const MapSection = () => {
   const mapRef = useRef(null);
   const hasFitToCoordinates = useRef(false);
 
+  
+
   const fetchLocationAndBeaches = useCallback(async () => {
     try {
       let { status } = await Location.requestForegroundPermissionsAsync();
@@ -36,7 +38,7 @@ const MapSection = () => {
       setLocation(locationData);
 
       const response = await axios.get(
-        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${locationData.coords.latitude}&lon=${locationData.coords.longitude}&radius=100&limit=5`,
+        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${locationData.coords.latitude}&lon=${locationData.coords.longitude}&radius=100&limit=4`,
         {
           headers: {
             Authorization: `Bearer ${userToken}`,
