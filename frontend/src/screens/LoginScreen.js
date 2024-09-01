@@ -1,11 +1,37 @@
-import React, { useState, useContext } from "react";
-import { View, Text, TextInput, Button, StyleSheet, TouchableOpacity, Alert } from "react-native";
+import React, { useState, useContext, useEffect } from "react";
+import {
+    View,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    StyleSheet,
+    Animated,
+    Dimensions,
+    KeyboardAvoidingView,
+    Platform,
+    Alert,
+
+} from "react-native";
+import { LinearGradient } from 'expo-linear-gradient';
+import { Ionicons } from '@expo/vector-icons';
 import { AuthContext } from "../context/AuthContext";
+
+const { width } = Dimensions.get('window');
 
 export default function LoginScreen({ navigation }) {
     const { login, loginError } = useContext(AuthContext);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const [showPassword, setShowPassword] = useState(false);
+    const [animation] = useState(new Animated.Value(0));
+
+    useEffect(() => {
+        Animated.timing(animation, {
+            toValue: 1,
+            duration: 1000,
+            useNativeDriver: true,
+        }).start();
+    }, []);
 
     const handleLogin = () => {
         if (email === "" || password === "") {
@@ -14,76 +40,149 @@ export default function LoginScreen({ navigation }) {
         }
         login(email, password);
     };
+    const translateY = animation.interpolate({
+        inputRange: [0, 1],
+        outputRange: [50, 0],
+    });
 
     return (
-        <View style={styles.container}>
-            <Text style={styles.title}>Login</Text>
+        <KeyboardAvoidingView
+            behavior={Platform.OS === "ios" ? "padding" : "height"}
+            style={styles.container}
+        >
+            <LinearGradient
+                colors={['#C0C78C', '#A8AF7A', '#90976A']}
+                // colors={['white', 'white', 'white']}
+                style={styles.gradient}
+            >
+                <Animated.View style={[styles.box, { transform: [{ translateY }] }]}>
+                    <Text style={styles.title}>Welcome Back</Text>
 
-            <TextInput
-                style={styles.input}
-                placeholder="Email"
-                value={email}
-                onChangeText={setEmail}
-                keyboardType="email-address"
-                autoCapitalize="none"
-            />
+                    <View style={styles.inputContainer}>
+                        <Ionicons name="mail-outline" size={24} color="#C0C78C" style={styles.icon} />
+                        <TextInput
+                            style={styles.input}
+                            placeholder="Email"
+                            placeholderTextColor="#999"
+                            value={email}
+                            onChangeText={setEmail}
+                            keyboardType="email-address"
+                            autoCapitalize="none"
+                        />
+                    </View>
 
-            <TextInput
-                style={styles.input}
-                placeholder="Password"
-                value={password}
-                onChangeText={setPassword}
-                secureTextEntry
-            />
+                    <View style={styles.inputContainer}>
+                        <Ionicons name="lock-closed-outline" size={24} color="#C0C78C" style={styles.icon} />
+                        <TextInput
+                            style={styles.input}
+                            placeholder="Password"
+                            placeholderTextColor="#999"
+                            value={password}
+                            onChangeText={setPassword}
+                            secureTextEntry={!showPassword}
+                        />
+                        <TouchableOpacity
+                            style={styles.showPasswordButton}
+                            onPress={() => setShowPassword(!showPassword)}
+                        >
+                            <Ionicons
+                                name={showPassword ? "eye-off-outline" : "eye-outline"}
+                                size={24}
+                                color="#C0C78C"
+                            />
+                        </TouchableOpacity>
+                    </View>
 
-            {loginError && <Text style={styles.errorText}>{loginError}</Text>}
+                    {loginError && <Text style={styles.errorText}>{loginError}</Text>}
 
-            <Button title="Login" onPress={handleLogin} />
+                    <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
+                        <Text style={styles.loginButtonText}>Login</Text>
+                    </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate("Register")}>
-                <Text style={styles.signupText}>New user? Sign up</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={() => console.log("Navigate to Forgot Password screen")}>
-                <Text style={styles.signupText}>Forgot password?</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity onPress={() => navigation.navigate("Main")}>
-                <Text style={styles.signupText}>Login as guest</Text>
-            </TouchableOpacity>
-        </View>
+                    <View style={styles.footer}>
+                        <TouchableOpacity onPress={() => navigation.navigate("Register")}>
+                            <Text style={styles.footerText}>New user? Sign up</Text>
+                        </TouchableOpacity>
+                        <TouchableOpacity onPress={() => console.log("Navigate to Forgot Password screen")}>
+                            <Text style={styles.footerText}>Forgot password?</Text>
+                        </TouchableOpacity>
+                    </View>
+                </Animated.View>
+            </LinearGradient>
+        </KeyboardAvoidingView>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+    },
+    gradient: {
+        flex: 1,
         justifyContent: "center",
-        paddingHorizontal: 20,
-        backgroundColor: "#fff",
+        alignItems: "center",
+    },
+    box: {
+        width: width * 0.9,
+        padding: 30,
+        borderRadius: 20,
+        backgroundColor: "white",
+        shadowColor: "#000",
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
     },
     title: {
-        fontSize: 24,
+        fontSize: 32,
         fontWeight: "bold",
+        marginBottom: 30,
+        textAlign: "center",
+        color: "#C0C78C",
+    },
+    inputContainer: {
+        flexDirection: "row",
+        alignItems: "center",
+        marginBottom: 20,
+        borderBottomWidth: 1,
+        borderBottomColor: "#C0C78C",
+    },
+    icon: {
+        marginRight: 10,
+    },
+    input: {
+        flex: 1,
+        height: 50,
+        fontSize: 16,
+        color: "#333",
+    },
+    showPasswordButton: {
+        padding: 10,
+    },
+    loginButton: {
+        backgroundColor: "#C0C78C",
+        padding: 15,
+        borderRadius: 10,
+        alignItems: "center",
+        marginTop: 20,
+    },
+    loginButtonText: {
+        color: "white",
+        fontSize: 18,
+        fontWeight: "bold",
+    },
+    errorText: {
+        color: "#ff3b30",
         marginBottom: 20,
         textAlign: "center",
     },
-    input: {
-        height: 40,
-        borderColor: "#ccc",
-        borderWidth: 1,
-        marginBottom: 12,
-        paddingHorizontal: 10,
-        borderRadius: 5,
+    footer: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginTop: 30,
     },
-    errorText: {
-        color: "red",
-        marginBottom: 12,
-        textAlign: "center",
-    },
-    signupText: {
-        marginTop: 20,
-        color: "#007bff",
-        textAlign: "center",
+    footerText: {
+        color: "#90976A",
+        fontSize: 14,
     },
 });
