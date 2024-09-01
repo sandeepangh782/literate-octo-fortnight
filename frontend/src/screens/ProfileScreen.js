@@ -1,17 +1,44 @@
 import React, { useContext } from 'react';
-import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity, FlatList } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { AuthContext } from "../context/AuthContext";
 import Header from '../components/Header';
-
+import { RecentBeachesContext } from '../context/RecentBeachesContext';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 const ProfileScreen = ({ navigation }) => {
   const { userInfo } = useContext(AuthContext);
-  // const navigation = useNavigation();
+  const { recentBeaches } = useContext(RecentBeachesContext);
+
+  const renderBeachItem = ({ item }) => (
+    <TouchableOpacity onPress={() => navigation.navigate('BeachDetails', { beach: item })}>
+      <View style={styles.beachItem}>
+      <View style={styles.nameanddot}>
+        <Icon name="circle" size={10} color="#00FF00" />
+      <Text style={styles.beachName}>
+        {item.name || 'Unnamed Beach'}</Text>
+      </View>
+      <Text style={styles.beachCity}>{item.city}</Text>     
+      </View>
+    </TouchableOpacity>
+  );
+
+  const renderRecentBeaches = () => (
+    <View style={styles.recentBeachesContainer}>
+      <Text style={styles.sectionTitle}>Recent Beaches</Text>
+      <FlatList
+        data={recentBeaches}
+        renderItem={renderBeachItem}
+        keyExtractor={item => `recent-${item.id}`}
+        horizontal
+        showsHorizontalScrollIndicator={false}
+      />
+    </View>
+  );
+
   return (
     <View style={styles.container}>
       <Header navigation={navigation} />
-      {/* User Avatar */}
       <View style={styles.avatarContainer}>
         <Image
           source={require('../../assets/profile-image.png')}
@@ -36,6 +63,7 @@ const ProfileScreen = ({ navigation }) => {
         </TouchableOpacity>
         <Text style={styles.value}>{userInfo.phone_number}</Text>
       </View>
+      {recentBeaches.length > 0 && renderRecentBeaches()}
     </View>
   );
 };
@@ -48,11 +76,9 @@ const styles = StyleSheet.create({
   avatarContainer: {
     alignItems: 'center',
     marginBottom: 30,
-    alignItems: 'center',
     marginTop: 20,
     marginLeft: 20,
     flexDirection: 'row',
-
   },
   avatar: {
     width: 60,
@@ -91,6 +117,36 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     paddingVertical: 10,
+  },
+  recentBeachesContainer: {
+    marginVertical: 10,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginLeft: 15,
+    marginBottom: 10,
+  },
+  beachItem: {
+    padding: 10,
+    marginLeft: 15,
+    marginHorizontal: 5,
+    backgroundColor: '#f0f0f0',
+    borderRadius: 15,
+  },
+  beachName:{
+    paddingLeft: 5,
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+  beachCity: {
+    paddingLeft: 15,
+    fontSize: 12,
+    color: '#666',
+  },
+  nameanddot: {
+    flexDirection: 'row',
+    alignItems: 'center',
   },
 });
 

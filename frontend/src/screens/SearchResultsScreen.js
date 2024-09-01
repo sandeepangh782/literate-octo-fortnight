@@ -8,6 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 import { AuthContext } from '../context/AuthContext';
 import { LocationContext } from '../context/LocationContext';
 import { NEARBY_BASE_URL } from '@env';
+import { RecentBeachesContext } from '../context/RecentBeachesContext';
 
 
 const activityIcons = {
@@ -44,6 +45,7 @@ const SearchResultsScreen = () => {
   const { userToken } = useContext(AuthContext);
   const { latitude, longitude } = useContext(LocationContext); 
   const { nearbyBeaches, setNearbyBeaches } = useContext(NearbyBeachesContext);
+  const { recentBeaches, addRecentBeach } = useContext(RecentBeachesContext);
   const [filteredBeaches, setFilteredBeaches] = useState(nearbyBeaches);
   const navigation = useNavigation();
 
@@ -73,6 +75,7 @@ const SearchResultsScreen = () => {
   };
 
   const navigateToBeachDetails = (beach) => {
+    addRecentBeach(beach);
     navigation.navigate('BeachDetails', { beach });
   };
 

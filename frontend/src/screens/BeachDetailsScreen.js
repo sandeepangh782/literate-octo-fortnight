@@ -1,11 +1,12 @@
 import React, { useContext, useEffect, useState, useCallback } from 'react';
 import { View, Text, StyleSheet, Image, ScrollView, ActivityIndicator, TouchableOpacity } from 'react-native';
-import { useNavigation, DrawerActions } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 import { NEARBY_BASE_URL } from "@env";
 import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Header from '../components/Header';
+import { FavoriteContext } from '../context/FavoriteContext';
 
 const safetyColors = {
     Safe: '#4CAF50',
@@ -34,9 +35,10 @@ const BeachDetailsScreen = ({ route }) => {
     const [beachDetails, setBeachDetails] = useState(null);
     const [loading, setLoading] = useState(true);
     const { userToken } = useContext(AuthContext);
+    const { isFavorite, setIsFavorite } = useContext(FavoriteContext);
     const [error, setError] = useState(null);
     const navigation = useNavigation();
-    const [isFavorite, setIsFavorite] = useState(false);
+    
 
     const fetchBeachDetails = useCallback(async () => {
         if (beach && beach.id) {
@@ -47,6 +49,14 @@ const BeachDetailsScreen = ({ route }) => {
                     }
                 });
                 setBeachDetails(response.data);
+                const favoriteResponse = await axios.get(`${NEARBY_BASE_URL}api/v1/favorites/`, {
+                    headers: {
+                        Authorization: `Bearer ${userToken}`,
+                    }
+                });
+                const favoriteBeaches = favoriteResponse.data.beaches; 
+                const favorite = favoriteBeaches.some(favoriteBeach => favoriteBeach.id === beach.id);
+                setIsFavorite(favorite);
             } catch (err) {
                 setError(err.message);
             } finally {
@@ -59,9 +69,29 @@ const BeachDetailsScreen = ({ route }) => {
         fetchBeachDetails();
     }, [fetchBeachDetails]);
 
-    const toggleFavorite = () => {
-        setIsFavorite(!isFavorite);
-        // Implement the logic to add/remove from favorites
+    const toggleFavorite = async () => {
+        if (beach && beach.id) {
+            try {
+                if (isFavorite) {
+                    await axios.delete(`${NEARBY_BASE_URL}api/v1/favorites/${beach.id}`, {
+                        headers: {
+                            Authorization: `Bearer ${userToken}`,
+                        }
+                    });
+                    setIsFavorite(false);
+                } else {
+                    await axios.post(`${NEARBY_BASE_URL}api/v1/favorites/${beach.id}`, {}, {
+                        headers: {
+                            Authorization: `Bearer ${userToken}`,
+                        }
+                    });
+                    setIsFavorite(true);
+                }
+            } catch (err) {
+                setError('Failed to update favorites');
+                console.error(err);
+            }
+        }
     };
 
     const renderCondition = useCallback((icon, label, value, unit) => (
@@ -103,6 +133,7 @@ const BeachDetailsScreen = ({ route }) => {
             </View>
         </View>
     ), [formatSafetyPoint]);
+
     const renderActivity = useCallback((activity, index) => (
         <View style={styles.activityRow} key={index}>
             <Icon 
@@ -165,7 +196,7 @@ const BeachDetailsScreen = ({ route }) => {
                         <Text style={styles.subTitle}>Location</Text>
                     </View>
                     <Text style={styles.text}>{beachDetails.formatted_address || 'Address not available'}</Text>
-                    <Text style={styles.text}>{beachDetails.city ? `${beachDetails.city},` : ''} {beachDetails.state_district ? `${beachDetails.state_district},` : ''} {beachDetails.state || ''}</Text>
+                    <Text style={styles.text}>{beachDetails.city ? `${beachDetails.city}` : ''} {beachDetails.state_district ? `${beachDetails.state_district},` : ''} {beachDetails.state || ''}</Text>
                 </View>
 
                 <View style={styles.carouselCard}>

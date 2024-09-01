@@ -144,7 +144,6 @@ const styles = StyleSheet.create({
   loadingContainer: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
   },
   errorContainer: {
     flex: 1,
@@ -156,7 +155,8 @@ const styles = StyleSheet.create({
   },
   mapContainer: {
     flex: 1,
-    margin: 20,
+    margin: 30,
+    marginTop: 0,
     marginBottom: 90,
     borderRadius: 20,
     overflow: 'hidden',
