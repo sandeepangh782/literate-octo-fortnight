@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
+import { View, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
 const Header = ({ navigation }) => {
@@ -9,7 +9,6 @@ const Header = ({ navigation }) => {
         <Ionicons name="menu" size={34} color="black" />
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
-        {/* <Ionicons name="person-circle" size={34} color="black" /> */}
         <Image
           source={require('../../assets/profile-image.png')}
           style={styles.avatar}
@@ -19,16 +18,13 @@ const Header = ({ navigation }) => {
   );
 };
 
-const styles = StyleSheet.create({ 
+const styles = StyleSheet.create({
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: 10,
     backgroundColor: '#ffff',
-  },
-  searchBox: {
-    fontSize: 16,
   },
   avatar: {
     marginTop: 10,

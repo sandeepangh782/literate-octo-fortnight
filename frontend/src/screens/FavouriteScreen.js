@@ -2,15 +2,15 @@ import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import Header from '../components/Header';
 
-
-const FavouriteScreen = ({ navigation }) => {
+const FavouriteScreen = () => {
     return (
         <View style={styles.container}>
-            <Header navigation={navigation} />
+            <Header />
             <Text>Favourites Screen</Text>
         </View>
     );
-}
+};
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -18,4 +18,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default FavouriteScreen
+export default FavouriteScreen;

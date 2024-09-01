@@ -3,14 +3,13 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from '../screens/HomeScreen';
 import ProfileScreen from '../screens/ProfileScreen';
-import RecentScreen from '../screens/RecentScreen'; // Add this import
-import FavouriteScreen from '../screens/FavouriteScreen'; // Add this import
-import SettingScreen from '../screens/SettingScreen'; // Add this import
-import TellAFriendScreen from '../screens/TellAFriendScreen'; // Add this import
+import RecentScreen from '../screens/RecentScreen';
+import FavouriteScreen from '../screens/FavouriteScreen';
+import SettingScreen from '../screens/SettingScreen';
+import TellAFriendScreen from '../screens/TellAFriendScreen';
 import SidebarMenu from '../components/SideBarMenu';
 import SearchResultsScreen from '../screens/SearchResultsScreen';
 import BeachDetailsScreen from '../screens/BeachDetailsScreen';
-
 
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
@@ -27,18 +26,18 @@ function DrawerNavigator() {
             <Drawer.Screen name="Favourites" component={FavouriteScreen} />
             <Drawer.Screen name="Settings" component={SettingScreen} />
             <Drawer.Screen name="TellAFriend" component={TellAFriendScreen} />
+            <Drawer.Screen name="BeachDetails" component={BeachDetailsScreen} />
+
         </Drawer.Navigator>
     );
 }
 
-export default function MainNavigator() {
+export default function HomeNavigator() {
     return (
         <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Drawer" component={DrawerNavigator} />
             <Stack.Screen name="SearchResults" component={SearchResultsScreen} />
             <Stack.Screen name="BeachDetails" component={BeachDetailsScreen} />
-            {/* <Stack.Screen name="Favourites" component={DrawerNavigator} />
-            <Stack.Screen name="Settings" component={DrawerNavigator} /> */}
         </Stack.Navigator>
     );
 }

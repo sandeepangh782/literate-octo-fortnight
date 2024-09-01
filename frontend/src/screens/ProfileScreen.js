@@ -2,12 +2,15 @@ import React, { useContext } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { AuthContext } from "../context/AuthContext";
+import Header from '../components/Header';
 
-const ProfileScreen = () => {
+
+const ProfileScreen = ({ navigation }) => {
   const { userInfo } = useContext(AuthContext);
   // const navigation = useNavigation();
   return (
     <View style={styles.container}>
+      <Header navigation={navigation} />
       {/* User Avatar */}
       <View style={styles.avatarContainer}>
         <Image
