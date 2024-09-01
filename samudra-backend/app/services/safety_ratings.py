@@ -1,5 +1,5 @@
 import pickle 
-def covert_to_mps(kmph):
+def covert_to_mps(kmph): #meters per second
     return kmph * 1000 / 3600
 
 def get_safety_rating(swell_height, current_velocity):
