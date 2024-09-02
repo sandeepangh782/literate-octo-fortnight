@@ -41,7 +41,7 @@ const HomeScreen = ({ navigation }) => {
       <FlatList
         data={firstFourBeaches}
         renderItem={renderBeachItem}
-        keyExtractor={(item) => item.id.toString()}
+        keyExtractor={(item) => (item.id ? item.id.toString() : Math.random().toString())} 
         numColumns={2} 
         columnWrapperStyle={styles.columnWrapper} 
         key={(2).toString()} 
