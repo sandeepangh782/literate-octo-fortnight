@@ -136,11 +136,11 @@ const BeachDetailsScreen = ({ route }) => {
 
     const renderActivity = useCallback((activity, index) => (
         <View style={styles.activityRow} key={index}>
-            <Icon 
-                name={activityIcons[activity.toLowerCase()] || 'help-circle-outline'} 
-                size={16} 
-                color="#3498db" 
-                style={styles.activityIcon} 
+            <Icon
+                name={activityIcons[activity.toLowerCase()] || 'help-circle-outline'}
+                size={16}
+                color="#3498db"
+                style={styles.activityIcon}
             />
             <Text style={styles.activityText}>{activity}</Text>
         </View>
@@ -205,7 +205,7 @@ const BeachDetailsScreen = ({ route }) => {
                         <Text style={styles.subTitle}>Activities</Text>
                     </View>
                     {beachDetails.activities && beachDetails.activities.length > 0 ? (
-                        beachDetails.activities.slice(0,3).map((activity, index) => renderActivity(activity, index))
+                        beachDetails.activities.slice(0, 3).map((activity, index) => renderActivity(activity, index))
                     ) : (
                         <Text style={styles.text}>No activities listed</Text>
                     )}

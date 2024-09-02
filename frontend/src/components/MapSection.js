@@ -13,15 +13,15 @@ const MapSection = () => {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
   const [loading, setLoading] = useState(true);
-  const { nearbyBeaches, setNearbyBeaches} = useContext(NearbyBeachesContext);
-  const { latitude, setLatitude, longitude, setLongitude } = useContext(LocationContext); 
+  const { nearbyBeaches, setNearbyBeaches } = useContext(NearbyBeachesContext);
+  const { latitude, setLatitude, longitude, setLongitude } = useContext(LocationContext);
   const [mapReady, setMapReady] = useState(false);
 
   const { userToken } = useContext(AuthContext);
   const mapRef = useRef(null);
   const hasFitToCoordinates = useRef(false);
 
-  
+
 
   const fetchLocationAndBeaches = useCallback(async () => {
     try {
@@ -33,8 +33,8 @@ const MapSection = () => {
       }
 
       let locationData = await Location.getCurrentPositionAsync({});
-      setLatitude(locationData.coords.latitude);  
-      setLongitude(locationData.coords.longitude); 
+      setLatitude(locationData.coords.latitude);
+      setLongitude(locationData.coords.longitude);
       setLocation(locationData);
 
       const response = await axios.get(

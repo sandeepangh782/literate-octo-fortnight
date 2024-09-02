@@ -51,8 +51,8 @@ export default function LoginScreen({ navigation }) {
             style={styles.container}
         >
             <LinearGradient
-                colors={['#C0C78C', '#A8AF7A', '#90976A']}
-                // colors={['white', 'white', 'white']}
+                // colors={['#E5E8CF', '#A8AF7A', '#90976A']}
+                colors={['white', 'white', 'white']}
                 style={styles.gradient}
             >
                 <Animated.View style={[styles.box, { transform: [{ translateY }] }]}>
