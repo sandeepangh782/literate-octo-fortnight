@@ -13,6 +13,11 @@ class Settings(BaseSettings):
     GOOGLE_PLACES_API_KEY: str
     OPENWEATHERMAP_API_KEY: str
     GEMINI_API_KEY: str
+    REDIS_URL: str = "redis://localhost"
+    ONESIGNAL_APP_ID: str
+    ONESIGNAL_REST_API_KEY: str
+    SENDGRID_API_KEY: str
+    FROM_EMAIL: str
 
     class Config:
         env_file = ".env"

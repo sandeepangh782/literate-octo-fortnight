@@ -27,6 +27,7 @@ import random
 import asyncio
 import logging
 from datetime import datetime
+from fastapi_cache.decorator import cache
 
 
 router = APIRouter()
@@ -56,6 +57,7 @@ async def get_beaches(
 
 
 @router.get("/search", response_model=BeachList)
+@cache(expire=900)
 async def search_beaches(
     query: str = Query(..., min_length=3),
     lat: Optional[float] = None,
@@ -92,6 +94,7 @@ async def search_beaches(
 
 
 @router.get("/nearby", response_model=List[BeachOut])
+@cache(expire=900)
 async def get_nearby_beaches(
     lat: float,
     lon: float,
@@ -145,6 +148,7 @@ async def fetch_external_data(beach):
 
 
 @router.get("/{beach_id}", response_model=BeachOut)
+@cache(expire=900)  # Cache for 10 minutes
 async def get_beach(beach_id: int, db: Session = Depends(get_db)):
     """Get detailed information for a specific beach"""
     beach = db.query(Beach).options(joinedload(Beach.favorited_by)).filter(Beach.id == beach_id).first()

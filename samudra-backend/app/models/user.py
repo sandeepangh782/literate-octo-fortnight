@@ -20,5 +20,6 @@ class User(Base):
     phone_number = Column(String)
     preferred_language = Column(String, default="en")
     notification_preferences = Column(String, default="email")
+    onesignal_player_id = Column(String)
 
     favorite_beaches = relationship("Beach", secondary=favorite_beaches, back_populates="favorited_by")
