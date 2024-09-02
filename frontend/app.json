@@ -12,6 +12,15 @@
       "jsEngine": "hermes",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/adaptive-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },

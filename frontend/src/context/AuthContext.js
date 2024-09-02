@@ -89,12 +89,42 @@ export const AuthContextProvider = ({ children }) => {
         }
     };
 
+    const updateExpoPushToken = async (token) => {
+        if (userToken) {
+            try {
+                const response = await axios.post(
+                    `${BASE_URL}/api/v1/notifications/update-expo-token`,
+                    { expo_push_token: token },
+                    {
+                        headers: {
+                            'Authorization': `Bearer ${userToken}`,
+                            'Content-Type': 'application/json'
+                        }
+                    }
+                );
+                console.log('Expo push token updated on backend:', response.data);
+            } catch (error) {
+                console.error('Failed to update Expo push token on backend:', error);
+            }
+        }
+    };
+
     useEffect(() => {
         isLoggedIn();
     }, []);
 
     return (
-        <AuthContext.Provider value={{ login, register, logout, isLoading, userToken, userInfo, loginError, registerError }}>
+        <AuthContext.Provider value={{ 
+            login, 
+            register, 
+            logout, 
+            isLoading, 
+            userToken, 
+            userInfo, 
+            loginError, 
+            registerError,
+            updateExpoPushToken 
+        }}>
             {children}
         </AuthContext.Provider>
     );

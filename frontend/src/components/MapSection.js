@@ -38,7 +38,7 @@ const MapSection = () => {
       setLocation(locationData);
 
       const response = await axios.get(
-        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${locationData.coords.latitude}&lon=${locationData.coords.longitude}&radius=100&limit=4`,
+        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${locationData.coords.latitude}&lon=${locationData.coords.longitude}&radius=100&limit=5`,
         {
           headers: {
             Authorization: `Bearer ${userToken}`,

@@ -12,6 +12,7 @@ const SidebarMenu = () => {
     { name: 'Home', icon: 'home-outline', screen: 'Home' },
     { name: 'Profile', icon: 'person-outline', screen: 'Profile' },
     { name: 'Favourites', icon: 'heart-outline', screen: 'Favourites' },
+    { name: 'Map Forecast', icon: 'fish-outline', screen: 'WindyMapForecast' },
     { name: 'Settings', icon: 'settings-outline', screen: 'Settings' },
   ];
 

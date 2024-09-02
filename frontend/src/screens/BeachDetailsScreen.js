@@ -10,7 +10,7 @@ import { FavoriteContext } from '../context/FavoriteContext';
 
 const safetyColors = {
     Green : '#4CAF50',
-    Yellow: '#FFC107',
+    Yellow: '#ffff',
     Orange: '#FF9800',
     Red : '#F44336',
   };
@@ -256,7 +256,27 @@ const BeachDetailsScreen = ({ route }) => {
                     {renderCondition("moon-outline", "Sunset", new Date(beachDetails.weather_conditions.sunset).toLocaleTimeString(), '')}
                     <Text style={styles.lastUpdated}>Last updated: {formatDate(beachDetails.weather_conditions.timestamp)}</Text>
                 </View>
+
             )}
+            {beachDetails.weather_conditions && (
+                <View style={styles.detailContainer}>
+                    <View style={styles.sectionHeader}>
+                        <Icon name="partly-sunny-outline" size={24} color="#3498db" />
+                        <Text style={styles.subTitle}>UV Conditions</Text>
+                    </View>
+                    {renderCondition("thermometer-outline", "UV Index", beachDetails.weather_conditions.uv_index)}
+                    {renderCondition("thermometer-outline", "UV Index Level", beachDetails.weather_conditions.uv_index_level)}
+                </View>
+            )}
+            <View style={styles.detailContainer}>
+            <View style={styles.sectionHeader}>
+            <Text style={styles.subTitle}>Current Status Alert</Text>
+            </View>
+               <Text style={styles.content}>
+                    No signs of danger as of now. 
+               </Text>
+             
+            </View>
         </ScrollView>
     );
 };
@@ -423,7 +443,13 @@ const styles = StyleSheet.create({
     },
     activityText: {
         paddingLeft: 3,
-    }
+    },
+    content: {
+        paddingLeft:12,
+        fontSize: 16,
+        color: '#34495e',
+        marginBottom: 8,
+    },
 });
 
 export default BeachDetailsScreen;

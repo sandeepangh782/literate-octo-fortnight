@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { View, StyleSheet, Text, FlatList, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Text, FlatList, TouchableOpacity, Button } from 'react-native';
 import Header from '../components/Header';
 import MapSection from '../components/MapSection';
 import { NearbyBeachesContext } from '../context/NearByBeachesContext';
@@ -28,6 +28,8 @@ const HomeScreen = ({ navigation }) => {
 
     </TouchableOpacity>
   );
+  console.log(nearbyBeaches);
+  
 
   return (
     <View style={styles.container}>
@@ -37,7 +39,8 @@ const HomeScreen = ({ navigation }) => {
           Search...
         </Text>
       </View>
-      <View style={styles.nearby}><Text style={styles.nearbytext}>Beaches Near You</Text></View>
+      <View style={styles.nearby}><Text style={styles.nearbytext}>Beaches Near You</Text>
+      </View>
       <FlatList
         data={firstFourBeaches}
         renderItem={renderBeachItem}

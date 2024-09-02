@@ -10,6 +10,7 @@ import TellAFriendScreen from '../screens/TellAFriendScreen';
 import SidebarMenu from '../components/SideBarMenu';
 import SearchResultsScreen from '../screens/SearchResultsScreen';
 import BeachDetailsScreen from '../screens/BeachDetailsScreen';
+import WindyMapForecastScreen from '../screens/WindyMapForecastScreen';
 
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
@@ -20,6 +21,7 @@ function StackNavigator() {
             <Stack.Screen name="Home" component={HomeScreen} />
             <Stack.Screen name="SearchResults" component={SearchResultsScreen} />
             <Stack.Screen name="BeachDetails" component={BeachDetailsScreen} />
+            {/* <Stack.Screen name="WindyMapForecast" component={WindyMapForecastScreen} /> */}
         </Stack.Navigator>
     );
 }
@@ -35,8 +37,10 @@ export default function HomeNavigator() {
             <Drawer.Screen name="Profile" component={ProfileScreen} />
             <Drawer.Screen name="Recents" component={RecentScreen} />
             <Drawer.Screen name="Favourites" component={FavouriteScreen} />
+            <Drawer.Screen name="WindyMapForecast" component={WindyMapForecastScreen} />
             <Drawer.Screen name="Settings" component={SettingScreen} />
             <Drawer.Screen name="TellAFriend" component={TellAFriendScreen} />
+           
         </Drawer.Navigator>
     );
 }
