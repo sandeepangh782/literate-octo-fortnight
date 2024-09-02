@@ -1,11 +1,22 @@
 import React from 'react';
 import { View, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { DrawerActions } from '@react-navigation/native';
 
 const Header = ({ navigation }) => {
+  const handleMenuPress = () => {
+    const drawerNavigation = navigation.getParent('DrawerParent');
+    if (drawerNavigation) {
+      drawerNavigation.dispatch(DrawerActions.toggleDrawer());
+    } else {
+      // Fallback navigation
+      navigation.navigate('Home');
+    }
+  };
+
   return (
     <View style={styles.header}>
-      <TouchableOpacity onPress={() => navigation.openDrawer()}>
+      <TouchableOpacity onPress={handleMenuPress}>
         <Ionicons name="menu" size={34} color="black" />
       </TouchableOpacity>
       <TouchableOpacity onPress={() => navigation.navigate('Profile')}>

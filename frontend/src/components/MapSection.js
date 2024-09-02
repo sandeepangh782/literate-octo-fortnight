@@ -13,13 +13,15 @@ const MapSection = () => {
   const [location, setLocation] = useState(null);
   const [errorMsg, setErrorMsg] = useState(null);
   const [loading, setLoading] = useState(true);
-  const { nearbyBeaches, setNearbyBeaches} = useContext(NearbyBeachesContext);
-  const { latitude, setLatitude, longitude, setLongitude } = useContext(LocationContext); 
+  const { nearbyBeaches, setNearbyBeaches } = useContext(NearbyBeachesContext);
+  const { latitude, setLatitude, longitude, setLongitude } = useContext(LocationContext);
   const [mapReady, setMapReady] = useState(false);
 
   const { userToken } = useContext(AuthContext);
   const mapRef = useRef(null);
   const hasFitToCoordinates = useRef(false);
+
+
 
   const fetchLocationAndBeaches = useCallback(async () => {
     try {
@@ -31,12 +33,12 @@ const MapSection = () => {
       }
 
       let locationData = await Location.getCurrentPositionAsync({});
-      setLatitude(locationData.coords.latitude);  
-      setLongitude(locationData.coords.longitude); 
+      setLatitude(locationData.coords.latitude);
+      setLongitude(locationData.coords.longitude);
       setLocation(locationData);
 
       const response = await axios.get(
-        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${locationData.coords.latitude}&lon=${locationData.coords.longitude}&radius=100&limit=5`,
+        `${NEARBY_BASE_URL}api/v1/beaches/nearby?lat=${locationData.coords.latitude}&lon=${locationData.coords.longitude}&radius=100&limit=4`,
         {
           headers: {
             Authorization: `Bearer ${userToken}`,
@@ -142,7 +144,6 @@ const styles = StyleSheet.create({
   loadingContainer: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
   },
   errorContainer: {
     flex: 1,
@@ -154,7 +155,8 @@ const styles = StyleSheet.create({
   },
   mapContainer: {
     flex: 1,
-    margin: 20,
+    margin: 30,
+    marginTop: 0,
     marginBottom: 90,
     borderRadius: 20,
     overflow: 'hidden',

@@ -14,30 +14,29 @@ import BeachDetailsScreen from '../screens/BeachDetailsScreen';
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
 
-function DrawerNavigator() {
+function StackNavigator() {
     return (
-        <Drawer.Navigator
-            drawerContent={(props) => <SidebarMenu {...props} />}
-            screenOptions={{ headerShown: false }}
-        >
-            <Drawer.Screen name="Home" component={HomeScreen} />
-            <Drawer.Screen name="Profile" component={ProfileScreen} />
-            <Drawer.Screen name="Recents" component={RecentScreen} />
-            <Drawer.Screen name="Favourites" component={FavouriteScreen} />
-            <Drawer.Screen name="Settings" component={SettingScreen} />
-            <Drawer.Screen name="TellAFriend" component={TellAFriendScreen} />
-            <Drawer.Screen name="BeachDetails" component={BeachDetailsScreen} />
-
-        </Drawer.Navigator>
+        <Stack.Navigator screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="Home" component={HomeScreen} />
+            <Stack.Screen name="SearchResults" component={SearchResultsScreen} />
+            <Stack.Screen name="BeachDetails" component={BeachDetailsScreen} />
+        </Stack.Navigator>
     );
 }
 
 export default function HomeNavigator() {
     return (
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="Drawer" component={DrawerNavigator} />
-            <Stack.Screen name="SearchResults" component={SearchResultsScreen} />
-            <Stack.Screen name="BeachDetails" component={BeachDetailsScreen} />
-        </Stack.Navigator>
+        <Drawer.Navigator
+            id="DrawerParent"
+            drawerContent={(props) => <SidebarMenu {...props} />}
+            screenOptions={{ headerShown: false }}
+        >
+            <Drawer.Screen name="MainStack" component={StackNavigator} />
+            <Drawer.Screen name="Profile" component={ProfileScreen} />
+            <Drawer.Screen name="Recents" component={RecentScreen} />
+            <Drawer.Screen name="Favourites" component={FavouriteScreen} />
+            <Drawer.Screen name="Settings" component={SettingScreen} />
+            <Drawer.Screen name="TellAFriend" component={TellAFriendScreen} />
+        </Drawer.Navigator>
     );
 }

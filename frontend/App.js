@@ -6,10 +6,14 @@ import AppNavigator from "./src/navigation/AppNavigator";
 import { AuthContextProvider } from "./src/context/AuthContext";
 import { NearbyBeachesProvider } from "./src/context/NearByBeachesContext";
 import { LocationProvider } from './src/context/LocationContext';
+import { RecentBeachesProvider } from "./src/context/RecentBeachesContext";
+import { FavoriteProvider } from "./src/context/FavoriteContext";
 
 
 function App() {
   return (
+    <FavoriteProvider>
+    <RecentBeachesProvider>
     <LocationProvider>
     <NearbyBeachesProvider>
       <AuthContextProvider>
@@ -21,6 +25,8 @@ function App() {
       </AuthContextProvider>
     </NearbyBeachesProvider>
     </LocationProvider>
+    </RecentBeachesProvider>
+    </FavoriteProvider>
   );
 }
 

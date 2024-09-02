@@ -41,7 +41,9 @@ const styles = StyleSheet.create({
     height: 45,
     margin: 15,
     borderRadius: 18,
-    backgroundColor: '#f2f2f2',
+    backgroundColor: '#E5E8CF',
+    borderColor: '#C0C78C',
+    borderWidth: 1,
     justifyContent: 'center',
   },
   input: {

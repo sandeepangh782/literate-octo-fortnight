@@ -11,7 +11,6 @@ const SidebarMenu = () => {
   const menuItems = [
     { name: 'Home', icon: 'home-outline', screen: 'Home' },
     { name: 'Profile', icon: 'person-outline', screen: 'Profile' },
-    { name: 'Recents', icon: 'time-outline', screen: 'Recents' },
     { name: 'Favourites', icon: 'heart-outline', screen: 'Favourites' },
     { name: 'Settings', icon: 'settings-outline', screen: 'Settings' },
   ];
@@ -43,13 +42,6 @@ const SidebarMenu = () => {
       ))}
 
       <View style={styles.bottomSection}>
-        <TouchableOpacity
-          style={styles.menuItem}
-          onPress={() => handleNavigation('TellAFriend')}
-        >
-          <Ionicons name="share-social-outline" size={20} color="black" />
-          <Text style={styles.menuText}>Tell a Friend</Text>
-        </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.menuItem}

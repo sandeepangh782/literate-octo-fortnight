@@ -1,11 +1,12 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { View, Text, StyleSheet, Image, ScrollView, ActivityIndicator } from 'react-native';
+import React, { useContext, useEffect, useState, useCallback } from 'react';
+import { View, Text, StyleSheet, Image, ScrollView, ActivityIndicator, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { NEARBY_BASE_URL } from "@env";
 import { AuthContext } from '../context/AuthContext';
 import axios from 'axios';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Header from '../components/Header';
+import { FavoriteContext } from '../context/FavoriteContext';
 
 const safetyColors = {
     Safe: '#4CAF50',
@@ -14,34 +15,136 @@ const safetyColors = {
     Dangerous: '#F44336',
     Unknown: '#9E9E9E',
 };
+const activityIcons = {
+    surfing: 'water',
+    swimming: 'fish',
+    fishing: 'fish',
+    'beach combing': 'search',
+    sunbathing: 'sunny',
+    'bird watching': 'eye',
+    picnicking: 'cafe',
+    'kite flying': 'airplane',
+    kayaking: 'boat',
+    'beach yoga': 'fitness',
+    'sand castle building': 'construct',
+    'beach volleyball': 'football',
+};
 
 const BeachDetailsScreen = ({ route }) => {
     const { beach } = route.params;
     const [beachDetails, setBeachDetails] = useState(null);
     const [loading, setLoading] = useState(true);
     const { userToken } = useContext(AuthContext);
+    const { isFavorite, setIsFavorite } = useContext(FavoriteContext);
     const [error, setError] = useState(null);
     const navigation = useNavigation();
+    
+
+    const fetchBeachDetails = useCallback(async () => {
+        if (beach && beach.id) {
+            try {
+                const response = await axios.get(`${NEARBY_BASE_URL}api/v1/beaches/${beach.id}`, {
+                    headers: {
+                        Authorization: `Bearer ${userToken}`,
+                    }
+                });
+                setBeachDetails(response.data);
+                const favoriteResponse = await axios.get(`${NEARBY_BASE_URL}api/v1/favorites/`, {
+                    headers: {
+                        Authorization: `Bearer ${userToken}`,
+                    }
+                });
+                const favoriteBeaches = favoriteResponse.data.beaches; 
+                const favorite = favoriteBeaches.some(favoriteBeach => favoriteBeach.id === beach.id);
+                setIsFavorite(favorite);
+            } catch (err) {
+                setError(err.message);
+            } finally {
+                setLoading(false);
+            }
+        }
+    }, [beach, userToken]);
 
     useEffect(() => {
-        const fetchBeachDetails = async () => {
-            if (beach && beach.id) {
-                try {
-                    const response = await axios.get(`${NEARBY_BASE_URL}api/v1/beaches/${beach.id}`, {
+        fetchBeachDetails();
+    }, [fetchBeachDetails]);
+
+    const toggleFavorite = async () => {
+        if (beach && beach.id) {
+            try {
+                if (isFavorite) {
+                    await axios.delete(`${NEARBY_BASE_URL}api/v1/favorites/${beach.id}`, {
                         headers: {
                             Authorization: `Bearer ${userToken}`,
                         }
                     });
-                    setBeachDetails(response.data);
-                } catch (err) {
-                    setError(err.message);
-                } finally {
-                    setLoading(false);
+                    setIsFavorite(false);
+                } else {
+                    await axios.post(`${NEARBY_BASE_URL}api/v1/favorites/${beach.id}`, {}, {
+                        headers: {
+                            Authorization: `Bearer ${userToken}`,
+                        }
+                    });
+                    setIsFavorite(true);
                 }
+            } catch (err) {
+                setError('Failed to update favorites');
+                console.error(err);
             }
-        };
-        fetchBeachDetails();
-    }, [beach, userToken]);
+        }
+    };
+
+    const renderCondition = useCallback((icon, label, value, unit) => (
+        <View style={styles.conditionRow}>
+            <Icon name={icon} size={18} color="#3498db" style={styles.conditionIcon} />
+            <Text style={styles.conditionText}>{label}: {value} {unit}</Text>
+        </View>
+    ), []);
+
+    const formatDate = useCallback((dateString) => {
+        const date = new Date(dateString);
+        return date.toLocaleString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+    }, []);
+
+    const formatSafetyPoint = useCallback((point) => {
+        const parts = point.split('**');
+        if (parts.length === 3) {
+            return (
+                <Text style={styles.safetyPointText}>
+                    <Text style={styles.safetyPointTextBold}>{parts[1]}</Text>
+                    {parts[2]}
+                </Text>
+            );
+        }
+        return <Text style={styles.safetyPointText}>{point}</Text>;
+    }, []);
+
+    const renderSafetyPoint = useCallback((point, index) => (
+        <View style={styles.safetyPointRow} key={index}>
+            <Icon name="checkmark-circle-outline" size={18} color="#3498db" style={styles.safetyPointIcon} />
+            <View style={styles.safetyPointTextContainer}>
+                {formatSafetyPoint(point)}
+            </View>
+        </View>
+    ), [formatSafetyPoint]);
+
+    const renderActivity = useCallback((activity, index) => (
+        <View style={styles.activityRow} key={index}>
+            <Icon
+                name={activityIcons[activity.toLowerCase()] || 'help-circle-outline'}
+                size={16}
+                color="#3498db"
+                style={styles.activityIcon}
+            />
+            <Text style={styles.activityText}>{activity}</Text>
+        </View>
+    ), []);
 
     if (loading) {
         return (
@@ -69,31 +172,6 @@ const BeachDetailsScreen = ({ route }) => {
         );
     }
 
-    const renderCondition = (icon, label, value, unit) => (
-        <View style={styles.conditionRow}>
-            <Icon name={icon} size={18} color="#3498db" style={styles.conditionIcon} />
-            <Text style={styles.conditionText}>{label}: {value} {unit}</Text>
-        </View>
-    );
-
-    const formatDate = (dateString) => {
-        const date = new Date(dateString);
-        return date.toLocaleString('en-US', {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric',
-            hour: '2-digit',
-            minute: '2-digit'
-        });
-    };
-
-    const renderSafetyPoint = (point, index) => (
-        <View style={styles.safetyPointRow} key={index}>
-            <Icon name="checkmark-circle-outline" size={18} color="#3498db" style={styles.safetyPointIcon} />
-            <Text style={styles.safetyPointText}>{point}</Text>
-        </View>
-    );
-
     return (
         <ScrollView style={styles.container}>
             <Header navigation={navigation} />
@@ -102,33 +180,36 @@ const BeachDetailsScreen = ({ route }) => {
                 {beachDetails.image_url && (
                     <Image source={{ uri: beachDetails.image_url }} style={styles.image} />
                 )}
+                <TouchableOpacity style={styles.favoriteIcon} onPress={toggleFavorite}>
+                    <Icon name={isFavorite ? "heart" : "heart-outline"} size={24} color="#ffffff" />
+                </TouchableOpacity>
                 <View style={styles.overlay}>
                     <View style={[styles.safetyDot, { backgroundColor: safetyColors[beachDetails.safety_status] || safetyColors.Unknown }]} />
                     <Text style={styles.title}>{beachDetails.name || 'Unnamed Beach'}</Text>
                 </View>
             </View>
 
-            <View style={styles.detailContainer}>
-                <View style={styles.sectionHeader}>
-                    <Icon name="location-outline" size={24} color="#3498db" />
-                    <Text style={styles.subTitle}>Location</Text>
+            <View style={styles.carouselContainer}>
+                <View style={styles.carouselCard}>
+                    <View style={styles.sectionHeader}>
+                        <Icon name="location-outline" size={24} color="#3498db" />
+                        <Text style={styles.subTitle}>Location</Text>
+                    </View>
+                    <Text style={styles.text}>{beachDetails.formatted_address || 'Address not available'}</Text>
+                    <Text style={styles.text}>{beachDetails.city ? `${beachDetails.city}` : ''} {beachDetails.state_district ? `${beachDetails.state_district},` : ''} {beachDetails.state || ''}</Text>
                 </View>
-                <Text style={styles.text}>{beachDetails.formatted_address || 'Address not available'}</Text>
-                <Text style={styles.text}>{beachDetails.city ? `${beachDetails.city},` : ''} {beachDetails.state_district ? `${beachDetails.state_district},` : ''} {beachDetails.state || ''}</Text>
-            </View>
 
-            <View style={styles.detailContainer}>
-                <View style={styles.sectionHeader}>
-                    <Icon name="bicycle-outline" size={24} color="#3498db" />
-                    <Text style={styles.subTitle}>Activities</Text>
+                <View style={styles.carouselCard}>
+                    <View style={styles.sectionHeader}>
+                        <Icon name="bicycle-outline" size={24} color="#3498db" />
+                        <Text style={styles.subTitle}>Activities</Text>
+                    </View>
+                    {beachDetails.activities && beachDetails.activities.length > 0 ? (
+                        beachDetails.activities.slice(0, 3).map((activity, index) => renderActivity(activity, index))
+                    ) : (
+                        <Text style={styles.text}>No activities listed</Text>
+                    )}
                 </View>
-                {beachDetails.activities && beachDetails.activities.length > 0 ? (
-                    beachDetails.activities.map((activity, index) => (
-                        <Text key={index} style={styles.text}>• {activity}</Text>
-                    ))
-                ) : (
-                    <Text style={styles.text}>No activities listed</Text>
-                )}
             </View>
 
             <View style={styles.detailContainer}>
@@ -136,7 +217,7 @@ const BeachDetailsScreen = ({ route }) => {
                     <Icon name="shield-checkmark-outline" size={24} color="#3498db" />
                     <Text style={styles.subTitle}>Safety Status</Text>
                 </View>
-                <Text style={styles.text}>
+                <Text style={[styles.text, styles.safetyStatus]}>
                     {beachDetails.safety_status || 'No data available'}
                 </Text>
                 {beachDetails.safety_points && beachDetails.safety_points.length > 0 && (
@@ -184,7 +265,7 @@ const BeachDetailsScreen = ({ route }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#ffffff',
+        backgroundColor: '#f5f5f5',
     },
     loadingContainer: {
         flex: 1,
@@ -217,6 +298,14 @@ const styles = StyleSheet.create({
         height: 200,
         borderRadius: 15,
     },
+    favoriteIcon: {
+        position: 'absolute',
+        top: 10,
+        right: 10,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        borderRadius: 20,
+        padding: 8,
+    },
     overlay: {
         position: 'absolute',
         bottom: 15,
@@ -235,9 +324,23 @@ const styles = StyleSheet.create({
         marginRight: 8,
     },
     title: {
-        fontSize: 16,
-        fontWeight: 'light',
+        fontSize: 18,
+        fontWeight: 'bold',
         color: '#ffffff',
+    },
+    carouselContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginHorizontal: 15,
+        marginBottom: 15,
+    },
+    carouselCard: {
+        flex: 1,
+        backgroundColor: '#ffffff',
+        borderRadius: 15,
+        padding: 15,
+        marginRight: 10,
+        elevation: 2,
     },
     detailContainer: {
         borderRadius: 15,
@@ -245,7 +348,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 15,
         marginBottom: 15,
         backgroundColor: '#ffffff',
-        elevation: 0.5,
+        elevation: 2,
     },
     sectionHeader: {
         flexDirection: 'row',
@@ -253,15 +356,20 @@ const styles = StyleSheet.create({
         marginBottom: 15,
     },
     subTitle: {
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: 'bold',
         marginLeft: 10,
         color: '#2c3e50',
     },
     text: {
-        fontSize: 16,
+        fontSize: 14,
         marginBottom: 8,
         color: '#34495e',
+    },
+    safetyStatus: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: '#2c3e50',
     },
     conditionRow: {
         flexDirection: 'row',
@@ -272,11 +380,11 @@ const styles = StyleSheet.create({
         marginRight: 10,
     },
     conditionText: {
-        fontSize: 16,
+        fontSize: 14,
         color: '#34495e',
     },
     lastUpdated: {
-        fontSize: 14,
+        fontSize: 12,
         color: '#7f8c8d',
         marginTop: 10,
         fontStyle: 'italic',
@@ -285,7 +393,7 @@ const styles = StyleSheet.create({
         marginTop: 10,
     },
     safetyPointsTitle: {
-        fontSize: 18,
+        fontSize: 16,
         fontWeight: 'bold',
         color: '#2c3e50',
         marginBottom: 8,
@@ -299,11 +407,24 @@ const styles = StyleSheet.create({
         marginRight: 10,
         marginTop: 2,
     },
-    safetyPointText: {
-        fontSize: 16,
-        color: '#34495e',
+    safetyPointTextContainer: {
         flex: 1,
     },
+    safetyPointText: {
+        fontSize: 14,
+        color: '#34495e',
+    },
+    safetyPointTextBold: {
+        fontWeight: 'bold',
+    },
+    activityRow: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 8,
+    },
+    activityText: {
+        paddingLeft: 3,
+    }
 });
 
 export default BeachDetailsScreen;
