@@ -9,12 +9,11 @@ import Header from '../components/Header';
 import { FavoriteContext } from '../context/FavoriteContext';
 
 const safetyColors = {
-    Safe: '#4CAF50',
-    Moderate: '#FFC107',
-    Caution: '#FF9800',
-    Dangerous: '#F44336',
-    Unknown: '#9E9E9E',
-};
+    Green : '#4CAF50',
+    Yellow: '#FFC107',
+    Orange: '#FF9800',
+    Red : '#F44336',
+  };
 const activityIcons = {
     surfing: 'water',
     swimming: 'fish',

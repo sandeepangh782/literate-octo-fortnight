@@ -26,10 +26,10 @@ const activityIcons = {
 };
 
 const safetyColors = {
-  Safe: '#4CAF50',
-  Moderate: '#FFC107',
-  Caution: '#FF9800',
-  Dangerous: '#F44336',
+  Green : '#4CAF50',
+  Yellow: '#FFC107',
+  Orange: '#FF9800',
+  Red : '#F44336',
 };
 
 const removeDuplicatesById = (arr) => {

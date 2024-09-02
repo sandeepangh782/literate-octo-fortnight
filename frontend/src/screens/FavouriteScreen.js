@@ -61,7 +61,7 @@ const FavouriteScreen = () => {
     // };
 
     const renderFavoriteCard = ({ item }) => (
-        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate('BeachDetailsScreen', { beach: item })}>
+        <TouchableOpacity style={styles.card} onPress={() => navigation.navigate('BeachDetails', { beach: item })}>
             {/* <View style={styles.cardImageContainer}>
                 <Icon name="image-outline" size={40} color="#3498db" />
             </View> */}

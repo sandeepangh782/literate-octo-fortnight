@@ -12,10 +12,10 @@ const HomeScreen = ({ navigation }) => {
     navigation.navigate('SearchResults');
   }
   const safetyColors = {
-    Safe: '#4CAF50',
-    Moderate: '#FFC107',
-    Caution: '#FF9800',
-    Dangerous: '#F44336',
+    Green : '#4CAF50',
+    Yellow: '#FFC107',
+    Orange: '#FF9800',
+    Red : '#F44336',
   };
 
   const renderBeachItem = ({ item }) => (
@@ -23,7 +23,7 @@ const HomeScreen = ({ navigation }) => {
       <Text style={styles.beachName}>{item.name || 'Unnamed Beach'}</Text>
       <View style={styles.nameandSafety}>
         <Text style={styles.beachCity}>{item.city}</Text>
-        <View style={[styles.safetyDot, { backgroundColor: safetyColors['Safe'] }]} />
+        <View style={[styles.safetyDot, { backgroundColor: safetyColors[item.safety_status] || safetyColors['Unknown'] }]} />
       </View>
 
     </TouchableOpacity>
