@@ -8,6 +8,7 @@ logger = logging.getLogger(__name__)
 
 client = Client(app_id=settings.ONESIGNAL_APP_ID, rest_api_key=settings.ONESIGNAL_REST_API_KEY)
 
+
 class OneSignalService:
     @staticmethod
     def send_push_notification(headings, contents, player_ids, data=None):
@@ -19,7 +20,7 @@ class OneSignalService:
             }
             if data:
                 notification_body['data'] = data
-            
+
             logger.info(f"Sending OneSignal notification: {json.dumps(notification_body, indent=2)}")
             response = client.send_notification(notification_body)
             logger.info(f"OneSignal response: {response.body}")
@@ -48,7 +49,7 @@ class OneSignalService:
             }
             if data:
                 notification_body['data'] = data
-            
+
             logger.info(f"Sending OneSignal notification to all subscribers: {json.dumps(notification_body, indent=2)}")
             response = client.send_notification(notification_body)
             logger.info(f"OneSignal response: {response.body}")
