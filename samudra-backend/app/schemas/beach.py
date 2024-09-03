@@ -40,11 +40,8 @@ class WeatherConditions(BaseModel):
     sunrise: str
     sunset: str
     timestamp: str
-
-
-class UVIndexData(BaseModel):
-    uv_index: float
-    uv_index_level: str
+    uv_index: Optional[float] = None
+    uv_index_level: Optional[str] = None
 
 
 class BeachBase(BaseModel):
@@ -86,7 +83,6 @@ class BeachOut(BeachBase):
     safety_status: Optional[str] = None
     marine_conditions: Optional[MarineConditions] = None
     weather_conditions: Optional[WeatherConditions] = None
-    uv_index_data: Optional[UVIndexData] = None
     safety_points: Optional[List[str]] = None
 
     class Config:

@@ -18,12 +18,13 @@ from app.services.google_places import get_place_image
 from app.services.marine_services import get_marine_data
 from app.services.weather_services import get_weather_data
 from app.services.llm_services import generate_safety_points
+from app.services.safety_ratings import get_safety_rating
+from app.services.uv_index_service import get_uv_index_data
 from geoalchemy2.functions import (
     ST_SetSRID,
     ST_MakePoint,
     ST_DistanceSphere,
 )
-import random
 import asyncio
 import logging
 from datetime import datetime
@@ -81,7 +82,14 @@ async def search_beaches(
     beach_list = []
     for beach, distance in beaches:
         beach_dict = BeachOut.model_validate(beach).dict()
-        beach_dict["safety_status"] = get_mock_safety_status()
+        marine_data, _, _ = await fetch_external_data(beach)
+
+        swell_height = marine_data.get('swell_wave_height', {}).get('value', 0)
+        current_velocity = marine_data.get('ocean_current_velocity', {}).get('value', 0)
+        safety_rating = get_safety_rating(swell_height, current_velocity)
+
+        safety_status_map = {0: "Green", 1: "Orange", 2: "Red", 3: "Yellow"}
+        beach_dict["safety_status"] = safety_status_map.get(safety_rating, "Unknown")
 
         if distance is not None:
             beach_dict["distance"] = round(distance / 1000, 2)  # Convert meters to km
@@ -119,10 +127,14 @@ async def get_nearby_beaches(
     beach_list = []
     for beach, distance in nearby_beaches:
         beach_dict = BeachOut.model_validate(beach).dict()
-        # beach_dict["image_url"] = get_place_image(
-        #     beach.name, (beach.latitude, beach.longitude)
-        # )
-        beach_dict["safety_status"] = get_mock_safety_status()
+        marine_data, _, _ = await fetch_external_data(beach)
+
+        swell_height = marine_data.get('swell_wave_height', {}).get('value', 0)
+        current_velocity = marine_data.get('ocean_current_velocity', {}).get('value', 0)
+        safety_rating = get_safety_rating(swell_height, current_velocity)
+
+        safety_status_map = {0: "Green", 1: "Orange", 2: "Red", 3: "Yellow"}
+        beach_dict["safety_status"] = safety_status_map.get(safety_rating, "Unknown")
         beach_dict["distance"] = round(distance / 1000, 2)  # Convert meters to km
         beach_list.append(beach_dict)
 
@@ -157,11 +169,30 @@ async def get_beach(beach_id: int, db: Session = Depends(get_db)):
 
     beach_dict = BeachOut.model_validate(beach).dict()
 
+    # Fetch external data
     marine_data, weather_data, image_url = await fetch_external_data(beach)
+
+    # Fetch UV index data
+    try:
+        uv_data = await get_uv_index_data(beach.latitude, beach.longitude)
+    except HTTPException as exc:
+        logger.error(f"Error fetching UV index data for beach {beach_id}: {str(exc)}")
+        uv_data = {
+            "uv_index": {"value": None, "unit": "index"},
+            "uv_index_level": "Unknown",
+            "timestamp": None
+        }
 
     beach_dict["image_url"] = image_url
     beach_dict["marine_conditions"] = MarineConditions(**marine_data)
-    beach_dict["weather_conditions"] = WeatherConditions(**weather_data)
+
+    # Combine weather data with UV index data
+    combined_weather_data = {
+        **weather_data,
+        "uv_index": uv_data["uv_index"]["value"],
+        "uv_index_level": uv_data["uv_index_level"]
+    }
+    beach_dict["weather_conditions"] = WeatherConditions(**combined_weather_data)
 
     try:
         # Generate safety points using LLM
@@ -171,7 +202,14 @@ async def get_beach(beach_id: int, db: Session = Depends(get_db)):
         logger.error(f"Error generating safety points for beach {beach_id}: {str(exc)}")
         beach_dict["safety_points"] = ["Always follow lifeguard instructions and beach safety signs."]
 
-    beach_dict["safety_status"] = get_mock_safety_status()
+    # Calculate safety rating
+    swell_height = marine_data.get('swell_wave_height', {}).get('value', 0)
+    current_velocity = marine_data.get('ocean_current_velocity', {}).get('value', 0)
+    safety_rating = get_safety_rating(swell_height, current_velocity)
+
+    # Convert numeric rating to string status
+    safety_status_map = {0: "Green", 1: "Orange", 2: "Red", 3: "Yellow"}
+    beach_dict["safety_status"] = safety_status_map.get(safety_rating, "Unknown")
 
     return BeachOut(**beach_dict)
 
@@ -257,11 +295,6 @@ async def get_beach_safety(
         "last_updated": "2023-08-30T12:00:00Z",
     }
     return safety_info
-
-
-def get_mock_safety_status():
-    statuses = ["Safe", "Moderate", "Caution", "Dangerous"]
-    return random.choice(statuses)
 
 
 def get_default_marine_conditions():

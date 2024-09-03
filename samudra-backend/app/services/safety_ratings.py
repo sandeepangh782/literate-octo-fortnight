@@ -1,7 +1,7 @@
 import pickle
 
 
-def covert_to_mps(kmph): # meters per second
+def covert_to_mps(kmph):  # meters per second
     return kmph * 1000 / 3600
 
 
@@ -11,7 +11,4 @@ def get_safety_rating(swell_height, current_velocity):
     with open(pkl_path, 'rb') as file:
         model = pickle.load(file)
     prediction = model.predict([[swell_height, current_velocity]])
-    return prediction[0] # 0= Green, 1 = Orange , 2 = Red, 3 = Yellow
-
-value = get_safety_rating(0.22, 0)
-print(value)
+    return prediction[0]  # 0= Green, 1 = Orange , 2 = Red, 3 = Yellow
