@@ -40,6 +40,8 @@ class WeatherConditions(BaseModel):
     sunrise: str
     sunset: str
     timestamp: str
+    uv_index: Optional[float] = None
+    uv_index_level: Optional[str] = None
 
 
 class BeachBase(BaseModel):

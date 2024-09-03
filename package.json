@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-native-onesignal": "^5.2.3"
+  }
+}

@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String, Boolean, DateTime
+from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 from app.db.database import Base
-from pydantic import BaseModel, EmailStr
-from datetime import datetime
+from .beach import favorite_beaches
 
 
 class User(Base):
@@ -20,3 +20,6 @@ class User(Base):
     phone_number = Column(String)
     preferred_language = Column(String, default="en")
     notification_preferences = Column(String, default="email")
+    onesignal_player_id = Column(String)
+
+    favorite_beaches = relationship("Beach", secondary=favorite_beaches, back_populates="favorited_by")

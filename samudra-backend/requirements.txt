@@ -15,3 +15,6 @@ alembic
 shapely
 httpx
 google-generativeai
+fastapi-cache2
+sendgrid
+onesignal-sdk
